@@ -390,6 +390,9 @@ body.pm { background: #fff; }
 /* mod rot_left */
 .b-btn_act.rot_left:before { height: 16px; width: 16px; top: -1px; left: 2px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQBAMAAADt3eJSAAAAMFBMVEX////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwbUE710AAAAD3RSTlMAECAwQFBgcICfr7/P3+8Gi+IRAAAAd0lEQVR4XkXIsQ0BYRgA0CegEIlSobCHJZRKIyhVXFQnGlqNEQwgEhuwhkojgjs+f6d7eTJG+RAvs4jvhNjG5xhvIoq+QawTLtjdE15ovxNSa4ZpnmfUAvyhEeoFtMrkMeYPzs+ObpzoxXV5KztU9hGxgerqsOAHsSo252HhA6oAAAAASUVORK5CYII=); }
 .b-btn_act.border.rot_left:before { top: 5px; left: 6px; }
+/* mod call */
+.b-btn_act.call:before { height: 15px; width: 14px; top: -1px; left: 2px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAPBAMAAAAmOuNHAAAAMFBMVEX3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwbrRfc3AAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAV0lEQVR4XmNgKmIAA7s/EHr9/wQw/f//QzD9/v8CiPhPMMXg/xtC8/wPANPM/x9BBPL/ObBdBdIc/3/l/98EZNT///8fpInl/v//X4A0A+v+vxA9jAoMAOMZIIAsJmnXAAAAAElFTkSuQmCC); }
+.b-btn_act.border.call:before { top: 6px; left: 9px; }
 /* mod delete */
 .b-btn_act.delete { padding-left: 25px; }
 .b-btn_act.delete:before { height: 14px; width: 13px; top: -1px; left: 6px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOBAMAAAAGUYvhAAAAJFBMVEX////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwbneUuCAAAAC3RSTlMAv0CAz4+fUO/fcNq/OesAAAA8SURBVHheY2BgaBScwMDAsHo3CBQwWINpAwZGQSAQZWDg3rhbestGIL1hN/cmcujNu6O3AWmW3UCwjQEAfkYoZaMbntwAAAAASUVORK5CYII=); }
@@ -520,7 +523,7 @@ body.pm { background: #fff; }
 .b-more_act .more_link { color: #626262; font-size: 11px; text-transform: uppercase; border-bottom: 1px dotted #626262; cursor: pointer; position: relative; text-decoration: none; }
 .b-more_act .more_link:after { content: ''; position: absolute; top: 5px; right: -15px; height: 5px; width: 9px; display: block; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKAgMAAAAba5wtAAAACVBMVEX///+co6eco6fKXyNqAAAAAnRSTlMAAHaTzTgAAAAtSURBVHheY2BoYGBgWsDAwLWCgUFrFQPDqlUNYJy1yoEhaqUDQ9hSB4bQqQ4AxhULTYJUqW0AAAAASUVORK5CYII=); background-position: 0 -5px; }
 .b-more_act.selected .more_link:after { background-position: 0 0; }
-.b-more_act .more_act_tooltip { display: none; position: absolute; background-color: #ffffff; border: 1px solid #9ca3a7; box-shadow: 1px 1px 5px rgba(34, 34, 34, 0.57); border-radius: 3px; z-index: 1; top: 25px; right: -30px; padding: 8px 12px 8px 10px; }
+.b-more_act .more_act_tooltip { display: none; position: absolute; background-color: #ffffff; border: 1px solid #9ca3a7; box-shadow: 1px 1px 5px rgba(34, 34, 34, 0.57); border-radius: 3px; z-index: 1; top: 25px; right: -36px; padding: 8px 12px 8px 10px; }
 .b-more_act .more_act_tooltip:before { height: 13px; width: 23px; position: absolute; top: -13px; right: 12px; content: ""; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAANCAMAAAB1uQVvAAAAUVBMVEUiIiKco6ciIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiKco6fFycv///9L0CiSAAAAGHRSTlMAAAECAwUGCAoLDQ4QExQaHB4iJCssLTB8FZ7XAAAAZ0lEQVR4Xl3J0RZAIBQF0SMFQgA3//+hrBy1NI+zwaDekKVKbYzRZYQipHTViO2aSqt3gLu24sWNtiaAuxd/eVldT0Da1wPbREDaAXYC4v4Dvp0BuHNAO3AnOOahhYs7wbk4cP9B5AY9aQ+9qyzEEgAAAABJRU5ErkJggg==); }
 .b-more_act .more_act_tooltip li { padding: 5px 0; }
 .b-more_act.selected .more_act_tooltip { display: block; }
@@ -1361,9 +1364,10 @@ body.pm { background: #fff; }
 .b-user_profile .desc p { margin: 10px 0; }
 .b-user_profile .btns { margin-bottom: 20px; padding: 16px; border-radius: 5px; background-color: #fef6d8; }
 .b-user_profile .btns:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
-.b-user_profile .b-btn_act { float: left; width: 94px; }
+.b-user_profile .b-btn_act { float: left; width: 94px; margin-right: 5px; margin-bottom: 6px; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.virtualgift { margin-right: 5px; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.like { margin-bottom: 6px; }
+.b-user_profile .b-btn_act.call { width: 231px; margin-bottom: 0; }
 .b-user_profile .more_act_tooltip .b-btn_act { float: none; }
 .b-user_profile .go_to { text-transform: uppercase; font-size: 11px; margin-top: 25px; margin-bottom: 25px; }
 .b-user_profile .go_to p { margin-bottom: 6px; }
@@ -1640,58 +1644,18 @@ body.pm { background: #fff; }
 .b-messaging .jspDrag { border-radius: 4px; background-color: #8d9eab; }
 .b-messaging .jspVerticalBar { width: 7px; background-color: transparent; }
 /* mail_profile */
-.b-mail_profile { background: url(img/layout/mail-g.png) 15px 0 repeat-x, url(img/layout/mail-v.png) 100% 20px repeat-y, url(img/layout/mail-g.png) 10px 100% repeat-x, url(img/layout/mail-v.png) 0px 5px repeat-y; background-color: #f0f2f4; border-radius: 0 5px 5px 5px; padding: 15px; }
+.b-mail_profile { background: url(img/layout/mail-g.png) 15px 0 repeat-x, url(img/layout/mail-v.png) 100% 20px repeat-y, url(img/layout/mail-g.png) 10px 100% repeat-x, url(img/layout/mail-v.png) 0px 5px repeat-y, url(img/layout/mail-signet.png) 185px 305px no-repeat; background-color: #f0f2f4; border-radius: 0 5px 5px 5px; padding: 15px; }
 .b-mail_profile .message { width: 312px; height: 230px; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2); background-color: #fff; padding: 3px 8px; border: 1px solid #95A5A6; border-radius: 2px 2px 0 0; }
 .b-mail_profile .attaches { border: 1px solid #95A5A6; border-top: none; border-radius: 0 0 2px 2px; background-color: #fff; }
 .b-mail_profile p { margin: 6px 0; font-size: 12px; }
-.b-mail_profile .btn-attach {
-   line-height: 26px;
-   border: 1px solid #9ca3a7;
-   font-size: 11px;
-   text-transform: uppercase;
-   color: #626262;
-   padding: 0px 11px;
-   border-radius: 3px;
-   background-color: transparent;
-   cursor: pointer;
-   float: left;
-   margin: 11px 0 0 9px;
-   font-family: 'PT Sans';
-}
-.b-mail_profile .btn-attach .b-clip {
-   vertical-align: middle;
-   margin-right: 8px;
-}
-.b-mail_profile .file-types {
-   margin: 8px 10px 0 0;
-   width: 140px;
-   float: right;
-   font-size: 12px;
-   line-height: 14px;
-}
-.b-mail_profile .attaches-files {
-   clear: both;
-   padding: 10px 0 0 10px;
-}
-.b-mail_profile .attaches-files:after {
-   content: '';
-   display: table;
-   clear: both;
-}
-.b-mail_profile .file {
-   float: left;
-   margin: 0 10px 10px 0;
-   position: relative;
-}
-.b-mail_profile .file .b-close {
-   position: absolute;
-   top: 0;
-   right: 0;
-}
-.b-mail_profile .file-preview {
-   height: 50px;
-}
-
+.b-mail_profile .btn-attach { line-height: 26px; border: 1px solid #9ca3a7; font-size: 11px; text-transform: uppercase; color: #626262; padding: 0px 11px; border-radius: 3px; background-color: transparent; cursor: pointer; float: left; margin: 11px 0 0 9px; font-family: 'PT Sans'; }
+.b-mail_profile .btn-attach .b-clip { vertical-align: middle; margin-right: 8px; }
+.b-mail_profile .file-types { margin: 8px 10px 0 0; width: 140px; float: right; font-size: 12px; line-height: 14px; }
+.b-mail_profile .attaches-files { clear: both; padding: 10px 0 0 10px; }
+.b-mail_profile .attaches-files:after { content: ''; display: table; clear: both; }
+.b-mail_profile .file { float: left; margin: 0 10px 10px 0; position: relative; }
+.b-mail_profile .file .b-close { position: absolute; top: 0; right: 0; }
+.b-mail_profile .file-preview { height: 50px; }
 /* like */
 .b-like { background-color: #fff; border-radius: 3px 3px 0 0; }
 .b-like .imp { font-weight: bold; }
