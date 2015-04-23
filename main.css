@@ -506,6 +506,8 @@ body.pm { background: #fff; }
 .b-alert { height: 15px; width: 17px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAtFBMVEX////nTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDz////xo53ym5L86ujzp5/98fDsfHP//v7ynZT4yMPynZX51dHqbWLvi4H//v3pXVD0q6T0rKX2u7XteGvteGz51tLnTDz3wbz3wrz2urTwjIJXE9d4AAAAIXRSTlMAzeRHAap4oILH99zz7Af93lr+GAoIC1vyHxkgND4/NcvxSAzYAAAAgklEQVR4XlXLVRKDQADA0MWl7i7Bqu5y/3sVKEyXfL6ZiCytoolC1dK63imI6eObMrT6AUF5KIkVAqH1h3HtwOK4bM5y0J03sXBx9Ewae1Lh0/tBW90msoO72k3FXgF4HrCxExi4EXmRO4rFOEF2wdkQYnJFEm5ToTyReylCeRSbfwFqOxT531FrhgAAAABJRU5ErkJggg==); display: inline-block; }
 /* clip */
 .b-clip { height: 16px; width: 14px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQBAMAAADUulMJAAAAMFBMVEX///+co6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6e7+iujAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAa0lEQVR4XmNgMAtgAAGu/38NQHR9gPYTEH2TgXGfA5D+wTB3DkhgD9uv1+eAKuyXf/bf84iBgfX3PdXf5wQYGOL3PorfxgAR+MXAABJ4GL8ALFDA9gVIMwB530E06y9zMJ8h7v8EMM3ozAAA2UAmlodC6aUAAAAASUVORK5CYII=); display: inline-block; }
+/* close */
+.b-close { height: 15px; width: 15px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPBAMAAADJ+Ih5AAAAHlBMVEViYmJiYmJiYmJiYmJiYmJxcXGDg4PJycnPz8/////Z6Fb2AAAABHRSTlM/SOTnYS4TJgAAAEtJREFUeF5jYHMBATcGBvOZIDDdgMFzJhg4ABlApieIMcVlJhABGTNdPF3AIkC+y0wwAyg0Ey4CV4PQhTAHYbIGmDFDgUHUBQRcBQABTDFNqBdJ2QAAAABJRU5ErkJggg==); display: inline-block; }
 /* photo_preloader */
 .b-photo_preloader { display: block; height: 18px; width: 18px; background: url(data:image/gif;base64,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); }
 /* head */
@@ -1598,7 +1600,6 @@ body.pm { background: #fff; }
 .b-chat .bt_photo { width: 136px; }
 .b-chat .bt_message { width: 132px; }
 .b-chat_profile .note { margin-top: -13px; padding: 0 0 15px 18px; font-size: 12px; color: #595959; }
-
 /* messaging */
 .b-messaging { height: 490px; overflow: hidden; }
 .b-messaging img { display: block; }
@@ -1641,8 +1642,56 @@ body.pm { background: #fff; }
 /* mail_profile */
 .b-mail_profile { background: url(img/layout/mail-g.png) 15px 0 repeat-x, url(img/layout/mail-v.png) 100% 20px repeat-y, url(img/layout/mail-g.png) 10px 100% repeat-x, url(img/layout/mail-v.png) 0px 5px repeat-y; background-color: #f0f2f4; border-radius: 0 5px 5px 5px; padding: 15px; }
 .b-mail_profile .message { width: 312px; height: 230px; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2); background-color: #fff; padding: 3px 8px; border: 1px solid #95A5A6; border-radius: 2px 2px 0 0; }
-.b-mail_profile .attaches { height: 60px; border: 1px solid #95A5A6; border-top: none; border-radius: 0 0 2px 2px; background-color: #fff; }
+.b-mail_profile .attaches { border: 1px solid #95A5A6; border-top: none; border-radius: 0 0 2px 2px; background-color: #fff; }
 .b-mail_profile p { margin: 6px 0; font-size: 12px; }
+.b-mail_profile .btn-attach {
+   line-height: 26px;
+   border: 1px solid #9ca3a7;
+   font-size: 11px;
+   text-transform: uppercase;
+   color: #626262;
+   padding: 0px 11px;
+   border-radius: 3px;
+   background-color: transparent;
+   cursor: pointer;
+   float: left;
+   margin: 11px 0 0 9px;
+   font-family: 'PT Sans';
+}
+.b-mail_profile .btn-attach .b-clip {
+   vertical-align: middle;
+   margin-right: 8px;
+}
+.b-mail_profile .file-types {
+   margin: 8px 10px 0 0;
+   width: 140px;
+   float: right;
+   font-size: 12px;
+   line-height: 14px;
+}
+.b-mail_profile .attaches-files {
+   clear: both;
+   padding: 10px 0 0 10px;
+}
+.b-mail_profile .attaches-files:after {
+   content: '';
+   display: table;
+   clear: both;
+}
+.b-mail_profile .file {
+   float: left;
+   margin: 0 10px 10px 0;
+   position: relative;
+}
+.b-mail_profile .file .b-close {
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+.b-mail_profile .file-preview {
+   height: 50px;
+}
+
 /* like */
 .b-like { background-color: #fff; border-radius: 3px 3px 0 0; }
 .b-like .imp { font-weight: bold; }
