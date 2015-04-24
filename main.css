@@ -2094,7 +2094,6 @@ body.pm { background: #fff; }
 .b-mail .btns > .b-btn_act { float: left; }
 .b-mail .b-btn_act.virtualgift { margin-left: 5px; margin-right: 2px; }
 .b-mail .mail { border-bottom: 1px solid #e4e7e8; padding: 20px 0 25px; font-size: 16px; line-height: 18px; position: relative; }
-.b-mail .mail.upgrade { min-height: 436px; }
 .b-mail .mail-title { font-size: 24px; margin-bottom: 18px; line-height: 32px; }
 .b-mail .images { border-bottom: 1px solid #e4e7e8; padding: 20px 0 30px; }
 .b-mail .images .label { margin-bottom: 16px; }
@@ -2123,7 +2122,7 @@ body.pm { background: #fff; }
 .b-mail .file-cell-preview { padding-bottom: 7px; }
 .b-mail .file-cell-name { white-space: nowrap; text-overflow: ellipsis; max-width: 570px; overflow: hidden; padding: 0 12px; }
 .b-mail .delete-file { height: 15px; width: 15px; display: inline-block; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPBAMAAADJ+Ih5AAAAG1BMVEX///9iYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmL9+CrNAAAACHRSTlMAP0hOV8nk5yHcMtQAAABLSURBVHheRcyxCYBQDIThH7R4pY29nWsJLmDhAGnEG1vuEPKlSDiSsMqehRubL4oo19+GGMqoUhKGRAZUdNI7fdV/iOLEpoNd9m4fMAcfD+cdiDAAAAAASUVORK5CYII=); }
-.b-mail .upgrade-letter { min-height: 336px; position: absolute; top: 117px; left: 0px; right: 0px; bottom: 21px; border: 1px solid #edc9aa; border-radius: 5px; background-color: #fbdabd; line-height: normal; text-align: center; }
+.b-mail .upgrade-letter { min-height: 165px; position: absolute; top: 117px; left: 0px; right: 0px; border: 1px solid #edc9aa; border-radius: 5px; background-color: #fbdabd; line-height: normal; text-align: center; }
 .b-mail .upgrade-letter .up { font-size: 16px; font-weight: bold; margin: 40px 0 20px; }
 .b-mail .upgrade-letter .b-alert { margin-left: -22px; margin-right: 5px }
 .b-mail .upgrade-letter .images { text-align: left; border-top: 1px solid #edc9aa; border-bottom: none; margin: 36px 20px 0; padding: 20px 0 20px; }
