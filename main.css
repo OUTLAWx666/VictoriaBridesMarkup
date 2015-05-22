@@ -2068,6 +2068,18 @@ body.pm { background: #fff; }
 .b-mb .btn-upgrade { float: right; margin-right: 20px; padding-left: 20px; padding-right: 20px; }
 .b-mb .upgrade .info { color: #9ca3a7; }
 .b-mb .alert { font-weight: bold; color: #363636; }
+/* mod operator */
+.b-mb.operator .users {
+   width: 120px;
+   float: left;
+   margin: 0 -50px 0 -132px;
+   position: relative;
+}
+.b-mb.operator .photo_wrap {
+   margin: 0;
+}
+
+
 /* mail */
 .b-mail { padding: 0 20px 20px; background-color: #FFF; border-radius: 3px; }
 .b-mail .nav { min-height: 64px; }
