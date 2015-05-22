@@ -1908,33 +1908,12 @@ body.pm { background: #fff; }
 .b-mb .upgrade .info { color: #9ca3a7; }
 .b-mb .alert { font-weight: bold; color: #363636; }
 /* mod operator */
-.b-mb.operator .item_user {
-   padding-left: 177px;
-}
-.b-mb.operator .users {
-   width: 121px;
-   float: left;
-   margin: 0 -50px 0 -132px;
-   position: relative;
-}
-.b-mb.operator .photo_wrap {
-   margin: 0;
-}
-.b-mb.operator .b-from-to {
-   float: left;
-   width: 13px;
-   height: 9px;
-   margin: 20px 4px 0;
-   padding: 0;
-}
-
-.b-mb.operator .b-from-to:before {
-   top: 0;
-}
-.b-mb.operator .text {
-   width: 330px;
-   font-size: 12px;
-}
+.b-mb.operator .item_user { padding-left: 177px; }
+.b-mb.operator .users { width: 121px; float: left; margin: 0 -50px 0 -132px; position: relative; }
+.b-mb.operator .photo_wrap { margin: 0; }
+.b-mb.operator .b-from-to { float: left; width: 13px; height: 9px; margin: 20px 4px 0; padding: 0; }
+.b-mb.operator .b-from-to:before { top: 0; }
+.b-mb.operator .text { width: 330px; font-size: 12px; }
 
 /* mail */
 .b-mail { padding: 0 20px 20px; background-color: #FFF; border-radius: 3px; }
