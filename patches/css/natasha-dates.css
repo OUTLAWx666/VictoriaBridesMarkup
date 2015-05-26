@@ -1,3 +1,7 @@
+/* Landing page */
+body.lp {
+   background:#f2f0ea;
+}
 /* plugins */
 .select2-container .select2-choice .select2-arrow b {
    background-image:url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAFCAMAAACgjTZZAAAAPFBMVEXgawX////gawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawXgawUasSd3AAAAFHRSTlMAAGW7MXuOKRABBJavtQo2vwu0iSHQ3LwAAAAxSURBVHheHcRBFgAQCAXAn5IE4P535ZnFILAQkXBAji1R2jEDrnVUdTy9zLLw2bH3BRmaAQ9KRCKXAAAAAElFTkSuQmCC');
