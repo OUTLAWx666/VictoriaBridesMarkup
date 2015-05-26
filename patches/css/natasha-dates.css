@@ -36,6 +36,10 @@ body.pm {
    border-color:#258f0a;
    background-color:#56b53e;
 }
+.b-btn.red, .b-btn.red:hover {
+   border-color:#bd2020;
+   background-color:#e74e4e;
+}
 /* btn_act */
 .b-btn_act {
    font-size:12px;
@@ -413,6 +417,11 @@ body.pm {
    clear:both;
 
    content:'';
+}
+.b-like .btn_skip {
+   color:#a09b8b;
+   border-color:#bbb7a9;
+   background-color:#dcd8cc;
 }
 .b-like .btn_skip:before {
    top:50%;
