@@ -109,6 +109,18 @@ body.pm {
 
    background-position:0 0;
 }
+.b-main_menu .submenu {
+   top:40px;
+
+   border:none;
+   background-color:#34312e;
+}
+.b-main_menu .submenu a {
+   color:#e99348;
+}
+.b-main_menu .submenu a:hover {
+   background-color:#594e44;
+}
 /* b-pagination */
 .b-pagination .item {
    line-height:28px;
