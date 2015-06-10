@@ -1467,6 +1467,19 @@ body.pm { background: #fff; }
 .b-messaging .row_message.upgrade .mes .comment-wrap { font-weight: bold; font-size: 10px; }
 .b-messaging .row_message.upgrade .mes:before { background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAATCAMAAAB86XelAAAAclBMVEX////72r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r372r0lvMAwAAAAJXRSTlMAAO5UG8YG5rcj2XIXGXUx05Wfe2CGROVCVUe6P47SeMMwycyNwsBUIAAAAF1JREFUeF5Vz0UOxTAQA9BMoMjM8GHuf8WS1Dpe+W0sWTwhospSbclDxS6qZ1SO8gNUyKBoQyUMSjOQUzCoZJCSoKblV528YU4Mdx8nOtbmE8uqiUh8vj/zV/r6Rzsuqwncle0gBAAAAABJRU5ErkJggg=="); }
 .b-messaging .row_message.upgrade .mes .highlight { background-color: red; color: white; padding: 2px 4px; }
+/* mail_profile */
+.b-mail_profile { background: url(img/layout/mail-g.png) 15px 0 repeat-x, url(img/layout/mail-v.png) 100% 20px repeat-y, url(img/layout/mail-g.png) 10px 100% repeat-x, url(img/layout/mail-v.png) 0px 5px repeat-y, url(img/layout/mail-signet.png) 185px 305px no-repeat; background-color: #f0f2f4; border-radius: 0 5px 5px 5px; padding: 15px; }
+.b-mail_profile .message { width: 312px; height: 230px; box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2); background-color: #fff; padding: 3px 8px; border: 1px solid #95A5A6; border-radius: 2px 2px 0 0; }
+.b-mail_profile .attaches { border: 1px solid #95A5A6; border-top: none; border-radius: 0 0 2px 2px; background-color: #fff; }
+.b-mail_profile p { margin: 6px 0; font-size: 12px; }
+.b-mail_profile .btn-attach { line-height: 26px; border: 1px solid #9ca3a7; font-size: 11px; text-transform: uppercase; color: #626262; padding: 0px 11px; border-radius: 3px; background-color: transparent; cursor: pointer; float: left; margin: 11px 0 0 9px; font-family: 'PT Sans'; }
+.b-mail_profile .btn-attach .b-clip { vertical-align: middle; margin-right: 8px; }
+.b-mail_profile .file-types { margin: 8px 10px 0 0; width: 140px; float: right; font-size: 12px; line-height: 14px; }
+.b-mail_profile .attaches-files { clear: both; padding: 10px 0 0 10px; }
+.b-mail_profile .attaches-files:after { content: ''; display: table; clear: both; }
+.b-mail_profile .file { float: left; margin: 0 10px 10px 0; position: relative; }
+.b-mail_profile .file .b-close { position: absolute; top: 0; right: 0; }
+.b-mail_profile .file-preview { height: 50px; }
 /* like */
 .b-like { background-color: #fff; border-radius: 3px 3px 0 0; }
 .b-like .imp { font-weight: bold; }
