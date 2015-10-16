@@ -2030,14 +2030,14 @@ body.pm { background: #fff; }
 .b-request-contact .steps li { position: relative; padding-left: 25px; line-height: 17px; margin: 8px 0; }
 .b-request-contact .steps li:before { content: ''; height: 12px; width: 14px; position: absolute; top: 2px; left: 0; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMAQMAAABoTh6ZAAAABlBMVEX///++yNAf8o/2AAAAAXRSTlMAQObYZgAAACtJREFUeF4FwLENABAQAMArf4gfRSS20jGaUSQW0GmFICl0rrad5U2DShI+eEoG5ajijd8AAAAASUVORK5CYII=); }
 /* notify */
-.b-notify { width: 990px; margin: 0 auto; }
+.b-notify { }
 /* email-confirmed */
-.b-email-confirmed { height: 28px; padding-bottom: 2px; margin-bottom: 22px; position: relative; font-size: 16px; line-height: 28px; text-align: center; }
+.b-email-confirmed { background-color: #fef6d8; border-bottom: 1px solid #f7df86; margin-bottom: 22px; }
+.b-email-confirmed .in { width: 990px; margin: 0 auto; height: 28px; padding-bottom: 2px; position: relative; font-size: 16px; line-height: 28px; text-align: center; }
 .b-email-confirmed a { color: #216896; font-weight: bold; }
-.b-email-confirmed:before { position: absolute; top: 0; right: -1000%; bottom: 0; left: -1000%; background-color: #fef6d8; border-bottom: 1px solid #f7df86; content: ''; z-index: -1; }
 .b-email-confirmed .b-close { position: absolute; top: 50%; right:0; margin-top: -8px; }
 /* discount-50 */
-.b-discount-50 { width: 100%; margin: 22px 0; display: table; text-align: center; text-transform: uppercase; font-weight: bold; color: #fff; }
+.b-discount-50 {  width: 990px; margin: 22px auto; display: table; text-align: center; text-transform: uppercase; font-weight: bold; color: #fff; }
 .b-discount-50 .cell { height: 43px; display: table-cell; vertical-align: middle; padding: 0 10px; }
 .b-discount-50 .cell1 { border-radius: 5px 0 0 5px; background-color: #c0392b; font-size: 24px; color: #f7df86; white-space: nowrap; }
 .b-discount-50 .cell2 { background-color: #e74c3c; font-size: 20px; }
