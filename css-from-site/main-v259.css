@@ -332,7 +332,7 @@ body.pm { background: #fff; }
 /* alert */
 .b-alert { height: 15px; width: 17px; float: left; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAAPCAMAAAA1b9QjAAAAtFBMVEX////nTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDznTDz////xo53ym5L86ujzp5/98fDsfHP//v7ynZT4yMPynZX51dHqbWLvi4H//v3pXVD0q6T0rKX2u7XteGvteGz51tLnTDz3wbz3wrz2urTwjIJXE9d4AAAAIXRSTlMAzeRHAap4oILH99zz7Af93lr+GAoIC1vyHxkgND4/NcvxSAzYAAAAgklEQVR4XlXLVRKDQADA0MWl7i7Bqu5y/3sVKEyXfL6ZiCytoolC1dK63imI6eObMrT6AUF5KIkVAqH1h3HtwOK4bM5y0J03sXBx9Ewae1Lh0/tBW90msoO72k3FXgF4HrCxExi4EXmRO4rFOEF2wdkQYnJFEm5ToTyReylCeRSbfwFqOxT531FrhgAAAABJRU5ErkJggg==); display: block; }
 /* close */
-.b-close { height: 15px; width: 15px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPBAMAAADJ+Ih5AAAAHlBMVEViYmJiYmJiYmJiYmJiYmJxcXGDg4PJycnPz8/////Z6Fb2AAAABHRSTlM/SOTnYS4TJgAAAEtJREFUeF5jYHMBATcGBvOZIDDdgMFzJhg4ABlApieIMcVlJhABGTNdPF3AIkC+y0wwAyg0Ey4CV4PQhTAHYbIGmDFDgUHUBQRcBQABTDFNqBdJ2QAAAABJRU5ErkJggg==); display: inline-block; }
+.b-close { height: 15px; width: 15px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPBAMAAADJ+Ih5AAAAG1BMVEX///9iYmJiYmJiYmJiYmJiYmJiYmJiYmJiYmL9+CrNAAAACHRSTlMAP0hOV8nk5yHcMtQAAABLSURBVHheRcyxCYBQDIThH7R4pY29nWsJLmDhAGnEG1vuEPKlSDiSsMqehRubL4oo19+GGMqoUhKGRAZUdNI7fdV/iOLEpoNd9m4fMAcfD+cdiDAAAAAASUVORK5CYII=); display: inline-block; }
 /* clip */
 .b-clip { height: 16px; width: 14px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAQBAMAAADUulMJAAAAMFBMVEX///+co6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6eco6e7+iujAAAAD3RSTlMAESIzRFVmd4iZqrvM3e5GKvWZAAAAa0lEQVR4XmNgMAtgAAGu/38NQHR9gPYTEH2TgXGfA5D+wTB3DkhgD9uv1+eAKuyXf/bf84iBgfX3PdXf5wQYGOL3PorfxgAR+MXAABJ4GL8ALFDA9gVIMwB530E06y9zMJ8h7v8EMM3ozAAA2UAmlodC6aUAAAAASUVORK5CYII=); display: inline-block; }
 /* photo_preloader */
@@ -1519,7 +1519,7 @@ body.pm { background: #fff; }
 .b-mail_profile .attaches-files { clear: both; padding: 10px 0 0 10px; }
 .b-mail_profile .attaches-files:after { content: ''; display: table; clear: both; }
 .b-mail_profile .file { float: left; margin: 0 10px 10px 0; position: relative; }
-.b-mail_profile .file .b-close { position: absolute; top: 0; right: 0; }
+.b-mail_profile .file .b-close { position: absolute; top: 0; right: 0; background-color: #fff; border-radius: 2px; }
 .b-mail_profile .file-preview { height: 50px; }
 /* like */
 .b-like { background-color: #fff; border-radius: 3px 3px 0 0; }
