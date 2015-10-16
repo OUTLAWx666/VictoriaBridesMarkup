@@ -2041,7 +2041,7 @@ body.pm { background: #fff; }
 .b-discount-50 .cell { height: 43px; display: table-cell; vertical-align: middle; padding: 0 10px; }
 .b-discount-50 .cell1 { border-radius: 5px 0 0 5px; background-color: #c0392b; font-size: 24px; color: #f7df86; white-space: nowrap; }
 .b-discount-50 .cell2 { background-color: #e74c3c; font-size: 20px; }
-.b-discount-50 .cell3 { border-radius: 0 5px 5px 0; background-color: #31ae27; text-transform: none; text-decoration: underline; font-size: 18px; color: #fff; white-space: nowrap; }
+.b-discount-50 .cell3 { width: 230px; padding: 0; border-radius: 0 5px 5px 0; background-color: #31ae27; text-transform: none; text-decoration: underline; font-size: 18px; color: #fff; white-space: nowrap; }
 
 /* Next CSS write programmers */
 .moxie-shim, .moxie-shim input[type="file"] { cursor: pointer; }
