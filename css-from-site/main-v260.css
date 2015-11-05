@@ -906,7 +906,7 @@ body.pm { background: #fff; }
 .b-popup-payment3 .info { padding: 10px 20px; font-size: 12px; color: #808588; }
 .b-popup-payment3 .info p { margin: 5px 0; }
 .b-popup-payment3 .row { position: relative; }
-.b-popup-payment3 .declined { position: absolute; top: 0; right: 0; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
+.b-popup-payment3 .declined { width: 190px; position: absolute; top: 0; right: 0; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
 .b-popup-payment3 .declined .b-close { position: absolute; top: 8px; right: 8px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAPBAMAAADJ+Ih5AAAAG1BMVEX////nTDznTDznTDznTDznTDznTDznTDznTDxv8YpQAAAACHRSTlMAP0hOV8nk5yHcMtQAAABLSURBVHheRcyxCYBQDIThH7R4pY29nWsJLmDhAGnEG1vuEPKlSDiSsMqehRubL4oo19+GGMqoUhKGRAZUdNI7fdV/iOLEpoNd9m4fMAcfD+cdiDAAAAAASUVORK5CYII=); }
 /* bundle-wrapper */
 .b-bundle-wrapper { display: inline-block; padding: 15px 0 0; }
