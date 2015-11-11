@@ -907,7 +907,9 @@ body.pm { background: #fff; }
 .b-popup-payment3 .b-payment-form label { width: auto; }
 .b-popup-payment3 .b-payment-form input[type="text"] { width: 245px; }
 .b-popup-payment3 .alert_message { padding-left: 125px; }
-.b-popup-payment3 .b-payment-form .row_button { padding: 0 0 0 126px; min-height: 72px; }
+.b-popup-payment3 .b-payment-form .row_button { padding: 0 0 25px 126px; }
+.b-popup-payment3 .row_button .b-loader { min-height: 50px; }
+.b-popup-payment3 .row_button .b-loader:after { background-position: 0 50%; }
 .b-popup-payment3 .carts_note { padding: 4px 0 0 2px; }
 .b-popup-payment3 .form label { width: 120px; }
 .b-popup-payment3 .form { padding-top: 25px; }
