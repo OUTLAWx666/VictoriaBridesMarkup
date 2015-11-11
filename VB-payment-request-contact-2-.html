@@ -265,7 +265,8 @@
 <div class="popup_content">
 <h1 class="popup_title">You`re one step away from your premium experience!</h1>
 
-<div class="b-payment-form b-form" action="#">
+<div class="b-payment-form b-form">
+
 <div class="intro-table">
   <div class="intro-cell text">
     <p class="intro-title">Secure credit card payment.</p>
@@ -279,200 +280,149 @@
   </div>
 </div>
 
-<form class="form">
-<div class="row">
-  <label>Card number</label>
-  <span class="control-wrapper">
-    <input type="text" placeholder="Enter your card number">
-  </span>
-  <span class="carts_note">
-    <i class="b-card-big-visa"></i>
-    <i class="b-card-big-mastercard"></i>
-    <i class="b-card-big-maestro"></i>
-    <i class="b-card-big-ae"></i>
-  </span>
-
-  <div class="alert_message"></div>
+<div class="cards-table">
+  <label class="cards-row">
+    <div class="cards-cell input">
+      <input type="radio">
+    </div>
+    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell icon">
+      <span class="b-pic-card b-pic-card_1"></span>
+    </div>
+    <div class="cards-cell name">David Smotritskiy</div>
+    <div class="cards-cell date">05/2016</div>
+  </label>
+  <label class="cards-row">
+    <div class="cards-cell input">
+      <input type="radio">
+    </div>
+    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell icon">
+      <span class="b-pic-card b-pic-card_2"></span>
+    </div>
+    <div class="cards-cell name">David Smotritskiy</div>
+    <div class="cards-cell date">05/2016</div>
+  </label>
+  <label class="cards-row">
+    <div class="cards-cell input">
+      <input type="radio">
+    </div>
+    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell icon">
+      <span class="b-pic-card b-pic-card_3"></span>
+    </div>
+    <div class="cards-cell name">David Smotritskiy</div>
+    <div class="cards-cell date">05/2016</div>
+  </label>
+  <label class="cards-row">
+    <div class="cards-cell input">
+      <input type="radio">
+    </div>
+    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell icon">
+      <span class="b-pic-card b-pic-card_4"></span>
+    </div>
+    <div class="cards-cell name">David Smotritskiy</div>
+    <div class="cards-cell date">05/2016</div>
+  </label>
 </div>
+<div class="new-card">
+  <label class="new-card-control">
+    <div class="control-wrap">
+      <input type="radio">
+    </div>
+    Add new credit
+  </label>
 
-<div class="row">
-  <label>Name on card</label>
-  <span class="control-wrapper">
-    <input type="text" placeholder="As it appears on the card">
-  </span>
-  <div class="alert_message"></div>
-
-  <div class="b-error declined">
-    <div class="b-close"></div>
+  <div class="b-error declipe2">
+    <i class="b-close"></i>
     Your transaction was declined. Please try another credit card.
   </div>
-</div>
 
-<div class="row">
-  <label>Expiration date</label>
+  <form class="form" action="#">
+    <div class="row">
+      <label>Card number</label>
+      <span class="control-wrapper">
+        <input type="text" placeholder="Enter your card number">
+      </span>
+      <span class="carts_note">
+        <i class="b-card-big-visa"></i>
+        <i class="b-card-big-mastercard"></i>
+        <i class="b-card-big-maestro"></i>
+        <i class="b-card-big-ae"></i>
+      </span>
 
-  <span class="select_month control-wrapper">
-    <input type="text" placeholder="MM">
-  </span>
+      <div class="alert_message"></div>
+    </div>
 
-  <span class="select_year control-wrapper">
-    <input type="text" placeholder="YYYY">
-  </span>
+    <div class="row">
+      <label>Name on card</label>
+      <span class="control-wrapper">
+        <input type="text" placeholder="As it appears on the card">
+      </span>
+      <div class="alert_message"></div>
+    </div>
 
-  <div class="alert_message"></div>
-</div>
+    <div class="row">
+      <label>Expiration date</label>
 
-<div class="row error">
-  <label>Security number</label>
-  <span class="control-wrapper">
-    <input type="text" class="security-number" placeholder="CVV">
-  </span>
+      <span class="select_month control-wrapper">
+        <input type="text" placeholder="MM">
+      </span>
 
-  <div class="b-security-number-help">
-    <span class="mark">?</span>
+      <span class="select_year control-wrapper">
+        <input type="text" placeholder="YYYY">
+      </span>
 
-    <div class="b-security-number-popover">
-      <i class="bg tl"></i>
-      <i class="bg tr"></i>
-      <i class="bg bl"></i>
-      <i class="bg br"></i>
+      <div class="alert_message"></div>
+    </div>
 
-      <div class="popover_content">
-        <div class="popover-item">
-          <h3 class="popover_title">Visa and Mastercard Users</h3>
+    <div class="row">
+      <label>Security number</label>
+      <span class="control-wrapper">
+        <input type="text" class="security-number" placeholder="CVV">
+      </span>
 
-          <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number (CVV2/CVC2 code). The
-            verification
-            number is a 3-digit number printed on the back of your card. It appears after and to the right of your card number.
-          </p>
-          <span class="pic master_card">3-digit security code</span>
-        </div>
-        <div class="popover-item">
-          <h3 class="popover_title">American Express Users</h3>
+      <div class="b-security-number-help">
+        <span class="mark">?</span>
 
-          <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number. The American Express
-            verification
-            number is a 4-digit number printed on the front of your card. It appears after and to the right of your card number.
-          </p>
-          <span class="pic american_express">4-digit security code</span>
+        <div class="b-security-number-popover">
+          <i class="bg tl"></i>
+          <i class="bg tr"></i>
+          <i class="bg bl"></i>
+          <i class="bg br"></i>
+
+          <div class="popover_content">
+            <div class="popover-item">
+              <h3 class="popover_title">Visa and Mastercard Users</h3>
+
+              <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number (CVV2/CVC2 code). The
+                verification
+                number is a 3-digit number printed on the back of your card. It appears after and to the right of your card number.
+              </p>
+              <span class="pic master_card">3-digit security code</span>
+            </div>
+            <div class="popover-item">
+              <h3 class="popover_title">American Express Users</h3>
+
+              <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number. The American Express
+                verification
+                number is a 4-digit number printed on the front of your card. It appears after and to the right of your card number.
+              </p>
+              <span class="pic american_express">4-digit security code</span>
+            </div>
+          </div>
         </div>
       </div>
+      <div class="alert_message">enter your security card number</div>
     </div>
-  </div>
-  <div class="alert_message">enter your security card number</div>
-</div>
 
-<div class="row success">
-  <label>Card number</label>
-  <span class="control-wrapper">
-    <input type="text" placeholder="Enter your card number">
-  </span>
-  <span class="carts_note">
-    <i class="b-card-big-visa"></i>
-    <i class="b-card-big-mastercard"></i>
-    <i class="b-card-big-maestro"></i>
-    <i class="b-card-big-ae"></i>
-  </span>
-
-  <div class="alert_message"></div>
-</div>
-
-<div class="row success">
-  <label>Name on card</label>
-  <span class="control-wrapper">
-    <input type="text" placeholder="As it appears on the card">
-  </span>
-  <div class="alert_message"></div>
-</div>
-
-<div class="row success">
-  <label>Expiration date</label>
-
-  <span class="select_month control-wrapper">
-    <input type="text" placeholder="MM">
-  </span>
-
-  <span class="select_year control-wrapper">
-    <input type="text" placeholder="YYYY">
-  </span>
-
-  <div class="alert_message"></div>
-</div>
-
-<div class="row success">
-  <label>Security number</label>
-  <span class="control-wrapper">
-    <input type="text" class="security-number" placeholder="CVV">
-  </span>
-
-  <div class="b-security-number-help">
-    <span class="mark">?</span>
-
-    <div class="b-security-number-popover">
-      <i class="bg tl"></i>
-      <i class="bg tr"></i>
-      <i class="bg bl"></i>
-      <i class="bg br"></i>
-
-      <div class="popover_content">
-        <div class="popover-item">
-          <h3 class="popover_title">Visa and Mastercard Users</h3>
-
-          <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number (CVV2/CVC2 code). The
-            verification
-            number is a 3-digit number printed on the back of your card. It appears after and to the right of your card number.
-          </p>
-          <span class="pic master_card">3-digit security code</span>
-        </div>
-        <div class="popover-item">
-          <h3 class="popover_title">American Express Users</h3>
-
-          <p>For your safety and security, the VictoriaBrides.com requires that you enter your card's verification number. The American Express
-            verification
-            number is a 4-digit number printed on the front of your card. It appears after and to the right of your card number.
-          </p>
-          <span class="pic american_express">4-digit security code</span>
-        </div>
-      </div>
+    <div class="row_button">
+      <button class="b-btn size2 green" title="Pay by card">Pay by card</button>
     </div>
-  </div>
-  <div class="alert_message">enter your security card number</div>
+  </form>
 </div>
 
-<div class="row success">
-  <label>Address</label>
-
-  <span class="control-wrapper">
-    <input type="text">
-  </span>
-
-  <div class="alert_message"></div>
-</div>
-
-<div class="row success">
-  <label>City</label>
-
-  <span class="control-wrapper">
-    <input type="text">
-  </span>
-
-  <div class="alert_message"></div>
-</div>
-
-<div class="row success">
-  <label>Zip code</label>
-
-  <span class="control-wrapper">
-    <input type="text">
-  </span>
-
-  <div class="alert_message"></div>
-</div>
-
-<div class="row_button">
-  <button class="b-btn size2 green" title="Pay by card">Pay by card</button>
-</div>
-</form>
 </div>
 <div class="info">
   <p>This payment will be shown on your card statement as: PAYMENTWALL.</p>
