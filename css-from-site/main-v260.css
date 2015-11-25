@@ -896,40 +896,7 @@ body.pm { background: #fff; }
 .b-popup-payment2 .nt:hover { text-decoration: none; }
 /* popup-payment3 */
 .b-popup-payment3 { width: 640px; margin: 0 0 0 -320px; top: 80px; text-align: left; }
-.b-popup-payment3 .intro-table { width: 100%; display: table; border-bottom: 1px solid #c1cbd3; }
-.b-popup-payment3 .intro-cell { display: table-cell; vertical-align: middle; padding: 12px 0; }
-.b-popup-payment3 .intro-title { margin-bottom: 8px; font-size: 18px; font-weight: bold; }
-.b-popup-payment3 .intro-sub-title { font-size: 14px; }
-.b-popup-payment3 .intro-cell.text { padding-left: 35px; background: 0 50% no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAMAAADOixOHAAAANlBMVEW+yND///++yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNCKr+tCAAAAEXRSTlMAABAgMEBQYHCAj5+vv8/f7/4ucL8AAACHSURBVHhezdLNFsIgEIPRAB0qLX95/5cVqXiozF6/Vc5dB+aVJL4rwQINu++cyna45600PJPVo+dOknK563OUyeNyIYlPgUx/6Tbyq+qbu8q1YBCp5UC1MPkZiuYC2Lx6QsvrDlmdG4CoeAKEP/AM7Jrz4fLkhVoeonEyML4sfNj+z03u2YZPEq4gW0rM9dsAAAAASUVORK5CYII=); }
-.b-popup-payment3 .intro-cell.mc-afee { text-align: right; width: 120px; }
-.b-popup-payment3 .intro-cell.norton { text-align: right; width: 120px; }
-.b-popup-payment3 .b-payment-form { height: auto; padding: 0 20px; background-color: #e7eef3; border-top: 1px solid #c1cbd3; border-bottom: 1px solid #c1cbd3; }
-.b-popup-payment3 .b-payment-form label { width: auto; }
-.b-popup-payment3 .b-payment-form input[type="text"] { width: 245px; }
-.b-popup-payment3 .alert_message { padding-left: 125px; }
-.b-popup-payment3 .b-payment-form .row_button { padding: 0 0 25px 126px; }
-.b-popup-payment3 .row_button .b-loader { min-height: 50px; }
-.b-popup-payment3 .row_button .b-loader:after { background-position: 0 50%; }
-.b-popup-payment3 .carts_note { padding: 4px 0 0 2px; }
-.b-popup-payment3 .form label { width: 120px; }
-.b-popup-payment3 .form { padding-top: 25px; }
-.b-popup-payment3 .select_month input { width: 60px !important; }
-.b-popup-payment3 .select_year input { width: 70px !important; }
-.b-popup-payment3 .info { padding: 10px 20px; font-size: 12px; color: #808588; }
-.b-popup-payment3 .info p { margin: 5px 0; }
-.b-popup-payment3 .row { position: relative; }
-.b-popup-payment3 .declined { width: 190px; position: absolute; top: 0; right: 0; }
-.b-popup-payment3 .cards-table { width: 100%; display: table; margin-top: 15px; font-size: 16px; }
-.b-popup-payment3 .cards-row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABAQMAAAAhLob3AAAABlBMVEX///+frLaDPcnvAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
-.b-popup-payment3 .cards-cell { display: table-cell; line-height: 30px; text-align: center; }
-.b-popup-payment3 .cards-cell.input { width: 40px; }
-.b-popup-payment3 .cards-cell.num { width: 131px; }
-.b-popup-payment3 .cards-cell.icon { padding-left: 8px; text-align: left; width: 90px; }
-.b-popup-payment3 .cards-cell.icon .b-pic-card { vertical-align: text-top; }
-.b-popup-payment3 .cards-cell.name { width: 160px; text-align: left; }
-.b-popup-payment3 .new-card-control { display: block; font-weight: bold; line-height: 30px; background-color: #dae4ec; }
-.b-popup-payment3 .control-wrap { width: 40px; display: inline-block; text-align: center; }
-.b-popup-payment3 .declipe2 { margin-top: 20px; }
+.b-popup-payment3 .b-payment-form { background-color: #e7eef3; border-top: 1px solid #c1cbd3; border-bottom: 1px solid #c1cbd3; }
 /* bundle-wrapper */
 .b-bundle-wrapper { display: inline-block; padding: 15px 0 0; }
 .b-bundle-wrapper .bundle_note { font-size: 11px; color: #9ca3a7; padding: 1px 0 0; text-align: center; }
@@ -1111,6 +1078,44 @@ body.pm { background: #fff; }
 .b-payment-paypal .intro .b-btn { padding: 15px 23px 11px; }
 .b-payment-paypal .note { font-size: 12px; }
 .b-payment-paypal .action .label[data-target="message"] { display: none; color: #E74C3C; }
+
+
+/* payment */
+.b-payment .intro-table { width: 100%; display: table; border-bottom: 1px solid #c1cbd3; }
+.b-payment .intro-cell { display: table-cell; vertical-align: middle; padding: 12px 0; }
+.b-payment .intro-title { margin-bottom: 8px; font-size: 18px; font-weight: bold; }
+.b-payment .intro-sub-title { font-size: 14px; }
+.b-payment .intro-cell.text { padding-left: 35px; background: 0 50% no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAgCAMAAADOixOHAAAANlBMVEW+yND///++yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNC+yNCKr+tCAAAAEXRSTlMAABAgMEBQYHCAj5+vv8/f7/4ucL8AAACHSURBVHhezdLNFsIgEIPRAB0qLX95/5cVqXiozF6/Vc5dB+aVJL4rwQINu++cyna45600PJPVo+dOknK563OUyeNyIYlPgUx/6Tbyq+qbu8q1YBCp5UC1MPkZiuYC2Lx6QsvrDlmdG4CoeAKEP/AM7Jrz4fLkhVoeonEyML4sfNj+z03u2YZPEq4gW0rM9dsAAAAASUVORK5CYII=); }
+.b-payment .intro-cell.mc-afee { text-align: right; width: 120px; }
+.b-payment .intro-cell.norton { text-align: right; width: 120px; }
+.b-payment .b-payment-form { height: auto; padding: 0 20px; }
+.b-payment .b-payment-form label { width: auto; }
+.b-payment .b-payment-form input[type="text"] { width: 245px; }
+.b-payment .alert_message { padding-left: 125px; }
+.b-payment .b-payment-form .row_button { padding: 0 0 25px 126px; }
+.b-payment .row_button .b-loader { min-height: 50px; }
+.b-payment .row_button .b-loader:after { background-position: 0 50%; }
+.b-payment .carts_note { padding: 4px 0 0 2px; }
+.b-payment .form label { width: 120px; }
+.b-payment .form { padding-top: 25px; }
+.b-payment .select_month input { width: 60px !important; }
+.b-payment .select_year input { width: 70px !important; }
+.b-payment .info { padding: 10px 20px; font-size: 12px; color: #808588; }
+.b-payment .info p { margin: 5px 0; }
+.b-payment .row { position: relative; }
+.b-payment .declined { width: 190px; position: absolute; top: 0; right: 0; }
+.b-payment .cards-table { width: 100%; display: table; margin-top: 15px; font-size: 16px; }
+.b-payment .cards-row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABAQMAAAAhLob3AAAABlBMVEX///+frLaDPcnvAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
+.b-payment .cards-cell { display: table-cell; line-height: 30px; text-align: center; }
+.b-payment .cards-cell.input { width: 40px; }
+.b-payment .cards-cell.num { width: 131px; }
+.b-payment .cards-cell.icon { padding-left: 8px; text-align: left; width: 90px; }
+.b-payment .cards-cell.icon .b-pic-card { vertical-align: text-top; }
+.b-payment .cards-cell.name { width: 160px; text-align: left; }
+.b-payment .new-card-control { display: block; font-weight: bold; line-height: 30px; background-color: #dae4ec; }
+.b-payment .control-wrap { width: 40px; display: inline-block; text-align: center; }
+.b-payment .declipe2 { margin-bottom: 20px; }
+
 /* step */
 .b-step { padding: 20px; background-color: #fff; border-radius: 3px; }
 /* ad_ph */
