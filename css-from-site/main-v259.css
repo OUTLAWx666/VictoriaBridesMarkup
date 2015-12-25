@@ -1207,8 +1207,8 @@ body.pm { background: #fff; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.virtualgift { margin-right: 5px; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.like { margin-bottom: 6px; }
 .b-user_profile .b-btn_act.call, .b-user_profile .b-btn_act.realgift { width: 231px; }
-.b-user_profile .b-btn_act.realgift { margin-bottom: 0; }
-.b-user_profile .b-btn_act.realgift .b-new { margin-left: 6px; }
+.b-user_profile .b-btn_act.realgift .b-new, .b-user_profile .b-btn_act.call .b-new { margin-left: 6px; }
+.b-user_profile .b-btn_act.call { margin-bottom: 0; }
 .b-user_profile .more_act_tooltip .b-btn_act { float: none; }
 .b-user_profile .go_to { text-transform: uppercase; font-size: 11px; margin-top: 25px; margin-bottom: 25px; }
 .b-user_profile .go_to p { margin-bottom: 6px; }
