@@ -181,6 +181,7 @@ body.pm { background: #fff; }
 .b-btn_act.border.mail:before { top: 5px; left: 8px; }
 /* realgift */
 .b-btn_act.realgift:before { height: 19px; width: 17px; top: -3px; left: 2px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAAOVBMVEX////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwaxZvt4AAAAEnRSTlMACxAfIDBAUGBwgI+fr7/P3++vZWl3AAAAf0lEQVR4Xl3MUQ4DIQhFUWqLKqLI2/9iq8l0qnM/IDkhEFFWjbRnGFZ0g0/Jkiu2qwQVMTj/CXApk8ItHdM0x3TIqt8iu8TIc1xSiBsAnd6wskBjbZ4SqsM1ES9wugqGFI7/zW3Q2KUzw1xE0k+YSFHpjFHoUe9PyXg/JOhrwRfcSgfpxGubjwAAAABJRU5ErkJggg==); }
+.b-btn_act.border.realgift:before { top: 4px; left: 8px; }
 /* mod addtof */
 .b-btn_act.addtof:before { height: 20px; width: 20px; top: -5px; left: 0; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAM1BMVEX////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwZA+qcwAAAAEHRSTlMAECAwQFBgcICPn6+/z9/vIxqCigAAAG1JREFUeF5lzlkOwCAIBFBcaq0b3P+0LSZCA/PniwyApGbwWc1bJgwOG1GxFpBoWCz0JRqcjFVfLg9vMNn7mjOnctcthBkk42AFDR7saknHN2jnQtYk2PniELn5/lXO/aOgliZZGvo6GLUILoYXS1kJoXMSfcwAAAAASUVORK5CYII=); }
 .b-btn_act.border.addtof:before { top: 3px; left: 5px; }
@@ -1202,9 +1203,12 @@ body.pm { background: #fff; }
 .b-user_profile .desc p { margin: 10px 0; }
 .b-user_profile .btns { margin-bottom: 20px; padding: 16px; border-radius: 5px; background-color: #fef6d8; }
 .b-user_profile .btns:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
-.b-user_profile .b-btn_act { float: left; width: 94px; }
+.b-user_profile .b-btn_act { float: left; width: 94px; margin-right: 5px; margin-bottom: 6px; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.virtualgift { margin-right: 5px; }
 .b-user_profile .b-btn_act.addtof, .b-user_profile .b-btn_act.like { margin-bottom: 6px; }
+.b-user_profile .b-btn_act.call, .b-user_profile .b-btn_act.realgift { width: 231px; }
+.b-user_profile .b-btn_act.realgift { margin-bottom: 0; }
+.b-user_profile .b-btn_act.realgift .b-new { margin-left: 6px; }
 .b-user_profile .more_act_tooltip .b-btn_act { float: none; }
 .b-user_profile .go_to { text-transform: uppercase; font-size: 11px; margin-top: 25px; margin-bottom: 25px; }
 .b-user_profile .go_to p { margin-bottom: 6px; }
