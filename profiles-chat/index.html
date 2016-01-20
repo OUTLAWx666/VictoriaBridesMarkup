@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="Cache-Controll" content="max-age: 2629000, public, must-revalidate" />
+  <meta name="Expires" content="Fri, 19 Feb 2016 09:03:48 +0000" />
+  <title>Development VB 2</title>
+  <!--<link rel="icon" href="/vb.favicon.ico" type="image/x-icon" />-->
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic&subset=latin-ext,latin' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="http://supportdev.victoriabrides.com/css/vendor/select2/select2.css?v=1453280628" />
+  <link rel="stylesheet" href="http://supportdev.victoriabrides.com/css/vendor/slick/slick.css?v=1453280628" />
+
+  <!-- remove this -->
+  <link href="../select2-3.4.5/select2.css" rel="stylesheet">
+  <script type="text/javascript" src="../jquery-1.10.2.min.js"></script>
+  <script src="../select2-3.4.5/select2.js"></script>
+  <!-- remove this end -->
+
+  <link rel="stylesheet" href="main-v1453280628.css" />
+  <link rel="stylesheet" href="http://supportdev.victoriabrides.com/css/app/overlay.css?v=1453280628" />
+
+</head>
+<body>
+<div id="vb">
+<div class="b-content_for_foot">
+<div class="b-head">
+  <div class="in" data-target="header"><a href="/">
+    <!--<img class="logo" src="/img/layout/vb_logo.png" alt="logo">-->
+  </a>
+
+    <p class="b-not_member"><a class="join" data-nav="logout" href="javascript:void(0);">Logout</a></p>
+
+    <ul class="b-main_menu" data-target="main-menu">
+
+      <li class="item"><a style="color: grey;" class="item_link" href="javascript: void(0);">View user</a></li>
+
+      <li class="item"><a class="item_link item_link_selected" href="/?membersarea#start">Start</a></li>
+
+      <li class="item"><a class="item_link" href="/?membersarea#chat">Chat</a></li>
+
+      <li class="item"><a class="item_link" href="/?membersarea#correspondence">Correspondence</a></li>
+
+      <li class="item"><a class="item_link" href="/account/index">Translator</a></li>
+
+    </ul>
+
+  </div>
+</div>
+<div class="b-content" data-target="content-base">
+<div class="content_in">
+<div class="content_table">
+<div class="content_row" data-target="content-parent">
+<div class="b-chat start b-chat">
+<div class="chat_row">
+<div class="users_wrap" data-contacts="male">
+  <div class="users_wrap_in">
+    <div class="nav">
+      <div class="search_wrap">
+        <input type="text" class="is" placeholder="Online male users" disabled="">
+      </div>
+      <div class="b-filters" style="display: block;">
+        <a data-action="select-all" class="filter" href="javascript: void(0);">Select all</a>
+        <a data-action="deselect-all" class="filter" href="javascript: void(0);">Deselect all</a>
+      </div>
+    </div>
+    <div class="jspScrollpane">
+      <div class="users_list_wrap" data-scrollpane-scrollable="1"></div>
+      <div class="jspTrack" data-scrollpane-track="1">
+        <div class="jspDrag" data-scrollpane-drag="1"></div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="chat_wrap">
+<div class="tabs">
+  <button class="bt_tab active" data-tab="chat">CHAT</button>
+  <button class="bt_tab" data-tab="correspondence">CORRESPONDENCE</button>
+</div>
+<div class="chat" data-container="chat" data-pos-y="0">
+<div class="btns_chat b-form">
+<textarea class="text_chat" data-target="message-area" maxlength="300" placeholder="Type your message here ..." autofocus=""></textarea>
+
+<div class="b-chat-templates">
+  <h3 class="ttl">Available template variables:</h3>
+  <ul class="variables">
+    <li class="variable">
+      {{male_name}}
+    </li>
+    <li class="variable">
+      {{female_name}}
+    </li>
+  </ul>
+  <input type="hidden" class="templ-messages b-templ-messages">
+</div>
+
+<script>
+  /* js тут чисто для наглядности, но когда вы прикручивать будете уберите его туда где у вас джс хранится */
+  (function () {
+    'use strict';
+
+    var data, format;
+
+    data = [
+      {id: 1, title: 'About me', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {
+        id   : 2,
+        title: 'About me1',
+        text : 'Hello dear! text text text text text text text text text text text text text\
+        longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext \
+        longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext \
+        longtext longtext longtext'
+      },
+      {id: 3, title: 'About me2', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 4, title: 'About me3', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 5, title: 'About me4', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 6, title: 'About me5', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 7, title: 'About me6', text: 'Hello dear! text text text text text text text text text text text text text'}
+    ];
+
+    format = function (state) {
+      return '<h3 class="title">' + state.title + '</h3><div class="text">' + state.text + '</div>';
+    };
+
+    $('.b-chat-templates .templ-messages')
+      .select2({
+        minimumResultsForSearch: -1,
+        data                   : data,
+        formatResult           : format,
+        formatSelection        : format,
+        escapeMarkup           : function (m) { return m; },
+        dropdownCssClass       : 'b-templ-messages'
+      })
+      .select2('val', 1);
+
+
+  }());
+
+</script>
+
+<button class="bt_message" data-action="send-message" title="Send chat message">Send message</button>
+<button class="bt_correspondence" data-action="send-correspondence" title="Send as correspondence" style="display: none;">Send correspondence</button>
+<button class="bt_smile" data-action="add-smile"></button>
+<div class="smiles" data-target="smiles-container">
+<span class="b-smile smile17" data-code="]:)"></span>
+
+<span class="b-smile smile2" data-code=":("></span>
+
+<span class="b-smile smile3" data-code=":D"></span>
+
+<span class="b-smile smile4" data-code="8)"></span>
+
+<span class="b-smile smile5" data-code=":O"></span>
+
+<span class="b-smile smile6" data-code=";)"></span>
+
+<span class="b-smile smile7" data-code=";("></span>
+
+<span class="b-smile smile8" data-code="(sweat)"></span>
+
+<span class="b-smile smile9" data-code=":|"></span>
+
+<span class="b-smile smile10" data-code=":*"></span>
+
+<span class="b-smile smile11" data-code=":P"></span>
+
+<span class="b-smile smile12" data-code=":$"></span>
+
+<span class="b-smile smile13" data-code=":^)"></span>
+
+<span class="b-smile smile14" data-code="|)"></span>
+
+<span class="b-smile smile15" data-code="|("></span>
+
+<span class="b-smile smile16" data-code="(inlove)"></span>
+
+<span class="b-smile smile1" data-code=":)"></span>
+
+<span class="b-smile smile18" data-code="(talk)"></span>
+
+<span class="b-smile smile19" data-code="(yawn)"></span>
+
+<span class="b-smile smile20" data-code="(puke)"></span>
+
+<span class="b-smile smile21" data-code="(doh)"></span>
+
+<span class="b-smile smile22" data-code=":@"></span>
+
+<span class="b-smile smile24" data-code="(wasntme)"></span>
+
+<span class="b-smile smile26" data-code="(party)"></span>
+
+<span class="b-smile smile29" data-code=":S"></span>
+
+<span class="b-smile smile30" data-code="(mm)"></span>
+
+<span class="b-smile smile33" data-code="8|"></span>
+
+<span class="b-smile smile35" data-code=":X"></span>
+
+<span class="b-smile smile36" data-code="(hi)"></span>
+
+<span class="b-smile smile37" data-code="(call)"></span>
+
+<span class="b-smile smile38" data-code="(devil)"></span>
+
+<span class="b-smile smile39" data-code="(angel)"></span>
+
+<span class="b-smile smile41" data-code="(envy)"></span>
+
+<span class="b-smile smile44" data-code="(wait)"></span>
+
+<span class="b-smile smile45" data-code="(hug)"></span>
+
+<span class="b-smile smile47" data-code="(makeup)"></span>
+
+<span class="b-smile smile48" data-code="(chuckle)"></span>
+
+<span class="b-smile smile49" data-code="(clap)"></span>
+
+<span class="b-smile smile50" data-code="(think)"></span>
+
+<span class="b-smile smile51" data-code="(bow)"></span>
+
+<span class="b-smile smile52" data-code="(rofl)"></span>
+
+<span class="b-smile smile53" data-code="(whew)"></span>
+
+<span class="b-smile smile54" data-code="(happy)"></span>
+
+<span class="b-smile smile55" data-code="(smirk)"></span>
+
+<span class="b-smile smile56" data-code="(nod)"></span>
+
+<span class="b-smile smile57" data-code="(shake)"></span>
+
+<span class="b-smile smile58" data-code="(punch)"></span>
+
+<span class="b-smile smile59" data-code="(emo)"></span>
+
+<span class="b-smile smile60" data-code="(y)"></span>
+
+<span class="b-smile smile61" data-code="(n)"></span>
+
+<span class="b-smile smile62" data-code="(handshake)"></span>
+
+<span class="b-smile smile64" data-code="(L)"></span>
+
+<span class="b-smile smile65" data-code="(u)"></span>
+
+<span class="b-smile smile66" data-code="(e)"></span>
+
+<span class="b-smile smile67" data-code="(F)"></span>
+
+<span class="b-smile smile68" data-code="(rain)"></span>
+
+<span class="b-smile smile69" data-code="(sun)"></span>
+
+<span class="b-smile smile70" data-code="(o)"></span>
+
+<span class="b-smile smile71" data-code="(music)"></span>
+
+<span class="b-smile smile72" data-code="(~)"></span>
+
+<span class="b-smile smile73" data-code="(mp)"></span>
+
+<span class="b-smile smile74" data-code="(coffee)"></span>
+
+<span class="b-smile smile75" data-code="(pizza)"></span>
+
+<span class="b-smile smile76" data-code="(cash)"></span>
+
+<span class="b-smile smile77" data-code="(muscle)"></span>
+
+<span class="b-smile smile78" data-code="(^)"></span>
+
+<span class="b-smile smile79" data-code="(beer)"></span>
+
+<span class="b-smile smile80" data-code="(d)"></span>
+
+<span class="b-smile smile81" data-code="(dance)"></span>
+
+<span class="b-smile smile82" data-code="(ninja)"></span>
+
+<span class="b-smile smile83" data-code="(*)"></span>
+
+<span class="b-smile smile84" data-code="(mooning)"></span>
+
+<span class="b-smile smile85" data-code="(finger)"></span>
+
+<span class="b-smile smile86" data-code="(bandit)"></span>
+
+<span class="b-smile smile87" data-code="(drunk)"></span>
+
+<span class="b-smile smile88" data-code="(smoke)"></span>
+
+<span class="b-smile smile89" data-code="(toivo)"></span>
+
+<span class="b-smile smile90" data-code="(rock)"></span>
+
+<span class="b-smile smile91" data-code="(headbang)"></span>
+
+<span class="b-smile smile92" data-code="(bug)"></span>
+
+<span class="b-smile smile93" data-code="(fubar)"></span>
+
+<span class="b-smile smile94" data-code="(poolparty)"></span>
+
+<span class="b-smile smile95" data-code="(swear)"></span>
+
+<span class="b-smile smile96" data-code="(tmi)"></span>
+
+<span class="b-smile smile97" data-code="(heidy)"></span></div>
+<button class="bt_photo" title="Send photo" data-photo-button="photo" style="position: relative; z-index: 1;">send photo</button>
+<button class="bt_photo" title="Attach photo" data-photo-button="attach" style="display: none; position: relative; z-index: 1;">attach photo</button>
+<div id="html5_1a9f30pt52m31vu81oai1ig8fbd3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 788px; left: 177px; width: 155px; height: 39px; overflow: hidden; z-index: 0;">
+  <input id="html5_1a9f30pt52m31vu81oai1ig8fbd3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="image/jpeg,.jpg,image/gif,.gif,image/png,.png,.jpeg,image/bmp,.bmp">
+</div>
+</div>
+</div>
+<div class="attaches">
+  <div data-target="attachments" class="attaches-files" style="position: relative;">
+    <div id="html5_1a9f30pt91m061q4g1jtr1qm2qng6_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 0px; left: 0px; width: 0px; height: 0px; overflow: hidden; z-index: 0;">
+      <input id="html5_1a9f30pt91m061q4g1jtr1qm2qng6" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="image/jpeg,.jpg,image/gif,.gif,image/png,.png,.jpeg,image/bmp,.bmp">
+    </div>
+  </div>
+</div>
+</div>
+<div class="users_wrap" data-contacts="female">
+<div class="users_wrap_in">
+<div class="nav">
+  <div class="search_wrap">
+    <input type="text" class="is" placeholder="Assigned female profiles" disabled="">
+  </div>
+</div>
+<div class="jspScrollpane">
+<div class="users_list_wrap" data-scrollpane-scrollable="1">
+<div class="message" data-gender="female" data-id-user="148481">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl4ilmuknuogn.r50x50.f9a863cc.jpg" alt="Sonia"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/148481"><span class="name">Sonia</span>,&nbsp;26</a>
+    </div>
+    <div>
+      <span class="name">Ukraine</span>,&nbsp;Kiev
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="149118">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.c186x186x17x33.r50x50.558b3041.jpg" alt="Maria"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/149118"><span class="name">Maria</span>,&nbsp;27</a>
+    </div>
+    <div>
+      <span class="name">Ukraine</span>,&nbsp;Kiev
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="149121">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Nastia"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/149121"><span class="name">Nastia</span>,&nbsp;22</a>
+    </div>
+    <div>
+      <span class="name">Ukraine</span>,&nbsp;Kiev
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="149131">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Kira"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/149131"><span class="name">Kira</span>,&nbsp;30</a>
+    </div>
+    <div>
+      <span class="name">Ukraine</span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="164886">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Marianna"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/164886"><span class="name">Marianna</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name">Ukraine</span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="203922">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl1vlc9eeuvflo.r50x50.7850781c.jpg" alt="Elena"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/203922"><span class="name">Elena</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="204211">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl7t5f8cnatrs.r50x50.a39bb1b1.jpg" alt="Elizaveta"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/204211"><span class="name">Elizaveta</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="208865">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="testGirl29"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/208865"><span class="name">testGirl29</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="228299">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Kristina"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/228299"><span class="name">Kristina</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="242578">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Svetlana"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/242578"><span class="name">Svetlana</span>,&nbsp;2016</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="251629">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Vasilisa"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/251629"><span class="name">Vasilisa</span>,&nbsp;25</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+<div class="message" data-gender="female" data-id-user="251647">
+  <input type="radio" name="female[]" class="contact_checker">
+  <div class="pic_wrap"><img class="pic" src="https://i.onthe.io/shpzkl31er94ntgbng.r50x50.aafb39bb.jpg" alt="Klava"></div>
+  <div class="name_age">
+    <div>
+      <a href="/?membersarea#female/id/251647"><span class="name">Klava</span>,&nbsp;25</a>
+    </div>
+    <div>
+      <span class="name"></span>,&nbsp;
+    </div>
+    <div class="b-sign off">
+      OFFLINE
+    </div>
+  </div>
+</div>
+</div>
+<div class="jspTrack" data-scrollpane-track="1">
+  <div class="jspDrag" data-scrollpane-drag="1"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="empty"></div>
+</div>
+<div class="b-foot">
+  <div class="in">
+    <p class="copy">Copyright Development VB 2016. All rights reserved.</p>
+    <p class="menu"></p>
+  </div>
+</div>
+</div>
+</body>
+</html>
