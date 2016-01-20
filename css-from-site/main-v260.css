@@ -1079,8 +1079,6 @@ body.pm { background: #fff; }
 .b-payment-paypal .note { font-size: 12px; }
 .b-payment-paypal .action .label[data-target="message"] { display: none; color: #E74C3C; }
 
-
-/* payment */
 .b-payment .intro-table { width: 100%; display: table; border-bottom: 1px solid #c1cbd3; }
 .b-payment .intro-cell { display: table-cell; vertical-align: middle; padding: 12px 0; }
 .b-payment .intro-title { margin-bottom: 8px; font-size: 18px; font-weight: bold; }
@@ -1115,7 +1113,6 @@ body.pm { background: #fff; }
 .b-payment .new-card-control { display: block; font-weight: bold; line-height: 30px; background-color: #dae4ec; }
 .b-payment .control-wrap { width: 40px; display: inline-block; text-align: center; }
 .b-payment .declipe2 { margin-bottom: 20px; }
-
 /* step */
 .b-step { padding: 20px; background-color: #fff; border-radius: 3px; }
 /* ad_ph */
