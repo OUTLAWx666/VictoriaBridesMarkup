@@ -68,12 +68,68 @@
 </div>
 <div class="chat_wrap">
 <div class="tabs">
-  <a href class="bt_tab active" data-tab="chat">Chat</a>
-  <a href class="bt_tab" data-tab="correspondence">Correspondence</a>
+  <a href class="bt_tab" data-tab="chat">Chat</a>
+  <a href class="bt_tab active" data-tab="correspondence">Correspondence</a>
 </div>
-<div class="content chat" data-container="chat" data-pos-y="0">
+<div class="content correspondence" data-container="chat" data-pos-y="0">
 <div class="btns_chat b-form">
 <textarea class="text_chat" data-target="message-area" maxlength="300" placeholder="Type your message here ..." autofocus=""></textarea>
+
+<div class="b-chat-templates">
+  <h3 class="ttl">Available template variables:</h3>
+  <ul class="variables">
+    <li class="variable">
+      {{male_name}}
+    </li>
+    <li class="variable">
+      {{female_name}}
+    </li>
+  </ul>
+  <input type="hidden" class="templ-messages b-templ-messages">
+</div>
+
+<script>
+  /* js тут чисто для наглядности, но когда вы прикручивать будете уберите его туда где у вас джс хранится */
+  (function () {
+    'use strict';
+
+    var data, format;
+
+    data = [
+      {id: 1, title: 'About me', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {
+        id   : 2,
+        title: 'About me1',
+        text : 'Hello dear! text text text text text text text text text text text text text\
+        longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext \
+        longtext longtext longtext longtext longtext longtext longtext longtext longtext longtext \
+        longtext longtext longtext'
+      },
+      {id: 3, title: 'About me2', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 4, title: 'About me3', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 5, title: 'About me4', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 6, title: 'About me5', text: 'Hello dear! text text text text text text text text text text text text text'},
+      {id: 7, title: 'About me6', text: 'Hello dear! text text text text text text text text text text text text text'}
+    ];
+
+    format = function (state) {
+      return '<h3 class="title">' + state.title + '</h3><div class="text">' + state.text + '</div>';
+    };
+
+    $('.b-chat-templates .templ-messages')
+      .select2({
+        minimumResultsForSearch: -1,
+        data                   : data,
+        formatResult           : format,
+        formatSelection        : format,
+        escapeMarkup           : function (m) { return m; },
+        dropdownCssClass       : 'b-templ-messages'
+      })
+      .select2('val', 1);
+
+
+  }());
+</script>
 <button class="bt_correspondence" data-action="send-correspondence" title="Send as correspondence" style="display: none;">Send correspondence</button>
 <button class="bt_smile" data-action="add-smile"></button>
 <div class="smiles" data-target="smiles-container">
@@ -248,7 +304,7 @@
 <span class="b-smile smile97" data-code="(heidy)"></span></div>
 <button class="bt_photo" title="Send photo" data-photo-button="photo" style="position: relative; z-index: 1;">send photo</button>
 <button class="bt_photo" title="Attach photo" data-photo-button="attach" style="display: none; position: relative; z-index: 1;">attach photo</button>
-<button class="bt_message" data-action="send-message" title="Send message">Send message</button>
+<button class="bt_message" data-action="send-message" title="Send correspondence">Send correspondence</button>
 <div id="html5_1a9f30pt52m31vu81oai1ig8fbd3_container" class="moxie-shim moxie-shim-html5" style="position: absolute; top: 788px; left: 177px; width: 155px; height: 39px; overflow: hidden; z-index: 0;">
   <input id="html5_1a9f30pt52m31vu81oai1ig8fbd3" type="file" style="font-size: 999px; opacity: 0; position: absolute; top: 0px; left: 0px; width: 100%; height: 100%;" multiple="" accept="image/jpeg,.jpg,image/gif,.gif,image/png,.png,.jpeg,image/bmp,.bmp">
 </div>
