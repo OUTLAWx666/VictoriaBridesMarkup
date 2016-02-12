@@ -249,6 +249,8 @@ body.pm { background: #fff; }
 .b-btn_act .b-new { margin-left:5px; border-radius: 0; font-size: 10px; line-height: 14px; font-weight: normal; }
 .b-btn_act.disable .b-new { background-color: rgba(231, 76, 60, 0.5); }
 
+/* cancel */
+.b-cancel { font-size: 16px; font-weight: bold; color: #626262; }
 /* from-to */
 .b-from-to { position: relative; padding-left: 18px; }
 .b-from-to:before { height: 9px; width: 13px; position: absolute; top: 4px; left: 0; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAASAgMAAAA4dyYwAAAACVBMVEX////Ey8////9EffR3AAAAAXRSTlMAQObYZgAAAExJREFUeF49jLENgDAAwwwSJ7Azol7RmYmBPNErOKVzrqQdwmRFiQNUOABuOAEeKCCp2O9ks3ty+uzjByyDHdgq6+QuXXbPT3L67ON/8g4Zq2vqcrsAAAAASUVORK5CYII=); content: ''; }
@@ -558,6 +560,9 @@ body.pm { background: #fff; }
 .b-sb_up3 { margin-bottom: 15px; padding: 18px 18px 8px; }
 .b-sb_up3 .b-benefits { margin-top: 15px; }
 .b-sb_up3 .bt_up { width: 100%; display: block; margin-bottom: 10px; padding-left: 0; padding-right: 0; }
+/* mod sb_ct */
+.b-sb_ct { padding: 10px; }
+.b-sb_ct .bt_ct { width: 208px; padding-right: 0; padding-left: 0; }
 /* mod sp */
 .b-sb_sp .list { margin: 15px 0; }
 .b-sb_sp .item { margin: 12px 5px 12px 75px; }
@@ -1043,6 +1048,13 @@ body.pm { background: #fff; }
 .b-popup-cd .btn-close, .b-popup-cd .btn-continue { margin-top: 20px; padding-left: 0; padding-right: 0; width: 190px; }
 .b-popup-cd .note { font-size: 13px; }
 .b-popup-cd .btn-cancel { margin-left: 22px; font-size: 16px; font-weight: bold; color: #626262; text-decoration: underline; margin-top: 15px; }
+/* b-popup-ct */
+.b-popup-ct { top: 100px; width: 510px; margin: 0 0 0 -255px; text-align: left; }
+.b-popup-ct .popup_title { padding-bottom: 5px; }
+.b-popup-ct .cntnt { padding: 0 20px 20px; font-size: 16px; line-height: 28px; }
+.b-popup-ct .actions { overflow: hidden; margin-top: 60px; }
+.b-popup-ct .btn-st { width: 200px; float: left; }
+.b-popup-ct .b-cancel { float: left; margin: 13px 0 0 30px; line-height:20px; text-decoration: underline; }
 /* popup_usl */
 .b-popup_usl { width: 400px; top: 25%; left: 35%; }
 .b-popup_usl .popup_title { padding-bottom: 5px; }
