@@ -6,7 +6,7 @@
   <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href="select2-3.4.5/select2.css" rel="stylesheet">
   <link rel="stylesheet" href="css-from-site/overlay-v57.css">
-  <link rel="stylesheet" href="css-from-site/main-v280.css">
+  <link rel="stylesheet" href="css-from-site/main-v821.css">
 
   <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
   <script src="select2-3.4.5/select2.js"></script>
@@ -259,7 +259,7 @@
 <div id="vb-overlay" class="vb-overlay" style="display: block;">
 <div class="alpha-bg" data-target="bg"></div>
 <div class="content-wrap" data-target="content">
-<div class="b-popup b-popup-payment3" style="display: block">
+<div class="b-popup b-popup-payment3 b-popup-payment3-cards" style="display: block">
 <i class="popup_close" title="close"></i>
 
 <div class="popup_content">
@@ -287,45 +287,49 @@
     <div class="cards-cell input">
       <input type="radio">
     </div>
-    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell num"><span class="hide-numbers">**** &nbsp;**** &nbsp;****&nbsp;</span> 1234</div>
     <div class="cards-cell icon">
       <span class="b-pic-card b-pic-card_1"></span>
     </div>
     <div class="cards-cell name">David Smotritskiy</div>
     <div class="cards-cell date">05/2016</div>
+    <div class="cards-cell time"></div>
   </label>
-  <label class="cards-row">
+  <label class="cards-row selected">
     <div class="cards-cell input">
-      <input type="radio">
+      <input type="radio" checked>
     </div>
-    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell num"><span class="hide-numbers">**** &nbsp;**** &nbsp;****&nbsp;</span> 1234</div>
     <div class="cards-cell icon">
       <span class="b-pic-card b-pic-card_2"></span>
     </div>
     <div class="cards-cell name">David Smotritskiy</div>
-    <div class="cards-cell date">05/2016</div>
+    <div class="cards-cell date">05/2016 </div>
+    <div class="cards-cell time"><div class="b-time">3:18</div></div>
   </label>
   <label class="cards-row">
     <div class="cards-cell input">
       <input type="radio">
     </div>
-    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell num"><span class="hide-numbers">**** &nbsp;**** &nbsp;****&nbsp;</span> 1234</div>
     <div class="cards-cell icon">
       <span class="b-pic-card b-pic-card_3"></span>
     </div>
     <div class="cards-cell name">David Smotritskiy</div>
     <div class="cards-cell date">05/2016</div>
+    <div class="cards-cell time"></div>
   </label>
   <label class="cards-row">
     <div class="cards-cell input">
       <input type="radio">
     </div>
-    <div class="cards-cell num">**** **** **** 1234</div>
+    <div class="cards-cell num"><span class="hide-numbers">**** &nbsp;**** &nbsp;****&nbsp;</span> 1234</div>
     <div class="cards-cell icon">
       <span class="b-pic-card b-pic-card_4"></span>
     </div>
     <div class="cards-cell name">David Smotritskiy</div>
     <div class="cards-cell date">05/2016</div>
+    <div class="cards-cell time"></div>
   </label>
 </div>
 <div class="new-card">
@@ -335,22 +339,25 @@
     </div>
     Add new credit
   </label>
+  <div class="declipe2">
+    <i class="b-close2"></i>
+    Your transaction was declined. Please try another credit card.
+  </div>
 
-  <form class="form" action="#">
-    <div class="b-error declipe2">
-      <i class="b-close"></i>
-      Your transaction was declined. Please try another credit card.
-    </div>
+  <div class="form">
+    <p class="details-ttl">Enter you Credit Card details:</p>
+
     <div class="row">
       <label>Card number</label>
       <span class="control-wrapper">
         <input type="text" placeholder="Enter your card number">
       </span>
       <span class="carts_note">
-        <i class="b-card-big-visa"></i>
-        <i class="b-card-big-mastercard"></i>
-        <i class="b-card-big-maestro"></i>
-        <i class="b-card-big-ae"></i>
+        <span class="b-pic-card b-pic-card_1"></span>
+        <span class="b-pic-card b-pic-card_2"></span>
+        <span class="b-pic-card b-pic-card_3"></span>
+        <span class="b-pic-card b-pic-card_4"></span>
+        <span class="card-more">... and 3 more</span>
       </span>
 
       <div class="alert_message"></div>
@@ -360,6 +367,7 @@
       <label>Name on card</label>
       <span class="control-wrapper">
         <input type="text" placeholder="As it appears on the card">
+        <span class="num-appears">As it appears on the card</span>
       </span>
       <div class="alert_message"></div>
     </div>
@@ -408,38 +416,28 @@
                   <div class="card-nums">1234</div>
                 </div>
               </div>
-
-
             </div>
           </div>
         </div>
       </div>
       <div class="alert_message">enter your security card number</div>
     </div>
-
-    <div class="row_button ">
-      <div class="b-loader">
-        <button class="b-btn size2 green" title="Pay by card">Pay by card</button>
-      </div>
-      <div class="b-loader active">
-        <button style="display: none;" class="b-btn size2 green" title="Pay by card">Pay by card</button>
-      </div>
+  </div>
+  <div class="row_button ">
+    <div class="b-loader">
+      <button class="b-btn size2 green" title="Pay by card">Pay by card</button>
     </div>
-  </form>
+    <div class="b-loader active">
+      <button style="display: none;" class="b-btn size2 green" title="Pay by card">Pay by card</button>
+      <p class="note">To avoid any disruption, the subscription you selected will automatically be <br>
+        extended for a successive renewal period of the same duration and at the original,<br>
+        not discounted, price. You can cancel the automatic payment at any time.
+      </p>
+      <p class="note">* This is the percentage savings when compared to the full price 1 month</p>
+    </div>
+  </div>
 </div>
 
-</div>
-<div class="info">
-  <p>This payment will be shown on your card statement as: PAYMENTWALL.</p>
-  <p style="text-transform: uppercase;">Security guarantees:</p>
-  <p>This site uses 128-bit SSL encryption for your security. Any information collected on this page is safe and protected by special tools. For your security we totally exclude access to customer credit card
-    data in the
-    Internet.
-  </p>
-  <p>To avoid any disruption, the subscription you selected will automatically be extended for a successive renewal period of the same duration and at the original, not discounted, price. You can cancel the
-    automatic
-    payment at any time.
-  </p>
 </div>
 </div>
 </div>
