@@ -2402,9 +2402,10 @@ a.skip-link:hover { text-decoration: none; }
 .b-security-number-popover .popover_title { font-size: 14px; font-weight: 700; padding: 0 0 7px; }
 .b-security-number-popover .popover_content p { font-size: 12px; line-height: 1.3em; }
 /* smaller */
-.b-security-number-popover.smaller { display: none; padding: 13px 18px 12px 4px; position: absolute; right: auto; left: -20px; top: 24px; width: auto; z-index: 100; }
+.b-security-number-popover.smaller { display: none; padding: 13px 18px 12px 4px; position: absolute; right: auto;     left: 35px; top: -64px; width: auto; z-index: 100; }
 .b-security-number-popover.smaller .popover_content { padding-bottom: 8px; }
-.b-security-number-popover.smaller:before { content: ''; width: 20px; height: 14px; top: 2px; left: 22px; background-position: -185px -2px; z-index: 1; }
+.b-security-number-popover.smaller:before { content: ''; width: 20px; height: 14px; top: 70px;
+  left: -11px; background-position: -185px -2px; z-index: 1; transform: rotate(-90deg); -ms-transform: rotate(-90deg)}
 .b-security-number-popover.smaller .smaller-table { display: table; margin: 12px 6px 0 15px; white-space: nowrap; font-size: 14px; }
 .b-security-number-popover.smaller .smaller-cell { display: table-cell; padding-right: 8px; }
 .b-security-number-popover.smaller .card { width: 71px; height: 49px; position: relative; margin-top: 8px; background-color: #bec8d0; border-radius: 5px; }
