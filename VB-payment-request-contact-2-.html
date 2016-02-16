@@ -304,8 +304,10 @@
       <span class="b-pic-card b-pic-card_2"></span>
     </div>
     <div class="cards-cell name">David Smotritskiy</div>
-    <div class="cards-cell date">05/2016 </div>
-    <div class="cards-cell time"><div class="b-time">3:18</div></div>
+    <div class="cards-cell date">05/2016</div>
+    <div class="cards-cell time">
+      <div class="b-time">3:18</div>
+    </div>
   </label>
   <label class="cards-row selected">
     <div class="cards-cell input">
@@ -332,6 +334,11 @@
     <div class="cards-cell time"></div>
   </label>
 </div>
+<script>
+  $('.cards-row.disable input').on('click', function (e) {
+    e.preventDefault();
+  });
+</script>
 <div class="new-card">
   <label class="new-card-control">
     <div class="control-wrap">
