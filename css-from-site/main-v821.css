@@ -2325,8 +2325,11 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .b-norton { width: 119px; height: 64px; }
 .b-popup-payment3-cards .cards-table { width: 778px; display: table; margin: 0 -19px; font-size: 16px; }
 .b-popup-payment3-cards .cards-row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABAQMAAAAhLob3AAAABlBMVEX///+frLaDPcnvAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
-.b-popup-payment3-cards .cards-row:hover, .b-popup-payment3 .cards-row.selected { background-color: #e1e1e1; cursor: pointer; }
-.b-popup-payment3-cards .cards-row.active { background-color: #ddd; }
+.b-popup-payment3-cards .cards-row:hover { background-color: #e1e1e1; cursor: pointer; }
+.b-popup-payment3-cards .cards-row.selected { background-color: #ddd; }
+.b-popup-payment3-cards .cards-row.disable { background-color: #d1d2d3; }
+.b-popup-payment3-cards .cards-row.disable .cards-cell { opacity: 0.6;}
+.b-popup-payment3-cards .cards-row.disable .cards-cell.time { opacity: 1;}
 .b-popup-payment3-cards .cards-cell { display: table-cell; line-height: 52px; }
 .b-popup-payment3-cards .cards-cell.input { width: 22px; padding-left: 20px; }
 .b-popup-payment3-cards .cards-cell.num { width: 180px; text-align: left; }
@@ -2337,7 +2340,7 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .intro-cell.text { padding-left: 0; }
 .b-popup-payment3-cards .new-card-control { display: block; margin: 0 -19px; line-height: 52px; font-weight: bold; font-size: 18px; }
 .b-popup-payment3-cards .new-card-control:hover { background-color: #e1e1e1; cursor: pointer; }
-.b-popup-payment3-cards .new-card-control.selected { background-color: #e1e1e1; }
+.b-popup-payment3-cards .new-card-control.selected { background-color: #ddd; }
 .b-popup-payment3-cards .hide-numbers { position: relative; top: 5px; font-size: 24px; color: #aaaaaa; }
 .b-popup-payment3-cards .control-wrap { width: 20px; padding-left: 20px; }
 .b-popup-payment3-cards .declipe2 { margin: 0 -19px 20px; padding: 16px 20px; background-color: #e74c3c; border-radius: 0; font-size: 18px; font-weight: bold; color: #fff; }
