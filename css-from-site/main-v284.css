@@ -870,10 +870,10 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-inquirer .skip { position: absolute; right: 12px; bottom: 20px; font-size: 16px; line-height: 20px; text-decoration: none; color: #fff; }
 .b-popup-inquirer .skip:hover { text-decoration: underline; }
 .b-popup-inquirer .text { min-height: 100px; padding-top: 8px; box-sizing: border-box; color: #090909; }
-.b-popup-inquirer .button-wrap { margin-top: 10px; }
-.b-popup-inquirer .btn { width: 190px; margin: 0 8px; }
-.b-popup-inquirer .with-cancel { overflow: hidden; }
-.b-popup-inquirer .with-cancel .btn { width: 130px; float: left; margin-left: 0; margin-right: 20px; padding-left: 0; padding-right: 0; }
+.b-popup-inquirer .button-wrap { margin-top: 10px;  overflow: hidden; text-align: center; }
+.b-popup-inquirer .btn { width: 190px; float: left; }
+.b-popup-inquirer .btn:first-child { margin: 0 18px 0 42px; }
+.b-popup-inquirer .with-cancel .btn { width: 130px; margin-right: 20px; padding-left: 0; padding-right: 0; }
 .b-popup-inquirer .b-cancel { margin-top: 13px; float: left; }
 /* popup_dya */
 .b-popup_dya { width: 480px; margin: -200px 0 0 -240px; }
