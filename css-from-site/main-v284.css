@@ -362,7 +362,9 @@ body.pm { background: #fff; }
 .b-name { font-weight: bold; color: #626262; }
 /* loc */
 .b-loc { font-size: 11px; text-transform: uppercase; color: #9ca3a7; }
-/* online, offline */
+/* time1 */
+.b-time1 { display: inline-block; padding-left: 36px; background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAMAAABhTZc9AAABoVBMVEX334b////334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334ZQFDN+AAAAinRSTlMAAO+Y8szRDVTqwLpJ8YbhCe2gQgUTkkrQD23kqccZO/oHiRsILKHZ+fsq/ezXsJaZPuCzAvjCaJFRS8MBW10GdOXEZvwe0vQdn3zUIGnIj6zr89g6nkzdkLSiLRCMqsUVKMYOm9OcsRTnH5du5jchHNXc9SsXzhF19jUKcidfVjCunaQzPbjepU9OAYHgAAABc0lEQVR4Xm3TxWLjQBRE0deS7diBMbPDzMzMOMzMzMzM96tHI6clK3Et+yxq0fVE6YiV/rtVdVKMDR7dAqpEdg4+KaeVgCEyxrEDrlZEdvUUYL0PA2sJrUkzXVSZGsiJyJXvwLUK3TuIaauT+gYYiujeJmItUppWH5ha1X0WJz38GGi1NHhozuJ1GPfwBCwpaRyFEaXiQNt8iTb2wHn5DNMzVvUs0Hu1hBdgU27Asl3dBqzEXV0FvwRgw1ZpB0g5qrYJSwgjUdRmAA47eoSjUsNx/QsnAAxHT1IjUU5rlTPAWUfPYUgvHRe0ykX/paSjl8lLAaq1enK9k5uSg1tlNQi35U43DffKaTukRcWgr4w+gIdKVF0HPNqnWR9UW6qagK69+hQq7W20PIPnLzz6MgB07a7uFXSmXrv4Jgpv3+ldvc8DoQ8fbWr+lAH44u452w9A5uu3Qm03QN8Pz9p//sJNILjvFurN2t89PiPs//PXuaN/Rk90KzwrGYYAAAAASUVORK5CYII=); font-size: 20px; line-height: 29px; color: #f7df86; }
+   /* online, offline */
 .b-online, .b-offline {display: inline-block;padding: 2px 3px;font-size: 11px;line-height: 1;text-transform: uppercase;text-align: center; }
 .b-online { background-color: #31ae27;color: #fff; }
 .b-offline { background-color: #f4463f; color: #fff; }
@@ -537,6 +539,19 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-content.pp .tariff_bv .star { background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAKBAMAAACQ3rmwAAAAMFBMVEX////334b334b334b334b334b334b334b334b334b334b334b334b334b334b334YvoaszAAAAD3RSTlMAQO+fEFBgIM+/MN+vcI/NiAC0AAAAR0lEQVR4Xh3FQQ2AIABA0T+cziNEsAENxCQ2cDbwYg8tYQ7NQoHvxrs8YKAJsbVmYEnXlHY6td4w6wmMWoCgETie9wO20md+69QRmjul+RYAAAAASUVORK5CYII=); }
 .b-content.pp.discount .old_price { font-size: 16px; color: #f7df86; }
 .b-content.pp.discount .ad2-table { width: 100%; display: table; min-height: 50px; margin-bottom: 15px; font-weight: bold; font-size: 20px; text-align: center; text-transform: uppercase; color: #ffffff; }
+.b-content.pp.discount .ad2-table.timer .ad2-cell.off {
+   width: 110px;
+   font-size: 20px;
+}
+.b-content.pp.discount .ad2-table.timer .ad2-cell.text {
+   font-size: 17px;
+   text-align: left;
+   padding:0 15px;
+}
+.b-content.pp.discount .ad2-table.timer .b-time1 {
+   float: right;
+   margin:-4px 0;
+}
 .b-content.pp.discount .ad2-cell { display: table-cell; vertical-align: middle; background-color: #e74c3c; }
 .b-content.pp.discount .ad2-cell.off { width: 155px; border-radius: 5px 0 0 5px; font-size: 28px; color: #f7df86; background-color: #c0392b; }
 .b-content.pp.discount .ad2-cell.text { border-radius: 0 5px 5px 0; }
@@ -1298,10 +1313,15 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-sign_in .error { position: absolute; font-size: 12px; line-height: 1em; color: #E74C3C; left: 0; right: 0; bottom: 80px; text-align: center; }
 /* user_profile */
 .b-user_profile { background-color: #fff; border-radius: 0 3px 3px 3px; padding-bottom: 15px; }
-.b-user_profile .user_photo_wrap { position: relative; margin-bottom: 18px; }
+.b-user_profile .user_photo_wrap { position: relative; }
 .b-user_profile .user_photo { width: 333px; display: block; }
 .b-user_profile .star { height: 33px; width: 34px; position: absolute; top: 3px; left: 5px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAhCAMAAACLDYleAAAANlBMVEX3dwb////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb+DoiuAAAAEXRSTlMAABAgMEBQYHCAj5+vv8/f7/4ucL8AAADLSURBVHhehdFRssMgCEBRUDRpYlT2v9n3aGVapSX3N2cIDoCI8FneAOcMKfWOBOZ4Q3bm44Y05u4T4v+yS04hxSWdpeCQjZ/tDrlepP4mkUc0EUrvDiUlvSP5vd8GmLsvZBdyTM8oxDGd9EVUfwolEL6aJkLJV1PDfIBwWWEOUIy4Ixdasr7ckshLyRBzq4ch50ouQ5p+KWpWEvVsAHlomoiuUoLwcLC0L+QcIyTE1MQvpDEfAZSgDOozidwSaChRZZpIHiOUSI+xzB9XeR5s2K3AUAAAAABJRU5ErkJggg==); }
 .b-user_profile .online { position: absolute; bottom: 0; right: 0; padding: 0 6px; background-color: #31ae27; font-size: 14px; font-weight: bold; line-height: 23px; text-transform: uppercase; color: #fff; }
+.b-user_profile .progress-wrap { width: 100%; height: 50px; display: table; background-color: #f0f2f4; }
+.b-user_profile .progress-wrap-cell { display: table-cell; vertical-align: middle; }
+.b-user_profile .progress-wrap-cell:first-child { padding-left: 10px; }
+.b-user_profile .progress-wrap-cell:last-child { padding-right: 10px; }
+.b-user_profile .progress-percent { width: 100px; text-align: right; color: #8d9eab; }
 .b-user_profile .item_prev { height: 75px; width: 75px; }
 .b-user_profile .item_prev_small { border: 12px solid #D8E0E6; height: 51px; width: 51px; }
 .b-user_profile .photos:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
@@ -2223,7 +2243,13 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-discount-50 .cell1 { border-radius: 5px 0 0 5px; background-color: #c0392b; font-size: 24px; color: #f7df86; white-space: nowrap; }
 .b-discount-50 .cell2 { background-color: #e74c3c; font-size: 20px; }
 .b-discount-50 .cell3 { width: 230px; padding: 0; border-radius: 0 5px 5px 0; background-color: #31ae27; text-transform: none; text-decoration: underline; font-size: 18px; color: #fff; white-space: nowrap; }
-/* Next CSS write programmers */
+/* mod type2 */
+.b-discount-50.type2 .cell { height: 50px; }
+.b-discount-50.type2 .cell1 { font-size: 20px; }
+.b-discount-50.type2 .cell2 { padding-left: 15px; padding-right: 15px; font-size: 17px; text-align: left; }
+.b-discount-50.type2 .cell3 { font-size: 20px; }
+.b-discount-50.type2 .b-time1 { margin: -4px 0; float: right; }
+   /* Next CSS write programmers */
 .moxie-shim, .moxie-shim input[type="file"] { cursor: pointer; }
 .jspScrollpane { position: relative; overflow: hidden; }
 .jspScrollable { position: relative; overflow: hidden; }
