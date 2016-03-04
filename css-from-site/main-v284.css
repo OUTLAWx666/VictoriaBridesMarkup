@@ -366,6 +366,21 @@ body.pm { background: #fff; }
 .magnifier:before { display: inline-block; content: ''; width:19px; height:19px; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAMAAABFjsb+AAACUlBMVEUAAABubm7b29uSkpJwcHBdXV1fX19sbGza2toFBQVhYWFkZGQAAACXl5eMjIywsLCRkZGJiYmdnZ1xcXGpqane3t4DAwMBAQFnZ2d1dXWurq6BgYF+fn7Z2dlqamp/f39bW1tgYGAHBwdeXl6ZmZnk5ORpaWmfn59iYmIrKyuIiIhRUVG1tbWQkJBlZWVAQEAqKioCAgIAAAAnJyeCgoJbW1tiYmJHR0dNTU0dHR0DAwMtLS0lJSXY2NjMzMxzc3MyMjI3NzdPT09gYGC2trYPDw9BQUEnJyc8PDxVVVWbm5sEBAR0dHQjIyNDQ0ODg4NUVFSNjY1gYGAMDAxzc3NKSkpgYGALCwsQEBDX19cjIyNAQECPj4/g4OAMDAwHBwc/Pz8cHBx4eHiCgoKGhoaYmJgJCQkSEhJ/f3/S0tIRERHOzs6Hh4coKCgDAwNcXFxvb2+Kioqzs7N1dXU1NTU4ODinp6eEhIQQEBAkJCRycnJiYmKNjY1JSUlVVVXV1dWampopKSnKysq4uLhnZ2ctLS2GhoYGBgZjY2M8PDwoKChZWVl4eHgQEBB8fHy+vr6ysrK8vLxAQEDW1tYyMjJNTU2lpaVycnJaWlo2NjYICAgPDw96enrPz8/AwMAZGRkcHBwKCgoAAAAdHR0kJCTT09PU1NQlJSUQEBAAAAAJCQlzc3OKioqWlpZVVVUnJycLCwsICAgbGxtFRUVhYWEvLy8AAAAsLCx7e3t5eXl2dnZcXFx2dnZ9fX1VVVU0NDQmJiaUlJQ1NTU+Pj4HBwdJSUmw+b5cAAAAxnRSTlMmAAAAAAAAAAAlAAAAAAAAAAAAAAAAJSYAAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAAAJiUcAwYRBBYbIxoaAAAAEhATBwAfABUAAAAjAAANCQACEiICAAkjIgAXFwAAIyQRGwAAAAAkIQEAHwAAHSYGAAEABhgQBQEhHQgGABQVAAAbAQAOGwclCwMDAAcjDAAAABgAEQMAAAIOIiAAAAIeHSITHgAAABggFCMBAAAKGSIjHAwBExUAAAAAAgUGAxMTABQSIhVijq5TAAABVklEQVR4Xi3MU3flAAAA4Ulybau2bdu2ze1uu7Rt27Zt4381p+d+j/MwaIYuJOeUFc5V5ZVmqRROjQwxyrE+nCXamqdRGlEUOduXC9CQ7wZ273EWBQVRnA2MdR8+UtEPDFSazWY2jOAejQ2sjhuva9ZCS6LPRzsUOEoaU1IVwWvKYZ0l3koGaVueWwZrm0J21bcN09H56TM99K6WLMbWrpjISNtmXFu9dqaZmZ0ImAyQpoxG2zwLK1epuYtrrSQJnmC1ybpxE08yk7axHXbsjEnQC6Hevftgv7zggJuDh8ISPELE0WPHSTtxMvEUp89A+rnz0RcvXb4CV6+FBJq4fiMDCL956zZA+h2D4R73H2Q+xO8R8NgQx7Llz3QvXr7Sal+/efvuPfDho9xWKL8ovn77/kOv1+l+Ar+Wml2tM/1WxqpUEcIfcPlbWHxSqNyU0Yq///4vAi2lVgrDigIoAAAAAElFTkSuQmCC); }
 /* time1 */
 .b-time1 { display: inline-block; padding-left: 36px; background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAMAAABhTZc9AAABoVBMVEX334b////334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334b334ZQFDN+AAAAinRSTlMAAO+Y8szRDVTqwLpJ8YbhCe2gQgUTkkrQD23kqccZO/oHiRsILKHZ+fsq/ezXsJaZPuCzAvjCaJFRS8MBW10GdOXEZvwe0vQdn3zUIGnIj6zr89g6nkzdkLSiLRCMqsUVKMYOm9OcsRTnH5du5jchHNXc9SsXzhF19jUKcidfVjCunaQzPbjepU9OAYHgAAABc0lEQVR4Xm3TxWLjQBRE0deS7diBMbPDzMzMOMzMzMzM96tHI6clK3Et+yxq0fVE6YiV/rtVdVKMDR7dAqpEdg4+KaeVgCEyxrEDrlZEdvUUYL0PA2sJrUkzXVSZGsiJyJXvwLUK3TuIaauT+gYYiujeJmItUppWH5ha1X0WJz38GGi1NHhozuJ1GPfwBCwpaRyFEaXiQNt8iTb2wHn5DNMzVvUs0Hu1hBdgU27Asl3dBqzEXV0FvwRgw1ZpB0g5qrYJSwgjUdRmAA47eoSjUsNx/QsnAAxHT1IjUU5rlTPAWUfPYUgvHRe0ykX/paSjl8lLAaq1enK9k5uSg1tlNQi35U43DffKaTukRcWgr4w+gIdKVF0HPNqnWR9UW6qagK69+hQq7W20PIPnLzz6MgB07a7uFXSmXrv4Jgpv3+ldvc8DoQ8fbWr+lAH44u452w9A5uu3Qm03QN8Pz9p//sJNILjvFurN2t89PiPs//PXuaN/Rk90KzwrGYYAAAAASUVORK5CYII=); font-size: 20px; line-height: 29px; color: #f7df86; }
+/* loader-spin */
+.loader-spin { width: 40px; height: 40px; display: inline-block; background-color: #dddddd; border-radius: 50%; position: relative; }
+.loader-spin__in { height: 100%; width: 100%; display: block; background-color: #979797; border-radius: 50%; clip: rect(0px, 20px, 20px, 0px); position: absolute; -webkit-animation: loader-spin .5s infinite linear; animation: loader-spin .5s infinite linear; }
+@-webkit-keyframes loader-spin {
+   24.99% { clip: rect(0, 20px, 20px, 0) }
+   25%, 49.99% { clip: rect(0, 40px, 20px, 20px) }
+   50%, 74.99% { clip: rect(20px, 40px, 40px, 20px) }
+   75%, 99.99% { clip: rect(20px, 20px, 40px, 0) }
+}
+@keyframes loader-spin {
+   24.99% { clip: rect(0, 20px, 20px, 0) }
+   25%, 49.99% { clip: rect(0, 40px, 20px, 20px) }
+   50%, 74.99% { clip: rect(20px, 40px, 40px, 20px) }
+   75%, 99.99% { clip: rect(20px, 20px, 40px, 0) }
+}
    /* online, offline */
 .b-online, .b-offline {display: inline-block;padding: 2px 3px;font-size: 11px;line-height: 1;text-transform: uppercase;text-align: center; }
 .b-online { background-color: #31ae27;color: #fff; }
@@ -894,6 +909,24 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-inquirer .btn:first-child { margin: 0 18px 0 42px; }
 .b-popup-inquirer .with-cancel .btn { width: 130px; margin-right: 20px; padding-left: 0; padding-right: 0; }
 .b-popup-inquirer .b-cancel { margin-top: 13px; float: left; }
+/* popup-credits */
+.b-popup-credits { width: 480px; margin: -200px 0 0 -240px; }
+.b-popup-credits .container { text-align: left; }
+.b-popup-credits .list-progress { padding: 0 28px; font-size: 18px; }
+.b-popup-credits .progress { margin: 0 10px; background-color: #808588; border-radius: 3px; }
+.b-popup-credits .progress__line { background-color: #31ae27; border-radius: 3px; }
+.b-popup-credits .rules { border-radius: 0 0 10px 10px; padding: 10px 25px 20px; background-color: #e2e2e2; font-size: 14px; color: #5c5c5c; }
+.b-popup-credits .rules-ttl { font-size: 18px; color: #000; }
+.b-popup-credits .rules p { margin: 4px 0; }
+.b-popup-credits .pgs { position: relative; margin: 25px 0; padding-left: 50px; color: #5c5c5c; }
+.b-popup-credits .loader-spin { position: absolute; left: 0; top: 50%; margin-top: -20px; }
+.b-popup-credits .pgs-done { color: #000; }
+.b-popup-credits .pgs-done .loader-spin { background-color: #67c100; line-height: 40px; text-align: center; }
+.b-popup-credits .pgs-done .loader-spin__in { display: none; }
+.b-popup-credits .pgs-done .loader-spin:before { position: relative; left: -2px; content: '✔'; color: #fff; }
+.b-popup-credits .button-wrap { padding-top: 5px; overflow: hidden; }
+.b-popup-credits .btn { float: left; }
+.b-popup-credits .b-cancel { float: left; margin: 14px 0 0 20px; }
 /* popup_dya */
 .b-popup_dya { width: 480px; margin: -200px 0 0 -240px; }
 .b-popup_dya .popup_title { padding-bottom: 5px; }

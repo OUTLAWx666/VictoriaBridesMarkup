@@ -631,24 +631,50 @@
 <div id="vb-overlay" class="vb-overlay" style="">
   <div class="alpha-bg" data-target="bg"></div>
   <div class="content-wrap" data-target="content">
-    <div class="b-popup b-popup-inquirer active">
-      <i class="popup_close" title="close"></i>
+    <div class="b-popup b-popup-credits active">
       <div class="popup_content">
-        <h1 class="popup_title">Question 1/7</h1>
+        <h1 class="popup_title">Processing</h1>
 
         <div class="container">
           <div class="progress">
             <div class="progress__line" style="width: 30%"></div>
           </div>
+          <ul class="list-progress">
+            <li class="pgs pgs-done">
+              <i class="loader-spin"><span class="loader-spin__in"></span></i>
+              No previos Free credits addition found
+            </li>
+            <li class="pgs pgs-done">
+              <i class="loader-spin"><span class="loader-spin__in"></span></i>
+              Checking for available Free credits...
+            </li>
+            <li class="pgs">
+              <i class="loader-spin"><span class="loader-spin__in"></span></i>
+              Requesting a permission to acquire Free credits
+            </li>
+            <li class="pgs">
+              <i class="loader-spin"><span class="loader-spin__in"></span></i>
+              Applying benefits of Free credits to your account
+            </li>
+          </ul>
 
-          <div class="text">
-            Does your partner’s weight matter to you?
-          </div>
-
-          <div class="button-wrap with-cancel">
-            <button class="b-btn green btn" title="Yes">Yes</button>
-            <button class="b-btn grey btn" title="No">No</button>
-            <a class="b-cancel" href>Cancel</a>
+          <div class="rules">
+            <p class="rules-ttl">
+              You must obey the following RULES:
+            </p>
+            <p>
+              Not every of our users can get Free credits. You must keep it in secret.
+            </p>
+            <p>
+              You will get only 20 credits for chatting with girls. Spend them wisely.
+            </p>
+            <p>
+              You will not get free credits anymore. To have more, you need to buy them.
+            </p>
+            <div class="button-wrap">
+              <button class="b-btn green btn" title="Get free credits">Get free credits</button>
+              <a class="b-cancel" href>Cancel</a>
+            </div>
           </div>
         </div>
       </div>
