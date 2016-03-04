@@ -910,7 +910,7 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-inquirer .with-cancel .btn { width: 130px; margin-right: 20px; padding-left: 0; padding-right: 0; }
 .b-popup-inquirer .b-cancel { margin-top: 13px; float: left; }
 /* popup-credits */
-.b-popup-credits { width: 480px; margin: -200px 0 0 -240px; }
+.b-popup-credits { width: 480px; margin: -300px 0 0 -240px; }
 .b-popup-credits .container { text-align: left; }
 .b-popup-credits .list-progress { padding: 0 28px; font-size: 18px; }
 .b-popup-credits .progress { margin: 0 10px; background-color: #808588; border-radius: 3px; }
