@@ -320,7 +320,7 @@ $(function () {
 
       setTimeout(function () {
         $(window).resize();
-      }, 500);
+      });
 
     }());
 
