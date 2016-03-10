@@ -728,7 +728,8 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .card-pay__cvv { width: 54px; border-color: #28bb4e; color: #34b037; }
 .card-pay__cvv-wrap { position: relative; }
 .card-pay__what-cvv { font-size: 14px; color: #2c90ff; }
-.card-pay__cvv-wrap .b-security-number-popover { top: -60px !important; left: 100% !important; }
+.card-pay__cvv-wrap .b-security-number-popover.smaller { top: 50px; left: -81px; }
+.card-pay__cvv-wrap .b-security-number-popover.smaller:before { transform: none; top: 2px; left: 98px; }
    /* prfs */
 .b-prfs { margin: 0 -5px 8px; }
 .b-prfs:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
