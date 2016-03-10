@@ -711,11 +711,12 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .card-pay__icons { height: 44px; width: 100%; display: table; text-align: center; }
 .card-pay__icons-cell { display: table-cell; vertical-align: middle; }
 .card-pay__nums:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
-.card-pay__num-wrap { width: 52px; position: relative; margin-right: 10px; float: left; }
+.card-pay__num-wrap { width: 52px; position: relative; margin-right: 10px; float: left; z-index:1; }
 .card-pay__num-wrap:last-child { margin-right: 0; }
 .card-pay__num { width: 100%; }
-.card-pay__error { width: 270px; position: absolute; left: 50%; top: 45px; margin-left: -135px; padding: 10px; box-sizing: border-box; background-color: #fff; box-shadow: 0 0 7px rgba(0, 0, 0, 0.6); border-radius: 5px; text-align: center; font-size: 13px; line-height: 1.4; z-index: 1; }
+.card-pay__error { width: 270px; position: absolute; left: 50%; top: 45px; margin-left: -135px; padding: 10px; box-sizing: border-box; background-color: #fff; box-shadow: 0 0 7px rgba(0, 0, 0, 0.6); border-radius: 5px; text-align: center; font-size: 13px; line-height: 1.4;/* z-index: 1; */}
 .card-pay__error:before { width: 0; height: 0; position: absolute; top: -7px; left: 50%; margin-left: -10px; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 7px solid #fff; content: ''; }
+.card-pay__error:after { width:15px; height:15px; position: absolute; top: -4px; left:50%; margin-left:-7.5px; content: ''; box-shadow: 0 0 15px rgba(0, 0, 0, 0.6); transform: rotateZ(45deg); z-index: -1; }
 .card-pay__error-text { color: #e63a3a; }
 .card-pay__date { width: 100%; display: table; margin: 10px 0; }
 .card-pay__date-cell { display: table-cell !important; }
