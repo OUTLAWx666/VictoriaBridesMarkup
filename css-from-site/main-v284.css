@@ -728,8 +728,8 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .card-pay__cvv { width: 54px; border-color: #28bb4e; color: #34b037; }
 .card-pay__cvv-wrap { position: relative; }
 .card-pay__what-cvv { font-size: 14px; color: #2c90ff; }
-.card-pay__cvv-wrap .b-security-number-popover.smaller { top: 50px; left: -81px; }
-.card-pay__cvv-wrap .b-security-number-popover.smaller:before { transform: none; top: 2px; left: 98px; }
+.card-pay__cvv-wrap .b-security-number-popover.smaller { top: 50px;left: -10px;}
+.card-pay__cvv-wrap .b-security-number-popover.smaller:before { transform: none; top: 2px;left: 28px;}
    /* prfs */
 .b-prfs { margin: 0 -5px 8px; }
 .b-prfs:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
@@ -1091,17 +1091,18 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-payment4 .imp { color: #e74c3c; }
 .b-popup-payment4 .table { width: 100%; display: table; font-size: 14px;; }
 .b-popup-payment4 .row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABAQMAAAAhLob3AAAABlBMVEX///+frLaDPcnvAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
-.b-popup-payment4 .row.selected { background-color: #dae4ec; }
-.b-popup-payment4 .cell { display: table-cell; vertical-align: middle; padding: 5px 0; }
+.b-popup-payment4 .row.selected { background-color: #fedbd8; }
+.b-popup-payment4 .cell { display: table-cell; vertical-align: middle; padding: 4px 0; }
 .b-popup-payment4 .cell.control { width: 25px; text-align: center; }
 .b-popup-payment4 .cell.credit { width: 145px; }
 .b-popup-payment4 .cell.economy { width: 150px; font-weight: bold; }
 .b-popup-payment4 .cell.price { width: 75px; }
 .b-popup-payment4 .cell.old-price { width: 55px; text-decoration: line-through; color: #808588; }
 .b-popup-payment4 .cell.save { color: #e74c3c; text-align: right; }
-.b-popup-payment4 .label { width: 48px; border-radius: 2px; margin-left: 4px; display: inline-block; vertical-align: middle; font-size: 10px; line-height: 9px; text-align: center; color: #fff; padding: 2px 0; text-transform: uppercase; }
-.b-popup-payment4 .label.mp { background-color: #e67e22; }
-.b-popup-payment4 .label.bv { background-color: #e74c3c; }
+.b-popup-payment4 .label { width: 48px; border-radius: 2px; margin-left: 4px; display: inline-block; vertical-align: middle; font-size: 10px; line-height: 9px; text-align: center; color: #fff; padding: 3px 1px; text-transform: uppercase; }
+.b-popup-payment4 .label.color1 { background-color: #2ecc71; }
+.b-popup-payment4 .label.color2 { background-color: #ea7c1d; }
+.b-popup-payment4 .label.color3 { background-color: #e84c3d; }
 .b-popup-payment4 .charge { display: block; font-size: 12px; color: #808588; margin: 24px 0; }
 .b-popup-payment4 .control-charge { margin-right: 5px; vertical-align: text-bottom; }
 .b-popup-payment4 .b-cancel { position: relative; top: 14px; vertical-align: top; margin-left: 25px; color: #3498db; }
