@@ -2343,8 +2343,9 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .new-card-control.selected { background-color: #ddd; }
 .b-popup-payment3-cards .hide-numbers { position: relative; top: 5px; font-size: 24px; color: #aaaaaa; }
 .b-popup-payment3-cards .control-wrap { width: 20px; padding-left: 20px; }
-.b-popup-payment3-cards .declipe2 { margin: 0 -19px 20px; padding: 16px 20px; background-color: #e74c3c; border-radius: 0; font-size: 18px; font-weight: bold; color: #fff; }
-.b-popup-payment3-cards .declipe2 .b-close2 { margin-right: 5px; }
+.b-popup-payment3-cards .declipe2 { position: relative; margin: 0 -19px 20px; padding: 16px 20px 16px 42px; background-color: #e74c3c; border-radius: 0; font-size: 18px; font-weight: bold; color: #fff; }
+.b-popup-payment3-cards .declipe2 .b-close2 { position: absolute; left: 20px; top: 15px; }
+.b-popup-payment3-cards .declipe2.mod2 { background-color: #3cb1d4; }
 .b-popup-payment3-cards .form { padding-top: 0; border-top: 0; }
 .b-popup-payment3-cards .details-ttl { margin-bottom: 20px; font-size: 18px; font-weight: bold; }
 .b-popup-payment3-cards .carts_note { padding: 0 0 0 8px !important; }
