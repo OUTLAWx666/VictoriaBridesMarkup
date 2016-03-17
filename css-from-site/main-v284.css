@@ -962,7 +962,13 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-credits .button-wrap { padding-top: 5px; overflow: hidden; }
 .b-popup-credits .btn { float: left; }
 .b-popup-credits .b-cancel { float: left; margin: 14px 0 0 20px; }
-/* popup_dya */
+/* popup-picked-up */
+.b-popup-picked-up { width: 770px; margin: -300px 0 0 -385px; text-align: left; }
+.b-popup-picked-up .popup_content { background-color: #f0f2f4; }
+.b-popup-picked-up .b-prfs { margin: 0; padding: 0 0 1px 10px; }
+.b-popup-picked-up .item { border: 1px solid #e8e8e8; }
+.b-popup-picked-up .bt_chat { display: block; margin: 20px auto 0px; padding-left: 0; padding-right: 0; width: 160px; }
+   /* popup_dya */
 .b-popup_dya { width: 480px; margin: -200px 0 0 -240px; }
 .b-popup_dya .popup_title { padding-bottom: 5px; }
 .b-popup_dya .payment_container { font-size: 16px; padding: 0 25px 20px; }
