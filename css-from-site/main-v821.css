@@ -158,6 +158,11 @@ body.pm { background: #fff; }
 .b-btn.lightblue:hover { background-color: #afb9c0; border-bottom-color: #9ca4ac; }
 .b-btn.lightblue:active { background-color: #afb9c0; border-top-color: #9ca4ac; }
 .b-btn.lightblue.disable, .b-btn.lightblue.disable:active { background-color: #ccd6de; border-bottom-color: #c4cfd7; }
+/* mod white*/
+.b-btn.white { background-color: #fff; border-bottom-color: #636363; color: #000000; }
+.b-btn.white:hover { background-color: #fff; border-bottom-color: #636363; }
+.b-btn.white:active { background-color: #fff; border-top-color: #636363; }
+.b-btn.white.disable, .b-btn.lightblue.disable:active { background-color: #fff; border-bottom-color: #636363; }
 /* mod fbbtn*/
 .b-btn.fbbtn { position: relative; padding-left: 40px; padding-right: 20px; }
 .b-btn.fbbtn:before { height: 26px; width: 13px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAaBAMAAACeFstsAAAAIVBMVEX///////////////////////////////////////////9/gMdvAAAACnRSTlMAECAwQFBwn7/fUX962QAAAEhJREFUeF5jAAIVFxcBIBW5atUqBwYG1lUQmhNKa0Fpr1WrihkYwLQDEm2StWpVClB/16pVq1atgtEMEHollF4BU09DWgTsCwAU5DtMzApwugAAAABJRU5ErkJggg==); position: absolute; top: 10px; left: 20px; content: ''; }
@@ -2349,7 +2354,12 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .control-wrap { width: 20px; padding-left: 20px; }
 .b-popup-payment3-cards .declipe2 { position: relative; margin: 0 -19px 20px; padding: 16px 20px 16px 42px; background-color: #e74c3c; border-radius: 0; font-size: 18px; font-weight: bold; color: #fff; }
 .b-popup-payment3-cards .declipe2 .b-close2 { position: absolute; left: 20px; top: 15px; }
-.b-popup-payment3-cards .declipe2.mod2 { background-color: #3cb1d4; }
+.b-popup-payment3-cards .declipe2.mod2 { background-color: #3cb1d4; font-weight: normal; line-height: 1.3; }
+.b-popup-payment3-cards .declipe2.mod2 .bt_rml { width: 160px; padding-left: 0; padding-right: 0; text-transform: none; float: right; }
+.b-popup-payment3-cards .declipe2-table { display: table; }
+.b-popup-payment3-cards .declipe2-cell { display: table-cell; vertical-align: top; }
+.b-popup-payment3-cards .declipe2-cell:last-child { padding-left: 30px; }
+.b-popup-payment3-cards .declipe2.mod2 .follow_link { color: #fabc35; }
 .b-popup-payment3-cards .form { padding-top: 0; border-top: 0; }
 .b-popup-payment3-cards .details-ttl { margin-bottom: 20px; font-size: 18px; font-weight: bold; }
 .b-popup-payment3-cards .carts_note { padding: 0 0 0 8px !important; }
