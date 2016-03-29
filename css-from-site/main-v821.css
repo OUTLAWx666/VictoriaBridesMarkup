@@ -2360,6 +2360,9 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .declipe2-cell { display: table-cell; vertical-align: top; }
 .b-popup-payment3-cards .declipe2-cell:last-child { padding-left: 30px; }
 .b-popup-payment3-cards .declipe2.mod2 .follow_link { color: #fabc35; }
+.b-popup-payment3-cards .selected-credits { margin-bottom: 20px; font-size: 14px; }
+.b-popup-payment3-cards .selected-credits a { font-weight: bold; }
+.b-popup-payment3-cards .selected-credits:before { width: 22px; height: 22px; display: inline-block; margin-right: 5px; background-color: #86868c; color: #fff; text-align: center; line-height: 22px; font-size: 18px; font-style: italic; border-radius: 50%; font-family: Georgia; content: 'i'; }
 .b-popup-payment3-cards .form { padding-top: 0; border-top: 0; }
 .b-popup-payment3-cards .details-ttl { margin-bottom: 20px; font-size: 18px; font-weight: bold; }
 .b-popup-payment3-cards .carts_note { padding: 0 0 0 8px !important; }
