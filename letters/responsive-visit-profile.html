@@ -45,6 +45,96 @@
       max-width: 600px;
       margin: 0 auto;
     }
+    .outer {
+      Margin: 0 auto;
+      width: 100%;
+      max-width: 600px;
+    }
+    .full-width-image img {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+    .inner {
+      padding: 10px;
+    }
+    p {
+      Margin: 0;
+    }
+    a {
+      color: #ee6a56;
+      text-decoration: underline;
+    }
+    .h1 {
+      font-size: 21px;
+      font-weight: bold;
+      Margin-bottom: 18px;
+    }
+    .h2 {
+      font-size: 18px;
+      font-weight: bold;
+      Margin-bottom: 12px;
+    }
+    .contents {
+      width: 100%;
+    }
+    /* One column layout */
+    .one-column .contents {
+      text-align: left;
+    }
+    .one-column p {
+      font-size: 14px;
+      Margin-bottom: 10px;
+    }
+    /*Two column layout*/
+    .two-column {
+      text-align: center;
+      font-size: 0;
+    }
+    .two-column .column {
+      width: 100%;
+      max-width: 300px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .two-column .contents {
+      font-size: 14px;
+      text-align: left;
+    }
+    .two-column img {
+      width: 100%;
+      max-width: 280px;
+      height: auto;
+    }
+    .two-column .text {
+      padding-top: 10px;
+    }
+
+    /*Three column layout*/
+    .three-column {
+      text-align: center;
+      font-size: 0;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    .three-column .column {
+      width: 100%;
+      max-width: 200px;
+      display: inline-block;
+      vertical-align: top;
+    }
+    .three-column .contents {
+      font-size: 14px;
+      text-align: center;
+    }
+    .three-column img {
+      width: 100%;
+      max-width: 180px;
+      height: auto;
+    }
+    .three-column .text {
+      padding-top: 10px;
+    }
   </style>
 </head>
 <body>
@@ -58,8 +148,258 @@
     <![endif]-->
     <table class="outer" align="center">
       <tr>
-        <td>
-          [content goes here]
+        <td class="full-width-image">
+          <img src="images/header.jpg" width="600" alt="" />
+        </td>
+      </tr>
+      <tr>
+        <td class="one-column">
+          <table width="100%">
+            <tr>
+              <td class="inner contents">
+                <p class="h1">Lorem ipsum dolor sit amet</p>
+                <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas
+                  scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                </p>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <!--<tr>-->
+        <!--<td class="two-column">-->
+          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
+          <!--<table width="100%">-->
+            <!--<tr>-->
+              <!--<td width="50%" valign="top">-->
+          <!--<![endif]&ndash;&gt;-->
+          <!--<div class="column">-->
+            <!--<table width="100%">-->
+              <!--<tr>-->
+                <!--<td class="inner">-->
+                  <!--<table class="contents">-->
+                    <!--<tr>-->
+                      <!--<td>-->
+                        <!--<img src="i/content/turtle.jpg" width="280" alt="" />-->
+                      <!--</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                      <!--<td class="text">-->
+                        <!--Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.-->
+                      <!--</td>-->
+                    <!--</tr>-->
+                  <!--</table>-->
+                <!--</td>-->
+              <!--</tr>-->
+            <!--</table>-->
+          <!--</div>-->
+          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
+          <!--</td>-->
+          <!--<td width="50%" valign="top">-->
+          <!--<![endif]&ndash;&gt;-->
+          <!--<div class="column">-->
+            <!--<table width="100%">-->
+              <!--<tr>-->
+                <!--<td class="inner">-->
+                  <!--<table class="contents">-->
+                    <!--<tr>-->
+                      <!--<td>-->
+                        <!--<img src="i/content/turtle.jpg" width="280" alt="" />-->
+                      <!--</td>-->
+                    <!--</tr>-->
+                    <!--<tr>-->
+                      <!--<td class="text">-->
+                        <!--Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.-->
+                      <!--</td>-->
+                    <!--</tr>-->
+                  <!--</table>-->
+                <!--</td>-->
+              <!--</tr>-->
+            <!--</table>-->
+          <!--</div>-->
+          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
+          <!--</td>-->
+          <!--</tr>-->
+          <!--</table>-->
+          <!--<![endif]&ndash;&gt;-->
+        <!--</td>-->
+      <!--</tr>-->
+      <tr>
+        <td class="three-column">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="100%">
+            <tr>
+              <td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <table class="contents">
+                    <tr>
+                      <td>
+                        <img src="i/content/turtle.jpg" width="180" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text">
+                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <table class="contents">
+                    <tr>
+                      <td>
+                        <img src="i/content/turtle.jpg" width="180" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text">
+                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner">
+                  <table class="contents">
+                    <tr>
+                      <td>
+                        <img src="i/content/turtle.jpg" width="180" alt="" />
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="text">
+                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+        </td>
+      </tr>
+      <tr>
+        <td class="three-column">
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="100%">
+            <tr>
+              <td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          <tr>
+            <td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td><td width="200" valign="top">
+          <![endif]-->
+          <div class="column">
+            <table width="100%">
+              <tr>
+                <td class="inner contents">
+                  <p class="h2">Heading</p>
+                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
+                  <p><a href="#">Read more</a></p>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
         </td>
       </tr>
     </table>
