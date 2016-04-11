@@ -1,141 +1,167 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <!--[if !mso]><!-->
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!--<![endif]-->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title></title>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <!--[if (gte mso 9)|(IE)]>
-  <style type="text/css">
-    table { border-collapse: collapse; }
-  </style>
-  <![endif]-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!--<![endif]-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title></title>
+<!--[if (gte mso 9)|(IE)]>
+<style type="text/css">
+  table { border-collapse: collapse; }
+</style>
+<![endif]-->
 
-  <style>
-    /* Basics */
-    body {
-      margin: 0 !important;
-      padding: 0;
-      background-color: #ffffff;
-    }
-    table {
-      border-spacing: 0;
-      font-family: sans-serif;
-      color: #333333;
-    }
-    td {
-      padding: 0;
-    }
-    img {
-      border: 0;
-    }
-    div[style*="margin: 16px 0"] {
-      margin: 0 !important;
-    }
-    .wrapper {
-      width: 100%;
-      table-layout: fixed;
-      -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
-    }
-    .webkit {
-      max-width: 600px;
-      margin: 0 auto;
-    }
-    .outer {
-      Margin: 0 auto;
-      width: 100%;
-      max-width: 600px;
-    }
-    .full-width-image img {
-      width: 100%;
-      max-width: 600px;
-      height: auto;
-    }
-    .inner {
-      padding: 10px;
-    }
-    p {
-      Margin: 0;
-    }
-    a {
-      color: #ee6a56;
-      text-decoration: underline;
-    }
-    .h1 {
-      font-size: 21px;
-      font-weight: bold;
-      Margin-bottom: 18px;
-    }
-    .h2 {
-      font-size: 18px;
-      font-weight: bold;
-      Margin-bottom: 12px;
-    }
-    .contents {
-      width: 100%;
-    }
-    /* One column layout */
-    .one-column .contents {
-      text-align: left;
-    }
-    .one-column p {
-      font-size: 14px;
-      Margin-bottom: 10px;
-    }
-    /*Two column layout*/
-    .two-column {
-      text-align: center;
-      font-size: 0;
-    }
-    .two-column .column {
-      width: 100%;
-      max-width: 300px;
-      display: inline-block;
-      vertical-align: top;
-    }
-    .two-column .contents {
-      font-size: 14px;
-      text-align: left;
-    }
-    .two-column img {
-      width: 100%;
-      max-width: 280px;
-      height: auto;
-    }
-    .two-column .text {
-      padding-top: 10px;
-    }
+<style>
+/* Basics */
+body {
+  margin: 0 !important;
+  padding: 0;
+  background-color: #ffffff;
+}
+table {
+  border-spacing: 0;
+  font-family: Arial;
+  color: #363636;
+}
+td {
+  padding: 0;
+}
+img {
+  border: 0;
+}
+div[style*="margin: 16px 0"] {
+  margin: 0 !important;
+}
+.wrapper {
+  width: 100%;
+  table-layout: fixed;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.webkit {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.outer {
+  Margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+}
+.inner {
+  padding: 10px;
+}
+p {
+  Margin: 0;
+}
+.h1 {
+  font-size: 24px;
+  font-weight: bold;
+  padding-top: 15px;
+  padding-bottom: 25px;
+  border-bottom: 4px solid #d7d7d7;
+}
+.h2 {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.contents {
+  width: 100%;
+}
+/* One column layout */
+.one-column .contents {
+  text-align: left;
+}
+.one-column p {
+  font-size: 14px;
+  Margin-bottom: 10px;
+}
+/* Profile info layout */
+.profile-info {
+  text-align: center;
+  font-size: 0;
+}
+.profile-info__column {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+}
+.profile-info__left {
+  max-width: 240px;
+}
+.profile-info__right {
+  max-width: 360px;
+}
+.profile-info__prof-img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+}
+.profile-info__contents {
+  font-size: 14px;
+  text-align: left;
+}
+.profile-info__name-age {
+  margin-bottom: 2px;
+}
+.profile-info__name {
+  font-weight: bold;
+}
+.profile-info__photos {
+  margin: 3px 0;
+  font-size: 12px;
+}
+.profile-info__video {
+  margin: 3px 0;
+  font-size: 12px;
+}
+.profile-info__online-now-wrap {
+  margin-bottom: 20px;
+}
+.profile-info__online-now {
+  display: inline-block;
+  color: #fff;
+  font-family: Arial;
+  font-size: 11px;
+  text-transform: uppercase;
+  background-color: #31ae27;
+  padding: 1px 6px;
+}
+/* btn-line */
+.btn-line {
+  text-align: center;
+  font-size: 0;
+}
+.btn-line__column {
+  width: 100%;
 
-    /*Three column layout*/
-    .three-column {
-      text-align: center;
-      font-size: 0;
-      padding-top: 10px;
-      padding-bottom: 10px;
-    }
-    .three-column .column {
-      width: 100%;
-      max-width: 200px;
-      display: inline-block;
-      vertical-align: top;
-    }
-    .three-column .contents {
-      font-size: 14px;
-      text-align: center;
-    }
-    .three-column img {
-      width: 100%;
-      max-width: 180px;
-      height: auto;
-    }
-    .three-column .text {
-      padding-top: 10px;
-    }
-  </style>
+  display: inline-block;
+  vertical-align: top;
+}
+.btn-line__column-btn {
+  max-width: 260px;
+}
+.btn-line__column-space {
+  max-width: 320px;
+  height:1px;
+}
+.btn-line__btn {
+  width: 100%;
+  display: block;
+  background: #348adb;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 0 9px;
+  text-decoration: none;
+  text-shadow: -1px -1px 0 #1c5cab;
+  border-radius: 5px;
+  border-bottom: 3px solid #1c5cab;
+  text-align: center;
+}
+</style>
 </head>
 <body>
 <!-- http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919 -->
@@ -148,155 +174,57 @@
     <![endif]-->
     <table class="outer" align="center">
       <tr>
-        <td class="full-width-image">
-          <img src="i/content/head.jpg" width="600" alt="" />
+        <td class="inner">
+          <p class="h1">Elena visited your profile</p>
         </td>
       </tr>
       <tr>
-        <td class="one-column">
-          <table width="100%">
-            <tr>
-              <td class="inner contents">
-                <p class="h1">Lorem ipsum dolor sit amet</p>
-                <p>Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent laoreet malesuada cursus. Maecenas
-                  scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
-                </p>
-              </td>
-            </tr>
-          </table>
+        <td class="inner">
+          <p class="h2">This Lady is interested in you and have visited your profile</p>
         </td>
       </tr>
-      <!--<tr>-->
-        <!--<td class="two-column">-->
-          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
-          <!--<table width="100%">-->
-            <!--<tr>-->
-              <!--<td width="50%" valign="top">-->
-          <!--<![endif]&ndash;&gt;-->
-          <!--<div class="column">-->
-            <!--<table width="100%">-->
-              <!--<tr>-->
-                <!--<td class="inner">-->
-                  <!--<table class="contents">-->
-                    <!--<tr>-->
-                      <!--<td>-->
-                        <!--<img src="i/content/turtle.jpg" width="280" alt="" />-->
-                      <!--</td>-->
-                    <!--</tr>-->
-                    <!--<tr>-->
-                      <!--<td class="text">-->
-                        <!--Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.-->
-                      <!--</td>-->
-                    <!--</tr>-->
-                  <!--</table>-->
-                <!--</td>-->
-              <!--</tr>-->
-            <!--</table>-->
-          <!--</div>-->
-          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
-          <!--</td>-->
-          <!--<td width="50%" valign="top">-->
-          <!--<![endif]&ndash;&gt;-->
-          <!--<div class="column">-->
-            <!--<table width="100%">-->
-              <!--<tr>-->
-                <!--<td class="inner">-->
-                  <!--<table class="contents">-->
-                    <!--<tr>-->
-                      <!--<td>-->
-                        <!--<img src="i/content/turtle.jpg" width="280" alt="" />-->
-                      <!--</td>-->
-                    <!--</tr>-->
-                    <!--<tr>-->
-                      <!--<td class="text">-->
-                        <!--Maecenas sed ante pellentesque, posuere leo id, eleifend dolor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.-->
-                      <!--</td>-->
-                    <!--</tr>-->
-                  <!--</table>-->
-                <!--</td>-->
-              <!--</tr>-->
-            <!--</table>-->
-          <!--</div>-->
-          <!--&lt;!&ndash;[if (gte mso 9)|(IE)]>-->
-          <!--</td>-->
-          <!--</tr>-->
-          <!--</table>-->
-          <!--<![endif]&ndash;&gt;-->
-        <!--</td>-->
-      <!--</tr>-->
+
       <tr>
-        <td class="three-column">
+        <td class="profile-info">
           <!--[if (gte mso 9)|(IE)]>
           <table width="100%">
             <tr>
-              <td width="200" valign="top">
+              <td width="240">
           <![endif]-->
-          <div class="column">
+
+          <div class="profile-info__column profile-info__left">
             <table width="100%">
               <tr>
                 <td class="inner">
-                  <table class="contents">
-                    <tr>
-                      <td>
-                        <img src="i/content/turtle.jpg" width="180" alt="" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
-                      </td>
-                    </tr>
-                  </table>
+                  <img class="profile-info__prof-img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-200x220.jpg" width="220" alt="" />
                 </td>
               </tr>
             </table>
           </div>
+
           <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
+          </td>
+          <td width="360">
           <![endif]-->
-          <div class="column">
+
+          <div class="profile-info__column profile-info__right">
             <table width="100%">
               <tr>
-                <td class="inner">
-                  <table class="contents">
-                    <tr>
-                      <td>
-                        <img src="i/content/turtle.jpg" width="180" alt="" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
-                      </td>
-                    </tr>
-                  </table>
+                <td class="inner profile-info__contents">
+                  <p class="profile-info__name-age"><span class="profile-info__name">Elena</span> 24</p>
+                  <p class="profile-info__photos"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11"> 12 photos</p>
+                  <p class="profile-info__video"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-video.png" alt="" width="12" height="11"> 1 video</p>
+                  <p class="profile-info__online-now-wrap"><span class="profile-info__online-now">ONLINE NOW</span></p>
+                  <p class="profile-info__quote">
+                    <img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-quot.png" alt="" width="17" height="13">
+
+                    Is that a tic-tac in your pants or are you just pleased to see me?
+                  </p>
                 </td>
               </tr>
             </table>
           </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <table class="contents">
-                    <tr>
-                      <td>
-                        <img src="i/content/turtle.jpg" width="180" alt="" />
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="text">
-                        Scelerisque congue eros eu posuere. Praesent in felis ut velit pretium lobortis rhoncus ut erat.
-                      </td>
-                    </tr>
-                  </table>
-                </td>
-              </tr>
-            </table>
-          </div>
+
           <!--[if (gte mso 9)|(IE)]>
           </td>
           </tr>
@@ -304,97 +232,28 @@
           <![endif]-->
         </td>
       </tr>
+
       <tr>
-        <td class="three-column">
+        <td class="inner btn-line">
           <!--[if (gte mso 9)|(IE)]>
           <table width="100%">
             <tr>
-              <td width="200" valign="top">
+              <td width="260">
           <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
+
+          <div class="btn-line__column btn-line__column-btn">
+            <a class="btn-line__btn" href="#" title="Check Her Out">
+              Check Her Out
+            </a>
           </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
-          </div>
+
           <!--[if (gte mso 9)|(IE)]>
           </td>
-          </tr>
-          <tr>
-            <td width="200" valign="top">
+          <td width="320">
           <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
-          </div>
-          <!--[if (gte mso 9)|(IE)]>
-          </td><td width="200" valign="top">
-          <![endif]-->
-          <div class="column">
-            <table width="100%">
-              <tr>
-                <td class="inner contents">
-                  <p class="h2">Heading</p>
-                  <p>Class eleifend aptent taciti sociosqu ad litora torquent conubia</p>
-                  <p><a href="#">Read more</a></p>
-                </td>
-              </tr>
-            </table>
-          </div>
+
+          <div class="btn-line__column btn-line__column-space"></div>
+
           <!--[if (gte mso 9)|(IE)]>
           </td>
           </tr>
@@ -402,6 +261,7 @@
           <![endif]-->
         </td>
       </tr>
+
     </table>
     <!--[if (gte mso 9)|(IE)]>
     </td>
