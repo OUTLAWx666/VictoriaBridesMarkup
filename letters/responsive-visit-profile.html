@@ -19,6 +19,7 @@ body {
   margin: 0 !important;
   padding: 0;
   background-color: #ffffff;
+  text-align: left;
 }
 table {
   border-spacing: 0;
@@ -103,24 +104,23 @@ p {
   text-align: left;
 }
 .profile-info__name-age {
-  margin-bottom: 2px;
+  Margin-bottom: 2px;
 }
 .profile-info__name {
   font-weight: bold;
 }
 .profile-info__photos {
-  margin: 3px 0;
+  Margin: 3px 0;
   font-size: 12px;
 }
 .profile-info__video {
-  margin: 3px 0;
+  Margin: 3px 0;
   font-size: 12px;
 }
 .profile-info__online-now-wrap {
-  margin-bottom: 20px;
+  Margin-bottom: 20px;
 }
 .profile-info__online-now {
-  display: inline-block;
   color: #fff;
   font-family: Arial;
   font-size: 11px;
@@ -128,14 +128,15 @@ p {
   background-color: #31ae27;
   padding: 1px 6px;
 }
+.profile-info__quote { }
 /* btn-line */
 .btn-line {
+  padding-bottom: 20px;
   text-align: center;
   font-size: 0;
 }
 .btn-line__column {
   width: 100%;
-
   display: inline-block;
   vertical-align: top;
 }
@@ -144,7 +145,7 @@ p {
 }
 .btn-line__column-space {
   max-width: 320px;
-  height:1px;
+  height: 1px;
 }
 .btn-line__btn {
   width: 100%;
@@ -161,114 +162,414 @@ p {
   border-bottom: 3px solid #1c5cab;
   text-align: center;
 }
+/* list-profiles */
+.list-profiles {
+  text-align: center;
+  font-size: 0;
+}
+.list-profiles__profile {
+  font-size: 12px;
+}
+.list-profiles__column {
+  width: 100%;
+  max-width: 110px;
+  display: inline-block;
+  vertical-align: top;
+}
+.list-profiles__column-more {
+  max-width: 70px;
+  text-align: center;
+}
+.list-profiles__pic {
+  display: block;
+}
+.list-profiles__online {
+  color: #fff;
+  font-family: Arial;
+  font-size: 11px;
+  text-transform: uppercase;
+  background: #31ae27;
+  line-height: 14px;
+  text-align: center;
+}
+.list-profiles__name-age {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+.list-profiles__name {
+  font-weight: bold;
+}
+.list-profiles__photo { }
+.list-profiles__link1 {
+  display: block;
+  text-decoration: none;
+  font-size: 36px;
+  font-weight: bold;
+  color: #34495e;
+}
+.list-profiles__link2 {
+  color: #34495e;
+  text-decoration: underline;
+  font-size: 14px;
+}
+/* footer1 */
+.footer1 {
+  font-size: 0;
+  color: #666666;
+  text-align: center;
+}
+.footer1__column {
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 12px;
+  text-align: left;
+}
+.footer1__column1 {
+  max-width: 425px;
+}
+.footer1__column2 {
+  width: 175px;
+}
+.footer1__column2-inner {
+  padding-bottom: 40px;
+}
+.footer1__logo {
+  width: 100%;
+  max-width: 155px;
+  height: auto;
+}
+/* footer2 */
+.footer2 {
+  padding-top: 30px;
+  border-top: 1px solid #d7d7d7;
+  font-size: 12px;
+  color: #666666;
+}
+.footer2 a {
+  color: #34495e;
+}
 </style>
 </head>
 <body>
-<!-- http://webdesign.tutsplus.com/tutorials/creating-a-future-proof-responsive-email-without-media-queries--cms-23919 -->
 <center class="wrapper">
-  <div class="webkit">
+<div class="webkit">
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+  <tr>
+    <td>
+<![endif]-->
+<table class="outer" align="center">
+<tr>
+  <td class="inner">
+    <p class="h1">Elena visited your profile</p>
+  </td>
+</tr>
+<tr>
+  <td class="inner">
+    <p class="h2">This Lady is interested in you and have visited your profile</p>
+  </td>
+</tr>
+
+<tr>
+  <td class="profile-info">
     <!--[if (gte mso 9)|(IE)]>
-    <table width="600" align="center">
+    <table width="100%">
       <tr>
-        <td>
+        <td width="240">
     <![endif]-->
-    <table class="outer" align="center">
-      <tr>
-        <td class="inner">
-          <p class="h1">Elena visited your profile</p>
-        </td>
-      </tr>
-      <tr>
-        <td class="inner">
-          <p class="h2">This Lady is interested in you and have visited your profile</p>
-        </td>
-      </tr>
 
-      <tr>
-        <td class="profile-info">
-          <!--[if (gte mso 9)|(IE)]>
-          <table width="100%">
-            <tr>
-              <td width="240">
-          <![endif]-->
-
-          <div class="profile-info__column profile-info__left">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img class="profile-info__prof-img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-200x220.jpg" width="220" alt="" />
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
+    <div class="profile-info__column profile-info__left">
+      <table width="100%">
+        <tr>
+          <td class="inner">
+            <img class="profile-info__prof-img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-200x220.jpg" width="220" alt="" />
           </td>
-          <td width="360">
-          <![endif]-->
+        </tr>
+      </table>
+    </div>
 
-          <div class="profile-info__column profile-info__right">
-            <table width="100%">
-              <tr>
-                <td class="inner profile-info__contents">
-                  <p class="profile-info__name-age"><span class="profile-info__name">Elena</span> 24</p>
-                  <p class="profile-info__photos"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11"> 12 photos</p>
-                  <p class="profile-info__video"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-video.png" alt="" width="12" height="11"> 1 video</p>
-                  <p class="profile-info__online-now-wrap"><span class="profile-info__online-now">ONLINE NOW</span></p>
-                  <p class="profile-info__quote">
-                    <img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-quot.png" alt="" width="17" height="13">
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="360">
+    <![endif]-->
 
-                    Is that a tic-tac in your pants or are you just pleased to see me?
-                  </p>
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
+    <div class="profile-info__column profile-info__right">
+      <table width="100%">
+        <tr>
+          <td class="inner profile-info__contents">
+            <p class="profile-info__name-age"><span class="profile-info__name">Elena</span> 24</p>
+            <p class="profile-info__photos"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11"> 12 photos</p>
+            <p class="profile-info__video"><img src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-video.png" alt="" width="12" height="11"> 1 video</p>
+            <p class="profile-info__online-now-wrap"><span class="profile-info__online-now">ONLINE NOW</span></p>
+            <p>
+              <img class="profile-info__quote" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-quot.png" alt="" width="17" height="13">
+              Is that a tic-tac in your pants or are you just pleased to see me?
+            </p>
           </td>
-          </tr>
-          </table>
-          <![endif]-->
-        </td>
-      </tr>
+        </tr>
+      </table>
+    </div>
 
-      <tr>
-        <td class="inner btn-line">
-          <!--[if (gte mso 9)|(IE)]>
-          <table width="100%">
-            <tr>
-              <td width="260">
-          <![endif]-->
-
-          <div class="btn-line__column btn-line__column-btn">
-            <a class="btn-line__btn" href="#" title="Check Her Out">
-              Check Her Out
-            </a>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          <td width="320">
-          <![endif]-->
-
-          <div class="btn-line__column btn-line__column-space"></div>
-
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          </tr>
-          </table>
-          <![endif]-->
-        </td>
-      </tr>
-
-    </table>
     <!--[if (gte mso 9)|(IE)]>
     </td>
     </tr>
     </table>
     <![endif]-->
+  </td>
+</tr>
+
+<tr>
+  <td class="inner btn-line">
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="100%">
+      <tr>
+        <td width="260">
+    <![endif]-->
+
+    <div class="btn-line__column btn-line__column-btn">
+      <a class="btn-line__btn" href="#" title="Check Her Out">
+        Check Her Out
+      </a>
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="320">
+    <![endif]-->
+
+    <div class="btn-line__column btn-line__column-space"></div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </td>
+</tr>
+
+<tr>
+  <td class="inner">
+    More Ladies waiting for your on VictoriaBrides.com:
+  </td>
+</tr>
+
+<tr>
+<tr>
+<td class="list-profiles">
+<!--[if (gte mso 9)|(IE)]>
+<table width="100%">
+  <tr>
+    <td width="100" valign="top">
+<![endif]-->
+
+<div class="list-profiles__column">
+  <div class="inner">
+    <table class="list-profiles__profile">
+      <tr>
+        <td>
+          <a href="#">
+            <img class="list-profiles__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-100x100.jpg" width="90" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__online">
+          Online now
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__name-age">
+          <span class="list-profiles__name">Natasha 24</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="list-profiles__photo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11">
+          2 photos
+        </td>
+      </tr>
+    </table>
   </div>
+</div>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td width="100" valign="top">
+<![endif]-->
+
+<div class="list-profiles__column">
+  <div class="inner">
+    <table class="list-profiles__profile">
+      <tr>
+        <td>
+          <a href="#">
+            <img class="list-profiles__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-100x100.jpg" width="90" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__online">
+          Online now
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__name-age">
+          <span class="list-profiles__name">Natasha 24</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="list-profiles__photo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11">
+          2 photos
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td width="100" valign="top">
+<![endif]-->
+
+<div class="list-profiles__column">
+  <div class="inner">
+    <table class="list-profiles__profile">
+      <tr>
+        <td>
+          <a href="#">
+            <img class="list-profiles__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-100x100.jpg" width="90" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__online">
+          Online now
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__name-age">
+          <span class="list-profiles__name">Natasha 24</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="list-profiles__photo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11">
+          2 photos
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td width="100" valign="top">
+<![endif]-->
+
+<div class="list-profiles__column">
+  <div class="inner">
+    <table class="list-profiles__profile">
+      <tr>
+        <td>
+          <a href="#">
+            <img class="list-profiles__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/user-100x100.jpg" width="90" alt="" />
+          </a>
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__online">
+          Online now
+        </td>
+      </tr>
+      <tr>
+        <td class="list-profiles__name-age">
+          <span class="list-profiles__name">Natasha 24</span>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img class="list-profiles__photo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic-photo.png" alt="" width="15" height="11">
+          2 photos
+        </td>
+      </tr>
+    </table>
+  </div>
+</div>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+<td width="100" valign="top">
+<![endif]-->
+
+<div class="list-profiles__column list-profiles__column-more">
+  <div class="inner">
+    <a class="list-profiles__link1" href="#">...</a>
+    <a class="list-profiles__link2" href="#">and 17 <br> more</a>
+  </div>
+</div>
+
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</tr>
+
+<tr>
+  <td class="footer1">
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="100%">
+      <tr>
+        <td width="425" valign="top">
+    <![endif]-->
+
+    <div class="footer1__column footer1__column1">
+      <div class="inner">
+        Have fun! <br>
+        The VictoriaBrides Team
+      </div>
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="175" valign="top">
+    <![endif]-->
+
+    <div class="footer1__column footer1__column2">
+      <div class="inner footer1__column2-inner">
+        <a href="#">
+          <img class="footer1__logo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo-footer.png" alt="VictoriaBrides.com" width="155">
+        </a>
+      </div>
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </td>
+</tr>
+
+<tr>
+  <td class="footer2 inner">
+    This message was sent to <a href="#">click heresergey.lvoff@gmail.com</a>. If you don't want to receive further email communications from VictoriaBrides.com in the future, please <a href="#">click here</a> to opt
+    out.
+    <br>
+    <br>
+    VictoriaBrides, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA 94303.
+  </td>
+</tr>
+
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</div>
 </center>
 </body>
 </html>
