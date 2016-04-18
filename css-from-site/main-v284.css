@@ -1088,9 +1088,13 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .b-popup-payment3-cc .popup_title { width: 100%; display: table; padding: 0; box-sizing: border-box; border-radius: 10px 10px 0 0; background-color: #e74c3c; color: #fff; }
 .b-popup-payment3-cc .popup_title-cell { display: table-cell; padding: 15px; }
 .b-popup-payment3-cc .popup_title-cell:first-child { border-top-left-radius: 10px; font-size: 20px; }
-.b-popup-payment3-cc .popup_title-cell:last-child { width: 230px; border-top-right-radius: 10px; background-color: #d04133; }
+.b-popup-payment3-cc .popup_title-cell:last-child { width: 195px; border-top-right-radius: 10px; background-color: #d04133; }
 .b-popup-payment3-cc .b-time1 { font-size: 24px; color: #fff; }
 .b-popup-payment3-cc .b-payment-form label { width: 110px; padding-right: 10px; text-align: right; }
+.b-popup-payment3-cc .intro-cell.text { width: 350px; }
+.b-popup-payment3 .intro-cell.norton { width: auto; }
+.b-popup-payment3-cc .b-mc-afee { height: 36px; width: 100px; background-size: cover; }
+.b-popup-payment3-cc .b-norton { width: 75px; height: 40px; background-size: cover; }
 /* popup-payment3-card */
 .b-popup-payment3-card .popup_title { padding-left: 70px; background: 20px 50% no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAWCAMAAACWh252AAABg1BMVEUkHyAeHx8fHx8iGyMjHyAlHyAlHyAjHSMlHyBEAEQjHSExEC8kHh4dIR1FAEUjHR8kHyAkHyAkHyAkHx9HAEgkHyAkHyAeJBckICAiIRsdHx4eIB4cIRwxDjEhHSEjHSJEAEU/AD9CAEIjIB8kHyAkHh1AAEAlHyA1CzNGAEcfJRoiHCIqFCoiHCMXJhc1DzM+AD4kHyAiHyAyDzEjHh8kHyAlHyAlHyAkHx4yEDAhHSI2DDVLAE1FAEY0DTIjHiAiHSIkHyEkHiAhHSEjHx8kHiEjHyAkHx8jIB8iIR4jIB4vDjAeJRokICAiHx8kHyBDAEQiIB8iICAlHyAfIxwgIB8dIB4eIxclHh8jHR41DDNGAEYhHiEdHx8lHR8hIRkwES4yDjNLAEw0DjQpFSkZJRkiIR0lHh4jHh4lHiEjICEdIB0gHyAgJBskHyAiIh0oGyQeHx4jHyAkHx4iIBsfHh8iIB8kHyAkHx8jHSAiHSI7BTkiHSEjHCIjHSEkHiAjHyBfVjNwAAAAgXRSTlOZAAAAhZmWDpIAO00AAAAAlph/eQCVlACZAAAAAAAADgAAAJl9AACTAACZAAAAAE0Al4VNUZGIfnNNAE0AAE19C36SDIiYfVKKmXMAmYqAkwCFAHmBAAAAAAAAAAAAAAAAAAAAAAB5AAB6iAAAmXqLiQCEdQAAgo+ZPjgAOzdAcXHZ/J0/AAAA9klEQVR4XoXKVUMCQRhG4Xd3WRApQWZpCxQbQcDu7u7u7m5/umPdrPPhc3sOkh2d0SxCNNXbB+Y9TBgIiRF1DM66Sb9E8M+kGVC/0JhHWF4ZVcHa2k35BFNXtwYXtBwK4xkRZBThS0au/4eDcDlp+ASnODtvqrU0CFlirXf9GBh8am4xFwiMuzeHpr3o2Z0rLSsp/KumyF5ZPWGEc+raww9xnzXwIXfe51l02806S7wHpK/BuupbW98I6Wxt7wTkn8G6t28L2nSCR8fy71DsqKoQkaXvger8uLg0AlcORRF3Rbm5VRG/f3jMFnt+eQ0zvMVBU7X3D3YtTLXC2cziAAAAAElFTkSuQmCC); }
 .b-popup-payment3-card .intro-table { border-bottom: 1px solid #c1cbd3; }
