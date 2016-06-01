@@ -2305,7 +2305,7 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3 .intro-cell { display: table-cell; vertical-align: middle; }
 .b-popup-payment3 .intro-title { margin-bottom: 8px; font-size: 18px; font-weight: bold; }
 .b-popup-payment3 .intro-sub-title { font-size: 14px; }
-.b-popup-payment3 .intro-cell.text { padding-left: 35px; background: 0 50% no-repeat url('/img/layout/p/lock.png'); }
+.b-popup-payment3 .intro-cell.text { padding-left: 40px; background: 0 50% no-repeat url('https://victoriabrides.com/img/layout/p/lock.png'); }
 .b-popup-payment3 .intro-cell.mc-afee { text-align: right; width: 120px; }
 .b-popup-payment3 .intro-cell.norton { text-align: right; width: 120px; }
 .b-popup-payment3 .b-payment-form { height: auto; padding: 0 20px; background-color: #efefef; border-top: 1px solid #c1cbd3; border-bottom: 1px solid #c1cbd3; }
@@ -2346,7 +2346,6 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .cards-cell.icon .b-pic-card { vertical-align: text-top; }
 .b-popup-payment3-cards .cards-cell.name { width: 170px; text-align: left; }
 .b-popup-payment3-cards .cards-cell.time { width: 100px; padding-right:25px; text-align: right; }
-.b-popup-payment3-cards .intro-cell.text { padding-left: 0; }
 .b-popup-payment3-cards .new-card-control { display: block; margin: 0 -19px; line-height: 52px; font-weight: bold; font-size: 18px; }
 .b-popup-payment3-cards .new-card-control:hover { background-color: #e1e1e1; cursor: pointer; }
 .b-popup-payment3-cards .new-card-control.selected { background-color: #ddd; }
@@ -2372,6 +2371,44 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .note { margin-top: 6px; font-size: 12px; color: #808588; }
 .b-popup-payment3-cards .b-time { position: relative; }
 .b-popup-payment3-cards .hint1 { right: -14px; top: 40px; white-space: nowrap; }
+/* b-popup-payment3-one-click */
+.b-popup-payment3-one-click .b-payment-form { padding: 0; background-color: #fff; }
+.b-popup-payment3-one-click .cards-table { width: 100%; margin: 0; border-top: 1px solid #c6c9ce; }
+.b-popup-payment3-one-click .intro-table-wrap { padding: 30px 20px 5px; background-color: #f0f2f4; }
+.b-popup-payment3-one-click .intro-table { margin-top: 0; }
+.b-popup-payment3-one-click .hide-numbers { color: #363636; }
+.b-popup-payment3-one-click .cards-row.selected { font-weight: bold; }
+.b-popup-payment3-one-click .control-wrap { text-align: left; }
+.b-popup-payment3-one-click .new-card { padding: 0 20px; border-bottom: 1px solid #c6c9ce; }
+.b-popup-payment3-one-click .new-card-control { margin: 0 -20px; }
+.b-popup-payment3-one-click .new-card .form { padding-top: 15px; }
+.b-popup-payment3-one-click .btn-wrap { padding: 20px 0; background-color: #f0f2f4; }
+.b-popup-payment3-one-click .declipe2 { margin-left: 0; margin-right: 0; }
+.b-popup-payment3-one-click .btn-wrap .b-loader { margin-left: 25px; }
+
+/* credits-table */
+.credits-table { position: relative; border-bottom: 1px solid #c6c9ce; background-color: #fff; color: #6f6f6f; }
+.credits-table__table { width: 100%; display: table; font-size: 16px; }
+.credits-table__row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABAQMAAADD8p2OAAAABlBMVEX///9NTU1gOsGIAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
+.credits-table__cell { height: 50px; display: table-cell; vertical-align: middle; }
+.credits-table__row:last-child { background: none; }
+.credits-table__radio { width: 25px; padding-left: 25px; }
+.credits-table__price { width: 80px; }
+.credits-table__old-price { width: 80px; text-decoration: line-through; }
+.credits-table__save { width: 130px; color: #c0392b; }
+.credits-table__selected { background-color: #dddddd; font-weight: bold; color: #363636; }
+.credits-table__label { font-size: 11px; text-align: center; color: #ffffff; }
+.credits-table__label { width: 60px; border-radius: 2px; padding: 4px 0; font-weight: bold; line-height: 12px; text-transform: uppercase; }
+.credits-table__label--ol { background-color: #e74c3c; }
+.credits-table__label--mp { background-color: #e67e22; }
+.credits-table__label--bv { background-color: #31ae27; }
+.credits-table__sm { width: 100px; position: absolute; left: 50%; bottom: -21px; margin-left: -50px; background-color: #dddddd; border-radius: 0 0 5px 5px; font-size: 12px; line-height: 20px; text-align: center; }
+.credits-table__extra { display: table-row-group; }
+.credits-table__sm-show { display: none; }
+.credits-table--close .credits-table__sm-show { display: inline; }
+.credits-table--close .credits-table__sm-close { display: none; }
+.credits-table--close .credits-table__extra { display: none; }
+.credits-table--close .credits-table__row--last-visible { background: none; }
 /* b-error */
 .b-error { position: relative; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
 /* b-error */
