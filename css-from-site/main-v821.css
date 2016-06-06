@@ -2385,7 +2385,17 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-one-click .btn-wrap { padding: 20px 0; background-color: #f0f2f4; }
 .b-popup-payment3-one-click .declipe2 { margin-left: 0; margin-right: 0; }
 .b-popup-payment3-one-click .btn-wrap .b-loader { margin-left: 25px; }
-
+/* mod variant2 */
+.b-popup-payment3-one-click.variant2 { width: 860px; }
+.b-popup-payment3-one-click.variant2 .popup-table { display: table; border-top: 1px solid #c6c9ce; }
+.b-popup-payment3-one-click.variant2 .popup-cell { display: table-cell; vertical-align: top; box-sizing: border-box; }
+.b-popup-payment3-one-click.variant2 .popup-cell:first-child { width: 260px; padding-top: 2px; padding-left: 15px; border-right: 1px solid #c6c9ce; background-color: #f1f2f4; }
+.b-popup-payment3-one-click.variant2 .b-payment-form { border-top: none; }
+.b-popup-payment3-one-click.variant2 .intro-table-wrap { padding-top: 5px; }
+.b-popup-payment3-cards .cards-cell.num { width: 190px; }
+.b-popup-payment3-cards .cards-cell.icon { width: 45px; }
+.b-popup-payment3-cards .cards-cell.name { width: 150px; }
+.b-popup-payment3-cards .cards-cell.time { width: 80px;}
 /* credits-table */
 .credits-table { position: relative; border-bottom: 1px solid #c6c9ce; background-color: #fff; color: #6f6f6f; }
 .credits-table__table { width: 100%; display: table; font-size: 16px; }
@@ -2409,6 +2419,26 @@ a.skip-link:hover { text-decoration: none; }
 .credits-table--close .credits-table__sm-close { display: none; }
 .credits-table--close .credits-table__extra { display: none; }
 .credits-table--close .credits-table__row--last-visible { background: none; }
+
+/* credits-list */
+.credits-list__item-wrap { display: block; position: relative; margin: 15px 0 15px 26px; }
+.credits-list__left-only .credits-list__ads { background-color: #e74c3c; }
+.credits-list__left-most-popular .credits-list__ads { background-color: #e67e22; }
+.credits-list__left-most-popular .credits-list__item { border: 1px solid #ead073; background-color: #fef6d8; }
+.credits-list__best-value .credits-list__ads { background-color: #31ae27; }
+.credits-list__ads { width: 100px; position: absolute; top: -7px; left: 10px; border-radius: 2px; background-color: #ccc; font-size: 10px; line-height: 14px; text-align: center; color: #fff; }
+.credits-list__item-radio { width: 16px !important; height: 16px !important; float: left; margin: 38px -100% 0 -26px; }
+.credits-list__item { height: 90px; display: table; border: 1px solid #bfc8cf; border-radius: 5px; background-color: #fff; text-align: center; }
+.credits-list__item-cell { display: table-cell; vertical-align: middle; }
+.credits-list__item-cell:first-child { width: 112px; }
+.credits-list__item-cell:last-child { width: 80px; }
+.credits-list__credits { font-size: 24px; font-weight: bold; line-height: 20px; }
+.credits-list__credits-val { display: inline-block; font-size: 44px; line-height: 36px; }
+.credits-list__cents { font-size: 12px; color: #808487; }
+.credits-list__price { font-size: 17px; font-weight: bold; line-height: 19px; color: #405971; }
+.credits-list__old-price { font-size: 17px; font-weight: bold; line-height: 19px; color: #808487; }
+.credits-list__save { font-size: 17px; font-weight: bold; line-height: 19px; color: #e74c3c; }
+
 /* b-error */
 .b-error { position: relative; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
 /* b-error */
