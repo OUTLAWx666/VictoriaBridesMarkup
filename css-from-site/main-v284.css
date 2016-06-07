@@ -746,6 +746,10 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 /* user_status */
 .b-user_status .photo_wrap { display: block; position: relative; margin-bottom: 4px; }
 .b-user_status .photo { height: 200px; width: 220px; background-color: #E5E8E9; display: block; }
+.b-user_status .arr-left, .b-user_status .arr-right { width: 20px; height: 20px; position: absolute; top: 50%; left: 0; margin-top: -10px; background-color: rgba(0, 0, 0, 0.3); cursor: pointer; }
+.b-user_status .arr-left:after, .b-user_status .arr-right:after { position: absolute; width: 0; height: 0; top: 50%; left: 50%; margin: -5px 0 0 -5px; border-top: 5px solid transparent; border-bottom: 5px solid transparent; border-right: 10px solid rgba(255, 255, 255, 0.55); content: ''; }
+.b-user_status .arr-right { right: 0; left: auto; }
+.b-user_status .arr-right:after { border-right: none; border-left: 10px solid rgba(255, 255, 255, 0.55); }
 .b-user_status .property { height: 20px; position: absolute; padding-left: 5px; background-color: #313234; background-color: rgba(0, 0, 0, 0.5); right: 0; bottom: 0; left: 0; font-size: 11px; line-height: 20px; text-transform: uppercase; color: #e1e1e1; }
 .b-user_status .online { position: absolute; bottom: 0; right: 0; padding: 0 6px; background-color: #31ae27; font-size: 11px; line-height: 20px; text-transform: uppercase; color: #fff; }
 .b-user_status .photos { position: relative; padding-left: 18px; }
