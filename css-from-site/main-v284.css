@@ -1800,6 +1800,13 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .chat-notification__actions { margin-top: 4px; }
 .chat-notification__accept { margin: 0 15px; color: #27ae60; }
 .chat-notification__decline { margin: 0 15px; color: #e74c3c; }
+
+/* chat-notif-gift */
+.chat-notif-gift { position: relative; padding: 12px 15px 12px 50px; box-sizing: border-box; background: no-repeat 13px 16px url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAcCAMAAABS8b9vAAAAtFBMVEVahaFahaH///9ahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaFahaG/51KCAAAAO3RSTlMAYABQkPsL+kTQ3nPVAuRDcDMETX6zOw31tRGZMFX8hxxtEgHOhlmL/nJmFoCEBoHT3cIH0XvBg3rUF7JwNmYAAAC8SURBVHhe5c1F2sJAEIThYsLEDXd3/V3r/veiE0g2DCfgW9XzLrqhVBDTf7GRZx99xoFSUGtmhVNI01dmrYUHzFt+AOcl8wbCqZjTe2MTaNLvOcKpsB2SLURf3fm8+xuhRf7Zwur/nU4CTGazCZA4/D6ojLEYfepNv77b1fsb7Y0W6spS7bR3Pc/d/9QgIuZWioByutiyCCjnFjQxH/HYxGO0TS/b6Kyqt4BirTpomI40YJnYehIe6nvWwwukSlsE53zYzAAAAABJRU5ErkJggg==) #c3e3f8; }
+.chat-notif-gift__table { display: table; width: 100%; }
+.chat-notif-gift__look { font-weight: bold; border-bottom: 1px dotted #363636; }
+.chat-notif-gift__time { position: absolute; right: 15px; bottom: 12px; font-size: 12px; color: #5a85a1; }
+
    /* messaging */
 .b-messaging { height: 490px; overflow: hidden; }
 .b-messaging img { display: block; }
