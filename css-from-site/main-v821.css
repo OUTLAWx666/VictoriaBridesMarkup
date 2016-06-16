@@ -2334,7 +2334,7 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .b-norton { width: 119px; height: 64px; }
 .b-popup-payment3-cards .cards-table { width: 778px; display: table; margin: 0 -19px; font-size: 16px; }
 .b-popup-payment3-cards .cards-row { display: table-row; background: repeat-x 0 100% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAABAQMAAAAhLob3AAAABlBMVEX///+frLaDPcnvAAAAAXRSTlMAQObYZgAAAApJREFUeF5jaAAAAIIAgeH8WXgAAAAASUVORK5CYII=); }
-.b-popup-payment3-cards .cards-row:hover { background-color: #e1e1e1; cursor: pointer; }
+.b-popup-payment3-cards .cards-row:hover { background-color: #ddd; cursor: pointer; }
 .b-popup-payment3-cards .cards-row.selected { background-color: #ddd; }
 .b-popup-payment3-cards .cards-row.disable { background-color: #d1d2d3; }
 .b-popup-payment3-cards .cards-row.disable .cards-cell { opacity: 0.6;}
@@ -2391,6 +2391,10 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-one-click.variant2 .popup-table { display: table; border-top: 1px solid #c6c9ce; }
 .b-popup-payment3-one-click.variant2 .popup-cell { display: table-cell; vertical-align: top; box-sizing: border-box; }
 .b-popup-payment3-one-click.variant2 .popup-cell:first-child { width: 260px; padding-top: 2px; padding-left: 15px; border-right: 1px solid #c6c9ce; background-color: #f1f2f4; }
+.b-popup-payment3-one-click.variant2 .payment-tabs { margin-top:0; }
+.b-popup-payment3-one-click.variant2 .payment-tabs__item { border-top:none; }
+.b-popup-payment3-one-click.variant2 .payment-tabs__item:first-child { border-left: none }
+.b-popup-payment3-one-click.variant2 .payment-tabs__item:last-child { border-right: none }
 .b-popup-payment3-one-click.variant2 .b-payment-form { border-top: none; }
 .b-popup-payment3-one-click.variant2 .intro-table-wrap { padding-top: 5px; }
 .b-popup-payment3-cards .cards-cell.num { width: 190px; }
@@ -2447,7 +2451,7 @@ a.skip-link:hover { text-decoration: none; }
 .payment-tabs { width: 100%; display: table; background-color: #f0f2f4; }
 .payment-tabs__item { width: 25%; height: 58px; display: table-cell; vertical-align: middle; border: 1px solid #c6c9ce; border-left: none; font-size: 22px; text-align: center; color: #363636; }
 .payment-tabs__item:first-child { border-left: 1px solid #c6c9ce; }
-.payment-tabs__item:hover { text-decoration: none; }
+.payment-tabs__item:hover { text-decoration: none; background-color: #ddd; }
 .payment-tabs__item--selected { background-color: #fff; border-bottom-color: #fff; }
 .payment-tabs__subtext { display: block; font-size: 12px; color: #808487; }
 /* b-error */
