@@ -2372,19 +2372,20 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-cards .b-time { position: relative; }
 .b-popup-payment3-cards .hint1 { right: -14px; top: 40px; white-space: nowrap; }
 /* b-popup-payment3-one-click */
-.b-popup-payment3-one-click .b-payment-form { padding: 0; background-color: #fff; }
-.b-popup-payment3-one-click .cards-table { width: 100%; margin: 0; border-top: 1px solid #c6c9ce; }
-.b-popup-payment3-one-click .intro-table-wrap { padding: 30px 20px 5px; background-color: #f0f2f4; }
+.b-popup-payment3-one-click .b-payment-form { padding: 0; }
+.b-popup-payment3-one-click .cards-table { width: 100%; margin: 0; border-top: 1px solid #c6c9ce; background-color: #fff; }
+.b-popup-payment3-one-click .payment-tabs { margin-top:35px; }
+.b-popup-payment3-one-click .intro-table-wrap { padding: 10px 20px 5px; background-color: #fff; }
 .b-popup-payment3-one-click .intro-table { margin-top: 0; }
 .b-popup-payment3-one-click .hide-numbers { color: #363636; }
 .b-popup-payment3-one-click .cards-row.selected { font-weight: bold; }
 .b-popup-payment3-one-click .control-wrap { text-align: left; }
-.b-popup-payment3-one-click .new-card { padding: 0 20px; border-bottom: 1px solid #c6c9ce; }
+.b-popup-payment3-one-click .new-card { padding: 0 20px; border-bottom: 1px solid #c6c9ce; background: #fff; }
 .b-popup-payment3-one-click .new-card-control { margin: 0 -20px; }
 .b-popup-payment3-one-click .new-card .form { padding-top: 15px; }
-.b-popup-payment3-one-click .btn-wrap { padding: 20px 0; background-color: #f0f2f4; }
-.b-popup-payment3-one-click .declipe2 { margin-left: 0; margin-right: 0; }
-.b-popup-payment3-one-click .btn-wrap .b-loader { margin-left: 25px; }
+.b-popup-payment3-one-click .btn-wrap { margin: 20px 0 20px 20px; background-color: #f0f2f4; }
+.b-popup-payment3-one-click .declipe2 { margin: 20px 0; }
+.b-popup-payment3-one-click .btn-wrap .b-loader { margin-bottom:20px; }
 /* mod variant2 */
 .b-popup-payment3-one-click.variant2 { width: 860px; }
 .b-popup-payment3-one-click.variant2 .popup-table { display: table; border-top: 1px solid #c6c9ce; }
@@ -2419,7 +2420,6 @@ a.skip-link:hover { text-decoration: none; }
 .credits-table--close .credits-table__sm-close { display: none; }
 .credits-table--close .credits-table__extra { display: none; }
 .credits-table--close .credits-table__row--last-visible { background: none; }
-
 /* credits-list */
 .credits-list__item-wrap { display: block; position: relative; margin: 15px 0 15px 26px; }
 .credits-list__left-only .credits-list__ads { background-color: #e74c3c; }
@@ -2438,7 +2438,18 @@ a.skip-link:hover { text-decoration: none; }
 .credits-list__price { font-size: 17px; font-weight: bold; line-height: 19px; color: #405971; }
 .credits-list__old-price { font-size: 17px; font-weight: bold; line-height: 19px; color: #808487; }
 .credits-list__save { font-size: 17px; font-weight: bold; line-height: 19px; color: #e74c3c; }
-
+/* paypal-btn */
+.paypal-btn { font-size: 16px; }
+.paypal-btn__btn-wrap { display: inline-block; text-align: center; }
+.paypal-btn__btn { width: 190px; height: 47px; display: inline-block; background-image: url(../img/layout/paypal.png); }
+.paypal-btn__note { display: block; font-size: 12px; color: #808487; }
+/* payment-tabs */
+.payment-tabs { width: 100%; display: table; background-color: #f0f2f4; }
+.payment-tabs__item { width: 25%; height: 58px; display: table-cell; vertical-align: middle; border: 1px solid #c6c9ce; border-left: none; font-size: 22px; text-align: center; color: #363636; }
+.payment-tabs__item:first-child { border-left: 1px solid #c6c9ce; }
+.payment-tabs__item:hover { text-decoration: none; }
+.payment-tabs__item--selected { background-color: #fff; border-bottom-color: #fff; }
+.payment-tabs__subtext { display: block; font-size: 12px; color: #808487; }
 /* b-error */
 .b-error { position: relative; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
 /* b-error */
