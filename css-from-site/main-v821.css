@@ -446,6 +446,7 @@ body.pm { background: #fff; }
 .b-content.pp .bs { margin-top: 5px; float: right; color: #808588; text-decoration: underline; cursor: pointer; }
 .b-content.pp .bs:hover { text-decoration: none; }
 .b-content.pp .ad { position: relative; font-size: 18px; font-weight: bold; line-height: 18px; text-transform: uppercase; background-color: #f0f2f4; border-radius: 0 5px 5px 0; margin-left: 150px; margin-bottom: 14px; padding: 8px 0; text-align: center; }
+.b-content.pp .ad:before { height: 52px; width: 150px; border-radius: 5px 0 0 5px; content: '30% OFF'; position: absolute; top: 0; left: -150px; background-color: #e74c3c; font-size: 28px; line-height: 52px; color: #ffffff; text-align: center; }
 .b-content.pp .ad span { height: 52px; width: 150px; border-radius: 5px 0 0 5px; position: absolute; top: 0; left: -150px; background-color: #e74c3c; font-size: 28px; line-height: 52px; color: #ffffff; text-align: center; }
 .b-content.pp .ch { margin-bottom: 19px; font-size: 18px; text-align: center; }
 .b-content.pp .tariffs { margin: 0 -2px 14px -1px; }
@@ -2469,6 +2470,11 @@ a.skip-link:hover { text-decoration: none; }
 .payment-tabs__item:hover { text-decoration: none; background-color: #ddd; }
 .payment-tabs__item--selected { background-color: #fff; border-bottom-color: #fff; }
 .payment-tabs__subtext { display: block; font-size: 12px; color: #808487; }
+/* premium-one-click */
+.premium-one-click .b-popup-payment3 { width: auto; margin: 0; top: auto; }
+.premium-one-click .new-card, .premium-one-click .intro-table-wrap, .premium-one-click .cards-table { border-left: 1px solid #c6c9ce; border-right: 1px solid #c6c9ce; }
+.premium-one-click__money-back { margin-top: 100px; font-size: 12px; color: #808588; }
+.premium-one-click .b-popup-payment3 .info { padding-left: 0; padding-right: 0; }
 /* b-error */
 .b-error { position: relative; padding: 7px 45px 8px 12px; border-radius: 4px; box-sizing: border-box; border: 1px solid #e74c3c; background: #fbecea; font-size: 14px; font-weight: bold; color: #e74c3c; }
 /* b-error */
