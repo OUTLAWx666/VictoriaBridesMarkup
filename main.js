@@ -1,7 +1,7 @@
 $(function () {
 
   if ($.fn.select2) {
-    $('select:not(.b-search select)').select2();
+    $('select:not(.b-search select, .no-select2)').select2();
 
     $('.b-search select').select2({
       dropdownCssClass: 'b-search_select_dd'
