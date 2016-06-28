@@ -80,30 +80,29 @@ p {
   font-size: 0;
 }
 .head__col1 {
-  max-width: 148px;
+  max-width: 260px;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 .head__col2 {
-  max-width: 258px;
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-.head__col3 {
-  max-width: 194px;
+  max-width: 340px;
   width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 .head__text {
-  font-size: 28px;
+  font-size:32px;
   font-weight: bold;
   color: #34495e;
 }
-.head__cr {
+.head__delivered {
   color: #e74c3c;
+}
+.head__img {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
 }
 /* text */
 .text {
@@ -114,9 +113,10 @@ p {
   width: 100%;
   max-width: 172px;
   margin: 0 auto;
-  padding: 18px;
+  padding: 18px 18px 30px;
   background-color: #f0f8ff;
   border: 1px solid #d2d9df;
+  text-align: center;
 }
 .block__wrap {
   padding-top:20px;
@@ -125,22 +125,19 @@ p {
 .block__gift-pic {
   width: 172px;
   height: 142px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background: #d2dbe2;
-  text-align: center;
   padding-top: 30px;
-
 }
 /* btn */
 .btn {
-  display: block;
   background: #31ae27;
   color: #ffffff;
   font-family: Arial;
   font-size: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 11px 0 10px;
+  padding: 11px 10px 10px;
   text-decoration: none;
   border-radius: 5px;
   border-bottom: 3px solid #1b8a12;
@@ -200,49 +197,21 @@ p {
       <img class="logo__img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo.png" alt="" width="281">
     </td>
   </tr>
-
-  <style>
-    .head1 {
-      text-align: center;
-      font-size: 0;
-    }
-    .head1__col1 {
-      max-width: 260px;
-      width: 100%;
-      display: inline-block;
-      vertical-align: middle;
-    }
-    .head1__col2 {
-      max-width: 340px;
-      width: 100%;
-      display: inline-block;
-      vertical-align: middle;
-    }
-    .head1__text {
-      font-size:32px;
-      font-weight: bold;
-      color: #34495e;
-    }
-    .head1__delivered {
-      color: #e74c3c;
-    }
-  </style>
-
   <tr>
-    <td class="head1">
+    <td class="head">
       <!--[if (gte mso 9)|(IE)]>
       <table width="100%">
         <tr>
           <td width="260" valign="top">
 
       <![endif]-->
-      <div class="head1__col1">
+      <div class="head__col1">
         <table width="100%">
           <tr>
-            <td class="inner head1__text">
+            <td class="inner head__text">
               Your Gift Has
               <br>
-              Been <span class="head1__delivered">Delivered</span>
+              Been <span class="head__delivered">Delivered</span>
             </td>
           </tr>
         </table>
@@ -253,11 +222,11 @@ p {
       <td width="340" valign="top">
       <![endif]-->
 
-      <div class="head1__col2">
+      <div class="head__col2">
         <table width="100%">
           <tr>
             <td class="inner">
-              <img width="320" height="190" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/girl.jpg" alt="">
+              <img class="head__img" width="320" height="190" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/girl.jpg" alt="">
             </td>
           </tr>
         </table>
@@ -283,12 +252,33 @@ p {
 
   <tr>
     <td class="inner block__wrap">
+      <!--[if (gte mso 9)|(IE)]>
+      <table width="100%">
+        <tr>
+          <td width="185" valign="top">
+      <![endif]-->
+
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      <td width="210" valign="top">
+      <![endif]-->
       <div class="block">
         <div class="block__gift-pic">
           <img width="90" height="110" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/gift.png" alt="">
         </div>
         <a class="btn" href="#">see PHOTO proof</a>
       </div>
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      <td width="185" valign="top">
+      <![endif]-->
+
+      <!--[if (gte mso 9)|(IE)]>
+      </td>
+      </tr>
+      </table>
+      <![endif]-->
+
     </td>
   </tr>
 
