@@ -1984,6 +1984,14 @@ body.pm { background: #fff; }
 .b-request-contact .how { border-top: 1px solid #e2e9ef; padding-top: 24px; margin: 30px 0 20px; font-size: 18px; text-transform: uppercase; }
 .b-request-contact .steps li { position: relative; padding-left: 25px; line-height: 17px; margin: 8px 0; }
 .b-request-contact .steps li:before { content: ''; height: 12px; width: 14px; position: absolute; top: 2px; left: 0; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMAQMAAABoTh6ZAAAABlBMVEX///++yNAf8o/2AAAAAXRSTlMAQObYZgAAACtJREFUeF4FwLENABAQAMArf4gfRSS20jGaUSQW0GmFICl0rrad5U2DShI+eEoG5ajijd8AAAAASUVORK5CYII=); }
+.b-request-contact .imbra { width: 100%; display: table; }
+.b-request-contact .imbra-cell { display: table-cell; vertical-align: middle; }
+.b-request-contact .imbra-cell:first-child { border-radius: 5px; border: 1px solid #e2e9ef; background-color: #ecf1f5; font-weight: bold; text-align: center; }
+.b-request-contact .imbra-cell:first-child a { text-decoration: underline; }
+.b-request-contact .imbra-cell:last-child { width: 205px; padding-left: 15px; }
+.b-request-contact .bt-upload-imbra { width: 100%; padding-left: 0; padding-right: 0; }
+.b-request-contact__back { margin-top: 15px; text-align: center; }
+.b-request-contact__back a { text-decoration: underline; font-size: 16px; font-weight: bold; color: #626262; }
 /* Next CSS write programmers */
 .moxie-shim, .moxie-shim input[type="file"] { cursor: pointer; }
 .jspScrollpane { position: relative; overflow: hidden; }
