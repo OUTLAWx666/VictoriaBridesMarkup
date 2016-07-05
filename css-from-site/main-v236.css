@@ -925,6 +925,23 @@ body.pm { background: #fff; }
 .b-popup-cd .btn-close, .b-popup-cd .btn-continue { margin-top: 20px; padding-left: 0; padding-right: 0; width: 190px; }
 .b-popup-cd .note { font-size: 13px; }
 .b-popup-cd .btn-cancel { margin-left: 22px; font-size: 16px; font-weight: bold; color: #626262; text-decoration: underline; margin-top: 15px; }
+/* popup-ci */
+.b-popup-ci { top: 100px; width: 600px; margin: 0 0 0 -300px; text-align: left; }
+.b-popup .popup_content { background-color: #f1f2f4; }
+.b-popup-ci .popup_title { margin-bottom: 20px; border-radius: 10px 10px 0 0; border-bottom: 1px solid #c6c9ce; background-color: #ffffff; }
+.b-popup-ci .table { width: 560px; display: table; margin-left: 20px; }
+.b-popup-ci .cell { display: table-cell; padding-bottom: 20px; vertical-align: top; }
+.b-popup-ci .cell:first-child { text-align: center; }
+.b-popup-ci .cell:last-child { padding-left: 20px; }
+.b-popup-ci .b-user_status .photo { width: 165px; height: auto; }
+.b-popup-ci .title { font-size: 18px; }
+.b-popup-ci .text { margin-bottom: 5px; }
+.b-popup-ci .text a { text-decoration: underline; }
+.b-popup-ci .note { margin-bottom: 20px; font-size: 12px; color: #808588; }
+.b-popup-ci .actions { display: table; }
+.b-popup-ci .actions-cell { display: table-cell; vertical-align: middle; }
+.b-popup-ci .actions-cell:last-child { padding-left: 30px; font-size: 16px; font-weight: bold; text-decoration: underline; }
+.b-popup-ci .actions-cell:last-child a { color: #626262; }
 /* bundle */
 .b-bundle { display: inline-block; border: 1px solid #f7df86; border-radius: 5px; background-color: #fef6d8; color: #f39c12; width: 160px; height: 89px; text-align: left; position: relative; }
 .b-bundle .period { font-size: 14px; font-weight: 700; padding: 5px 60px 3px 31px; }
