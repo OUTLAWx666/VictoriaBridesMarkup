@@ -358,6 +358,8 @@ body.pm { background: #fff; }
 .b-name { font-weight: bold; color: #626262; }
 /* loc */
 .b-loc { font-size: 11px; text-transform: uppercase; color: #9ca3a7; }
+/* id */
+.id { border-radius: 2px; display: inline-block; vertical-align: middle; padding:0 1.3em; font-size: 11px; background-color: #f1f2f4; color: #363636; }
 /* time */
 .b-time { display: inline-block; background: no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABsAAAAeCAMAAADqx5XUAAABpFBMVEXAOSv////AOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSvAOSuyFQClAAAAi3RSTlMAAAJ2g4nb6ngY4E0+dPn8VP1Z2PtKOvc35d/r6NOGxgtoU/jeo91YWsRmZMIJWyyL8NXQk6wzDV5pejQEzWPUiDWCTAbzuJc71gf1EDwDS4AFu/EeAWyRDM5AqVAgRKiUjhXSYrqboMeaRuKx7BQR8tdI/lZ1pC2dXU61wIRch+eNHRZXnsrky6IZSHxatgAAAX1JREFUeF510tOXI2EURfF7K7ZaEzdtG2Pbtm3b+5+eyspXqaR7zX48v9cjquJk7dpTOC+iTvVWDsDl/5iEwWdbtHi80ZbaPNOtsBpsC/kJJOts++AyTnlgzbX1Eg1t2V+z9A6ArmmvZ+s5P8D4nGPpFDDUUZZKw9uOAqxUbXEfpDyWOOnJTohHKzZ8Bpr6xE010gqZWdsGAI8rBw9dVW0HYip7J6Dfcm3MHlV3Qvi07AaaXeole8G2Awl4KofBf6RGo8fiLWp3YhJOyTvoduTswgTzopWmYEgmIWjoYgIuSdXa4YlkYN7YFWDKWBp65BrEjCWB68YGISM34KaY5m4NWMbGoCQ+KFjiZuw23JG7kGjZZKNxSMrsPbi/ybrhwUPRBaBvg0VS4FPRR1l4HG2wmRzkQ7Zp8zMYf15nkQDQW/3EC4CXM4ZevQbwOn8JAjT1F9+8HfG+7wT44P6sI9x4s4/qmoQ+fcYp9+Xrhs9/+/7jZ8+vrt9/Rv6q6R+9eInhqDUhNQAAAABJRU5ErkJggg==); padding-left: 32px; line-height:32px; color: #c0392b; }
 /* online, offline */
@@ -1292,6 +1294,7 @@ body.pm { background: #fff; }
 .b-user_profile .user_cell_info { width: 360px; padding-top: 15px; padding-left: 22px; }
 .b-user_profile .name_age { margin-bottom: 8px; font-size: 24px; font-weight: normal; }
 .b-user_profile .name { font-weight: bold; }
+.b-user_profile .id { font-size: 14px; }
 .b-user_profile .info { margin-bottom: 20px; }
 .b-user_profile .info p { margin: 2px 0; }
 .b-user_profile .title { font-size: 14px; font-weight: bold; color: #9ca3a7; }
