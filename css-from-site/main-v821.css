@@ -2162,6 +2162,32 @@ body.pm { background: #fff; }
 .b-mail.operator .user-text { margin-bottom: 3px; }
 .b-mail .skip { font-size: 16px; font-weight: bold; color: #626298; text-decoration: underline; cursor: pointer; }
 .b-mail .skip:hover { text-decoration: none; }
+/* secure-table */
+.secure-table { width: 100%; display: table; }
+.secure-table__cell { display: table-cell; vertical-align: middle; }
+.secure-table__cell:nth-child(1) { padding-left: 40px; background: 0 50% no-repeat url('https://victoriabrides.com/img/layout/p/lock.png'); }
+.secure-table__cell:nth-child(2) { width: 1px; padding-right: 20px; }
+.secure-table__cell:nth-child(3) { width: 1px; }
+.secure-table__title { margin-bottom: 6px; font-size: 18px; font-weight: bold; }
+.secure-table__sub-title { font-size: 14px; }
+.secure-table .b-mc-afee { width: 153px; height: 55px; }
+.secure-table .b-norton { width: 119px; height: 64px; }
+/* payment-result */
+.payment-result { border-top: 1px solid #c6cacd; background-color: #efefef; padding: 20px 40px; }
+.payment-result__block { width: 100%; display: table; margin-top: 50px; box-sizing: border-box; border: 1px solid #c6cacd; background-color: #ffffff; text-align: center; position: relative; }
+.payment-result__block-cell { height: 159px; display: table-cell; vertical-align: middle; }
+.payment-result__block-cell:before { content: ''; position: absolute; bottom: 0; }
+.payment-result__block-cell--good { padding-left: 170px; }
+.payment-result__block-cell--good:before { width: 143px; height: 193px; background-image: url(../img/layout/girl4.jpg); left: 30px; }
+.payment-result__block-cell--bad { padding-left: 135px; }
+.payment-result__block-cell--bad:before { width: 103px; height: 202px; background-image: url(../img/layout/girl3.jpg); left: 35px; }
+.payment-result__result-text { margin-bottom: 2px; font-size: 28px; color: #34495e; }
+.payment-result__result-subtext { color: #e74c3c; }
+.payment-result__note { font-size: 16px; }
+.payment-result__subnote { font-size: 12px; color: #808588; }
+.payment-result__btn { width: 170px; margin-top: 10px; padding-left: 0; padding-right: 0; }
+.payment-result__return-wrap { margin-top: 3px; text-align: center; }
+.payment-result__return { text-decoration: underline; color: #808588; }
 /* request-contact */
 .b-request-contact { display: table; }
 .b-request-contact .cell { display: table-cell; vertical-align: top; padding-top: 18px; padding-bottom: 18px; }
@@ -2406,10 +2432,11 @@ a.skip-link:hover { text-decoration: none; }
 .b-popup-payment3-one-click.variant2 .cards-cell.name { width: 150px; }
 .b-popup-payment3-one-click.variant2 .cards-cell.time { width: 80px; }
 /* mod variant3 */
+.b-popup-payment3-one-click.variant3 .popup_title { border-bottom: 1px solid #c6c9ce; }
 .b-popup-payment3-one-click.variant3 .payment-tabs { margin-top: 0; border-radius: 10px 10px 0 0; }
 .b-popup-payment3-one-click.variant3 .payment-tabs__item { border-top: none; }
-.b-popup-payment3-one-click.variant3 .payment-tabs__item:first-child { border-top-left-radius: 10px; border-left: none }
-.b-popup-payment3-one-click.variant3 .payment-tabs__item:last-child { border-top-right-radius: 10px; border-right: none }
+.b-popup-payment3-one-click.variant3 .payment-tabs__item:first-child { border-left: none }
+.b-popup-payment3-one-click.variant3 .payment-tabs__item:last-child { border-right: none }
 .b-popup-payment3-one-click.variant3 .b-payment-form { border-top: none; }
 /* hotline-payment */
 .hotline-payment { width: 100%; height: 75px; display: table; background: #efefef; border-radius: 0 0 10px 10px; border-top: 1px solid #c1cbd3; }
