@@ -2637,7 +2637,7 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .user-date { padding-right: 20px; width: 1px; color: #9ca3a7; font-size: 11px; white-space: nowrap }
 .b-mail .see-all { color: #34495e }
 .b-mail .online { position: absolute; display: block; right: 0; bottom: 0; padding: 0 4px; background-color: #31ae27; font-size: 11px; line-height: 16px; text-transform: uppercase; color: #fff; text-align: center }
-.b-mail .user-item2 { width: 100%; display: table; border-top: 1px solid #e4e7e8; white-space: nowrap; }
+.b-mail .user-item2 { width: 100%; display: table; border-top: 1px solid #e4e7e8; white-space: nowrap; cursor: pointer; }
 .b-mail .user-item2-cell { display: table-cell; vertical-align: middle; }
 .b-mail .user-item2-cell:first-child { width: 1px; padding: 0 5px 0 20px; font-weight: bold; }
 .b-mail .user-item2-cell:last-child { width: 1px; padding-right: 20px; }
@@ -2645,9 +2645,9 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .title-message, .b-mail .message { line-height: 1.2; overflow: hidden; }
 .b-mail .message { color: #9ca3a7; }
 .b-mail .b-clip { margin: 0 3px; vertical-align: middle; }
-.b-mail .see-all2 { position: relative; padding: 10px 0; border-top: 1px solid #e4e7e8; font-size: 12px; text-align: center; }
+.b-mail .see-all2 { position: relative; padding: 10px 0; border-top: 1px solid #e4e7e8; display: block; font-size: 12px; text-align: center; color: #34495e; }
 .b-mail .see-all2:before { width: 100%; height: 1px; position: absolute; top: 50%; left: 0; background-color: #e4e7e8; content: ''; }
-.b-mail .see-all2 a { padding: 0 15px; position: relative; background-color: #f0f2f4; color: #34495e; }
+.b-mail .see-all2 span { padding: 0 15px; position: relative; background-color: #f0f2f4; }
 .b-mail .intro { display: inline-block; margin: 0 3px; padding: 0 2px; border-radius: 2px; background-color: #9ca3a7; font-size: 11px; line-height: 18px; text-transform: uppercase; color: #ffffff; }
 .b-mail .drop-block { width: 100%; display: table; }
 .b-mail .drop-block-cell { display: table-cell; vertical-align: middle; }
