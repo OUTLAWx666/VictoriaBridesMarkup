@@ -1145,7 +1145,7 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .dropzona__file-icon:before { width: 10px; height: 10px; position: absolute; top: -1px; left: -1px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAQUlEQVR4AWP4jxucv3aHAY/cvhMXGHDJnbx4AyGNKffz12+ENKYckA2SxpT7BZZDSGPKIaQx5dClMeUQ0hD/4UIAnnsW0qqszSwAAAAASUVORK5CYII=); content: ''; }
 .dropzona__close { width: 12px; height: 12px; position: absolute; top: -5px; right: -5px; border-radius: 50%; box-shadow: 0 0 1px 2px #fff; background: #fff 50% 50% no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAe0lEQVQoz2NggILnPjY8QFwBxJeB+DcUX4aK8TAgA6CAChDfAOL/ODBITgXZZJDANyCOAeI7SArvQMW+QdXwMECtBEnGQA2QgSoEYRmoWAxUTQUD1J3/0RTIoLFhtl5mgHruP7omLIpB+DdZGkh2EsmeJi1YSY44UpMGAKlz/AHC4lSsAAAAAElFTkSuQmCC); cursor: pointer; }
 .dropzona__file-name { font-size: 12px; color: #808588; }
-.dropzona__upload { position: absolute; right: 6px; bottom: 4px; font-size: 12px; text-decoration: underline; color: #808588; }
+.dropzona__upload { position: absolute; right: 6px; bottom: 4px; font-size: 12px; text-decoration: underline; color: #808588; cursor: pointer; }
 .dropzona-text { font-weight: bold; font-size: 14px; text-align: center; color: #34495e; }
 .dropzona-text a { text-decoration: underline; color: #34495e; }
 .ext-search { margin: 0 0 10px }
@@ -2629,12 +2629,14 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .user-name { font-size: 14px; font-weight: 700; color: #626262 }
 .b-mail .user_photo_wrap { position: relative; float: left }
 .b-mail .user-items { margin: 0 -20px; background-color: #f0f2f4; }
-.b-mail .user-item { display: table; width: 100% }
+.b-mail .user-item { display: table; width: 100%; position: relative; }
 .b-mail .user-cell2, .b-mail .user-date { display: table-cell }
 .b-mail .user-cell1, .b-mail .user-cell2, .b-mail .user-date { display: table-cell; vertical-align: top; padding: 10px 0 11px }
 .b-mail .user-cell1 { width: 112px; padding-left: 20px }
 .b-mail .user-item .b-clip { margin-right: 5px }
 .b-mail .user-date { padding-right: 20px; width: 1px; color: #9ca3a7; font-size: 11px; white-space: nowrap }
+.b-mail .user-item-roll-up { width: 20px; height: 20px; position: absolute; right: 10px; bottom: 10px; }
+.b-mail .user-item-roll-up:before { width: 0; height: 0; position: absolute; top: 7px; left: 5px; border-left: 5px solid transparent; border-right: 5px solid transparent; border-bottom: 5px solid #9ca3a7; content: ''; }
 .b-mail .see-all { color: #34495e }
 .b-mail .online { position: absolute; display: block; right: 0; bottom: 0; padding: 0 4px; background-color: #31ae27; font-size: 11px; line-height: 16px; text-transform: uppercase; color: #fff; text-align: center }
 .b-mail .user-item2 { width: 100%; display: table; border-top: 1px solid #e4e7e8; white-space: nowrap; cursor: pointer; }
