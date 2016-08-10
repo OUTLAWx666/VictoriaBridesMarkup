@@ -1137,6 +1137,17 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-search .bt_extsearch { width: 160px; position: relative; height: 30px; float: right; font-size: 16px; margin-right: 100px; padding: 0; font-weight: 400; text-transform: none }
 .b-search .bt_extsearch:before { vertical-align: text-bottom; margin-right: 5px }
 .b-search .bt_search { height: 30px; float: right; font-size: 16px; margin: 0; padding: 0 28px }
+/* dropzona */
+.dropzona { width: 100%; min-height: 88px; display: table; position: relative; padding: 10px 5px 5px; box-sizing: border-box; border-radius: 5px; background-color: #fff; border: 1px solid #e2e9ef; }
+.dropzona-cell { display: table-cell; vertical-align: middle; }
+.dropzona__file { display: inline-block; margin: 0 2px; text-align: center; }
+.dropzona__file-icon { width: 43px; height: 50px; margin: 0 auto 5px; position: relative; box-sizing: border-box; border: 1px solid #bec8d0; background-color: #d2dae0; box-shadow: inset 0 0 0 3px #fff; }
+.dropzona__file-icon:before { width: 10px; height: 10px; position: absolute; top: -1px; left: -1px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAIAAAACUFjqAAAAQUlEQVR4AWP4jxucv3aHAY/cvhMXGHDJnbx4AyGNKffz12+ENKYckA2SxpT7BZZDSGPKIaQx5dClMeUQ0hD/4UIAnnsW0qqszSwAAAAASUVORK5CYII=); content: ''; }
+.dropzona__close { width: 12px; height: 12px; position: absolute; top: -5px; right: -5px; border-radius: 50%; box-shadow: 0 0 1px 2px #fff; background: #fff 50% 50% no-repeat url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAAe0lEQVQoz2NggILnPjY8QFwBxJeB+DcUX4aK8TAgA6CAChDfAOL/ODBITgXZZJDANyCOAeI7SArvQMW+QdXwMECtBEnGQA2QgSoEYRmoWAxUTQUD1J3/0RTIoLFhtl5mgHruP7omLIpB+DdZGkh2EsmeJi1YSY44UpMGAKlz/AHC4lSsAAAAAElFTkSuQmCC); cursor: pointer; }
+.dropzona__file-name { font-size: 12px; color: #808588; }
+.dropzona__upload { position: absolute; right: 6px; bottom: 4px; font-size: 12px; text-decoration: underline; color: #808588; }
+.dropzona-text { font-weight: bold; font-size: 14px; text-align: center; color: #34495e; }
+.dropzona-text a { text-decoration: underline; color: #34495e; }
 .ext-search { margin: 0 0 10px }
 .ext-search__header { width: 100%; display: table; font-size: 16px; font-weight: 700 }
 .ext-search__header-cell { height: 45px; display: table-cell; vertical-align: middle }
@@ -2601,8 +2612,9 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mb.operator .b-from-to:before { top: 0 }
 .b-mb.operator .text { width: 330px; font-size: 12px }
 
+/* mail */
 .b-mail { padding: 0 20px 20px; background-color: #FFF; border-radius: 3px }
-.b-mail .user, .b-mail .user-item { background-color: #f0f2f4; border-top: 1px solid #e4e7e8 }
+.b-mail .user, .b-mail .user-item { border-top: 1px solid #e4e7e8 }
 .b-mail .nav { min-height: 64px }
 .b-mail .nav:after { content: ''; display: table; clear: both }
 .b-mail .back { float: left; margin-top: 22px; color: #34495e }
@@ -2616,7 +2628,7 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .user-text { margin-bottom: 4px; font-size: 11px }
 .b-mail .user-name { font-size: 14px; font-weight: 700; color: #626262 }
 .b-mail .user_photo_wrap { position: relative; float: left }
-.b-mail .user-items { margin: 0 -20px }
+.b-mail .user-items { margin: 0 -20px; background-color: #f0f2f4; }
 .b-mail .user-item { display: table; width: 100% }
 .b-mail .user-cell2, .b-mail .user-date { display: table-cell }
 .b-mail .user-cell1, .b-mail .user-cell2, .b-mail .user-date { display: table-cell; vertical-align: top; padding: 10px 0 11px }
@@ -2625,6 +2637,24 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .user-date { padding-right: 20px; width: 1px; color: #9ca3a7; font-size: 11px; white-space: nowrap }
 .b-mail .see-all { color: #34495e }
 .b-mail .online { position: absolute; display: block; right: 0; bottom: 0; padding: 0 4px; background-color: #31ae27; font-size: 11px; line-height: 16px; text-transform: uppercase; color: #fff; text-align: center }
+.b-mail .user-item2 { width: 100%; display: table; border-top: 1px solid #e4e7e8; white-space: nowrap; }
+.b-mail .user-item2-cell { display: table-cell; vertical-align: middle; }
+.b-mail .user-item2-cell:first-child { width: 1px; padding: 0 5px 0 20px; font-weight: bold; }
+.b-mail .user-item2-cell:last-child { width: 1px; padding-right: 20px; }
+.b-mail .b-from-to:before { top: 50%; margin-top: -4.5px; }
+.b-mail .title-message, .b-mail .message { line-height: 1.2; overflow: hidden; }
+.b-mail .message { color: #9ca3a7; }
+.b-mail .b-clip { margin: 0 3px; vertical-align: middle; }
+.b-mail .see-all2 { position: relative; padding: 10px 0; border-top: 1px solid #e4e7e8; font-size: 12px; text-align: center; }
+.b-mail .see-all2:before { width: 100%; height: 1px; position: absolute; top: 50%; left: 0; background-color: #e4e7e8; content: ''; }
+.b-mail .see-all2 a { padding: 0 15px; position: relative; background-color: #f0f2f4; color: #34495e; }
+.b-mail .intro { display: inline-block; margin: 0 3px; padding: 0 2px; border-radius: 2px; background-color: #9ca3a7; font-size: 11px; line-height: 18px; text-transform: uppercase; color: #ffffff; }
+.b-mail .drop-block { width: 100%; display: table; }
+.b-mail .drop-block-cell { display: table-cell; vertical-align: middle; }
+.b-mail .drop-block-cell:last-child { width: 225px; text-align: center; }
+.b-mail .rules { margin: 15px -18px 0; padding: 16px 18px 0; border-top: 1px solid #e4e7e8; font-size: 12px; line-height: 14px; color: #9ca3a7; }
+.b-mail .btn-reply { width: 100px; }
+.b-mail .request-contact { padding-left: 6px; }
 .b-mail .btns > .b-btn_act { float: left }
 .b-mail .b-btn_act.virtualgift { margin-left: 5px; margin-right: 2px }
 .b-mail .mail { padding: 20px 0 25px; font-size: 16px; line-height: 18px; position: relative }
@@ -2638,18 +2668,14 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .b-mail .cell-images-mini { padding-left: 12px }
 .b-mail .letter-mail { font-size: 18px; font-weight: 700; margin: 10px 0 12px }
 .b-mail .letter-area { padding: 18px; border-radius: 4px; background-color: #f0f2f4 }
+.b-mail .letter-topic { width: 641px; margin-bottom: 15px; }
 .b-mail .letter-txt { height: 150px; width: 641px; margin-bottom: 5px }
-.b-mail .letter-txt-up { margin-bottom: 5px }
-.b-mail .letter-txt-up .letter-txt { height: 80px; border-bottom-left-radius: 0; border-bottom-right-radius: 0; margin-bottom: 0 }
-.b-mail .characters-left, .b-mail .email_error { margin-bottom: 12px; font-size: 12px }
-.b-mail .letter-txt-up .foot { margin-top: -1px; background-color: #fbdabd; position: relative; border: 1px solid #95a5a6; border-top: none; padding: 12px 16px }
-.b-mail .letter-txt-up .foot:after { content: ''; display: table; clear: both }
-.b-mail .letter-txt-up .text { float: left; font-weight: 700; margin-top: 15px }
-.b-mail .letter-txt-up .b-btn { float: right; padding-left: 17px; padding-right: 17px }
 .b-mail .letter-info { font-size: 12px }
-.b-mail .email_error { color: #e74c3c }
+.b-mail .characters-left { font-size: 12px; margin-bottom: 12px; }
+.b-mail .characters-left2 { font-size: 12px; margin-bottom: 12px; text-align: right; color: #595959; }
+.b-mail .email_error, .b-mail .error { color: #e74c3c }
 .b-mail .attach-info { font-size: 12px; margin: 8px 0 10px }
-.b-mail .b-btn.green { float: right }
+.b-mail .btn-sm { float: right }
 .b-mail .select-files { color: #34495e }
 .b-mail .files { margin-top: 8px }
 .b-mail .file-table { display: table }
