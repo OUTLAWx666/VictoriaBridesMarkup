@@ -71,54 +71,80 @@ p {
 }
 /* head */
 .head {
+  padding-top: 45px;
+  padding-bottom: 35px;
   border-top: 4px solid #d7d7d7;
+  font-size: 32px;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+  color: #34495e;
+}
+.head__color {
+  color: #e74c3c;
+}
+/* wishes */
+.wishes {
+  padding-bottom: 30px;
   font-size: 0;
   text-align: center;
 }
-.head__column {
+.wishes__column {
   width: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-.head__column1 {
-  max-width: 462px;
+.wishes__column1 {
+  max-width: 175px;
 }
-.head__column2 {
-  max-width: 138px;
+.wishes__column2 {
+  max-width: 230px;
 }
-.head__text {
-  font-size: 32px;
-  line-height: 1.2;
-  font-weight: bold;
-  color: #e74c3c;
+.wishes__column3 {
+  max-width: 175px;
 }
-.head_hoorray {
-  color: #34495e;
+.wishes__img1 {
+  width: 100%;
+  max-width: 210px;
+}
+.wishes__img2 {
+  width: 100%;
+  max-width: 215px;
+}
+.wishes__block {
+  width: 172px;
+  margin: 0 auto;
+  padding: 18px 18px 20px;
+  background-color: #f0f8ff;
+  border: 1px solid #d2d9df;
+  text-align: center;
+}
+.wishes__block-pic {
+  width: 173px;
+  height: 173px;
+  margin-bottom: 20px;
+  font-size: 0;
 }
 /* info */
 .info {
-  padding-top: 30px;
-  padding-bottom: 60px;
+  padding-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
 }
 /* btn */
 .btn {
-  background: #f77706;
+  background: #31ae27;
   color: #ffffff;
   font-family: Arial;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 14px 40px 12px;
+  padding: 14px 0 12px;
   text-decoration: none;
   border-radius: 5px;
-  border-bottom: 3px solid #d35400;
+  border-bottom: 3px solid #1b8a12;
   text-align: center;
-}
-.btn__wrap {
-  padding-bottom: 60px;
-  text-align: center;
+  display: block;
 }
 /* footer1 */
 .footer1 {
@@ -162,141 +188,158 @@ p {
 </head>
 <body>
 <center class="wrapper">
-  <div class="webkit">
+<div class="webkit">
+<!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center">
+  <tr>
+    <td>
+<![endif]-->
+<table class="outer" align="center">
+<tr>
+  <td class="inner logo">
+    <img class="logo__img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo.png" alt="" width="281">
+  </td>
+</tr>
+<tr>
+  <td class="head inner">
+    Today is the <span class="head__color">Birthday of your Lady</span>
+  </td>
+</tr>
+
+<tr>
+  <td class="inner info">
+    <strong>Hi, %username%!</strong><br><br>
+    <strong>Today MM-MD is the birthday of your lady — %Femalename.</strong><br><br>
+    Show her you care and send a couple of kind sincere words that will warm her heart and make you closer to each other.
+  </td>
+</tr>
+
+<tr>
+  <td class="wishes">
+
     <!--[if (gte mso 9)|(IE)]>
-    <table width="600" align="center">
+    <table width="100%">
       <tr>
-        <td>
+        <td width="175" valign="middle">
     <![endif]-->
-    <table class="outer" align="center">
-      <tr>
-        <td class="inner logo">
-          <img class="logo__img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo.png" alt="" width="281">
-        </td>
-      </tr>
-      <tr>
-        <td class="head">
 
-          <!--[if (gte mso 9)|(IE)]>
-          <table width="100%">
-            <tr>
-              <td width="462" valign="middle">
-          <![endif]-->
-
-          <div class="head__column head__column1">
-            <table width="100%">
-              <tr>
-                <td class="inner head__text">
-                  <span class="head_hoorray">Hooray!</span> Champagne Week!
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
+    <div class="wishes__column wishes__column1">
+      <table width="100%">
+        <tr>
+          <td class="inner">
+            <img class="wishes__img1" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/balloon1.jpg" alt="">
           </td>
-          <td width="138" valign="top">
-          <![endif]-->
+        </tr>
+      </table>
+    </div>
 
-          <div class="head__column head__column2">
-            <table width="100%">
-              <tr>
-                <td class="inner">
-                  <img class="head__img" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/girl2.png" alt="">
-                </td>
-              </tr>
-            </table>
-          </div>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="230" valign="top">
+    <![endif]-->
 
-          <!--[if (gte mso 9)|(IE)]>
+    <div class="wishes__column wishes__column2">
+      <table width="100%">
+        <tr>
+          <td class="inner">
+            <div class="wishes__block">
+              <div class="wishes__block-pic">
+                <img width="173" height="173" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic7.jpg" alt="">
+              </div>
+              <a class="btn" href="#">Send Your Wishes</a>
+            </div>
           </td>
-          </tr>
-          </table>
-          <![endif]-->
+        </tr>
+      </table>
+    </div>
 
-        </td>
-      </tr>
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="175" valign="top">
+    <![endif]-->
 
-      <tr>
-        <td class="inner info">
-          <strong>Hi, %username%!</strong><br><br>
-          <strong>We want to congratulate you with the "Champagne Week".</strong><br><br>
-          August 4 1668 Pier Perinion created romantic drink — Champange. And now, you can share it with your couple.<br><br>
-          We wanna make all of the moments of your couple life closer and give more reasons for fun. So we announced the "Week of Champaign" at our project.<br><br>
-          Now you can find new gifts in 'gift box' which include champagne and in the future, you can read each other's enjoying this sparkling drink.<br><br>
-          <strong>To make this special gift, click on the 'gift button' in dialog, choose champagne, and we will deliver it to your lady.</strong>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="inner btn__wrap">
-          <a class="btn" title="Make a gift" href="#">Make a gift</a>
-        </td>
-      </tr>
-
-      <tr>
-        <td class="footer1">
-
-          <!--[if (gte mso 9)|(IE)]>
-          <table width="100%">
-            <tr>
-              <td width="425" valign="top">
-          <![endif]-->
-
-          <div class="footer1__column footer1__column1">
-            <table>
-              <tr>
-                <td class="inner">
-                  Have fun! <br>
-                  The VictoriaBrides Team
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
+    <div class="wishes__column wishes__column3">
+      <table width="100%">
+        <tr>
+          <td class="inner">
+            <img class="wishes__img2" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/balloon2.jpg" alt="">
           </td>
-          <td width="175" valign="top">
-          <![endif]-->
+        </tr>
+      </table>
+    </div>
 
-          <div class="footer1__column footer1__column2">
-            <table>
-              <tr>
-                <td class="inner footer1__column2-inner">
-                  <a href="#">
-                    <img class="footer1__logo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo-footer.png" alt="VictoriaBrides.com" width="155">
-                  </a>
-                </td>
-              </tr>
-            </table>
-          </div>
-
-          <!--[if (gte mso 9)|(IE)]>
-          </td>
-          </tr>
-          </table>
-          <![endif]-->
-        </td>
-      </tr>
-
-      <tr>
-        <td class="footer2 inner">
-          This message was sent to <a href="#">click heresergey.lvoff@gmail.com</a>. If you don't want to receive further email communications from VictoriaBrides.com in the future, please <a href="#">click here</a>
-          to opt
-          out.
-          <br>
-          <br>
-          VictoriaBrides, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA 94303.
-        </td>
-      </tr>
-
-    </table>
     <!--[if (gte mso 9)|(IE)]>
     </td>
     </tr>
     </table>
     <![endif]-->
-  </div>
+
+  </td>
+</tr>
+
+<tr>
+  <td class="footer1">
+
+    <!--[if (gte mso 9)|(IE)]>
+    <table width="100%">
+      <tr>
+        <td width="425" valign="top">
+    <![endif]-->
+
+    <div class="footer1__column footer1__column1">
+      <table>
+        <tr>
+          <td class="inner">
+            Have fun! <br>
+            The VictoriaBrides Team
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    <td width="175" valign="top">
+    <![endif]-->
+
+    <div class="footer1__column footer1__column2">
+      <table>
+        <tr>
+          <td class="inner footer1__column2-inner">
+            <a href="#">
+              <img class="footer1__logo" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/logo-footer.png" alt="VictoriaBrides.com" width="155">
+            </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!--[if (gte mso 9)|(IE)]>
+    </td>
+    </tr>
+    </table>
+    <![endif]-->
+  </td>
+</tr>
+
+<tr>
+  <td class="footer2 inner">
+    This message was sent to <a href="#">click heresergey.lvoff@gmail.com</a>. If you don't want to receive further email communications from VictoriaBrides.com in the future, please <a href="#">click here</a>
+    to opt
+    out.
+    <br>
+    <br>
+    VictoriaBrides, Inc., Attention: Department 415, PO Box 10005, Palo Alto, CA 94303.
+  </td>
+</tr>
+
+</table>
+<!--[if (gte mso 9)|(IE)]>
+</td>
+</tr>
+</table>
+<![endif]-->
+</div>
 </center>
 </body>
 </html>
