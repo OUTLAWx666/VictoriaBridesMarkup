@@ -675,6 +675,7 @@ body.pm { background: #fff }
 .b-btn_act.mail:before { height: 15px; width: 18px; top: -2px; left: 1px; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAPBAMAAAAbqIIhAAAAMFBMVEX3dwb////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwYRjfgLAAAAD3RSTlMAABEiM0RVZneZqrvM3e66dyLFAAAAYklEQVR4XmMQDYUABYb5/yHgEsN/KPjKsB7KusCgC2H8C2CYBFF4uJThj9t7IOOH1leG/z+0////6/YeyPq/ue4/UAmI9a+4xfc/mPX/z+z/UNb//2is/VDWIwaxcjAoUwAA9B9us6f5eb0AAAAASUVORK5CYII=) }
 .b-btn_act.border.mail:before { top: 5px; left: 8px }
 .b-btn_act.realgift:before { height: 19px; width: 17px; left: 0; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAATCAMAAABBexbDAAAAOVBMVEX////3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwb3dwaxZvt4AAAAEnRSTlMACxAfIDBAUGBwgI+fr7/P3++vZWl3AAAAf0lEQVR4Xl3MUQ4DIQhFUWqLKqLI2/9iq8l0qnM/IDkhEFFWjbRnGFZ0g0/Jkiu2qwQVMTj/CXApk8ItHdM0x3TIqt8iu8TIc1xSiBsAnd6wskBjbZ4SqsM1ES9wugqGFI7/zW3Q2KUzw1xE0k+YSFHpjFHoUe9PyXg/JOhrwRfcSgfpxGubjwAAAABJRU5ErkJggg==) }
+.b-btn_act.border.realgift:before { top: 3px; left: 5px }
 .b-user_profile .realgift:before { left: 7px }
 .gift .realGift-count { position: absolute; right: 7px; bottom: 14px }
 .realgift .b-new { margin-left: 5px }
