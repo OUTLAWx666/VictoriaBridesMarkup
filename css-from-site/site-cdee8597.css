@@ -1067,6 +1067,7 @@ body[data-project=nd] .b-head.valentine .logo { float: left; margin-top: 20px; d
 .present-ord__item-date { font-size: 16px }
 .present-ord__user-pic-wrap { position: relative }
 .present-ord__item-present { position: absolute; right: -12px; bottom: -12px; width: 100px; height: 100px; background-color: #fbfbfb; border: 1px solid #ddd; border-radius: 1px; z-index: 1 }
+.present-ord__presents-num { width:45px; position: absolute; right: -1px; bottom: -1px; border: 1px solid #ddd; background: #f0f2f4; font-size: 16px; line-height: 26px; text-align: center; }
 .present-ord__item-cell .progress__line { background-color: #31ae27 }
 .present-ord__item-cell .b-name { margin-bottom: 2px; text-transform: uppercase; cursor: pointer }
 .present-ord__item-cell .b-loc { margin-bottom: 6px }
@@ -2994,6 +2995,18 @@ body.signedpay { width: auto; min-width: auto; background: #efefef }
 .b-popup-picked-up .b-prfs { margin: 0; padding: 0 0 1px 10px }
 .b-popup-picked-up .item { border: 1px solid #e8e8e8 }
 .b-popup-picked-up .bt_chat { display: block; margin: 20px auto 0; padding-left: 0; padding-right: 0; width: 160px }
+
+/* b-popup-your-order */
+.b-popup-your-order { width: 500px; margin: -250px 0 0 -250px; text-align: left }
+.b-popup-your-order .popup_content { background-color: #f0f2f4; }
+.b-popup-your-order .container { display: flex; flex-wrap: wrap; justify-content: center; }
+.b-popup-your-order__item { width: 215px; height: 215px; display: table; position: relative; margin: 0 10px 20px; border: 1px solid #d7dce1; background-color: #fff; text-align: center; }
+.b-popup-your-order__item-row { display: table-row; }
+.b-popup-your-order__item-cell { display: table-cell; vertical-align: middle; }
+.b-popup-your-order__item-name { height: 44px; font-size: 20px; line-height: 18px; vertical-align: bottom; }
+.b-popup-your-order__item-pic { height: 155px; display: inline-block; }
+.b-popup-your-order__item-nums { width: 44px; position: absolute; right: 10px; bottom: 10px; border: 1px solid #d7dce0; font-size: 16px; line-height: 26px; }
+
 .b-sb_ct { padding: 10px }
 .b-sb { border: 1px solid #fff; border-radius: 3px; margin-bottom: 15px }
 .b-sb_ct .bt_ct { padding-left: 0; padding-right: 0; width: 208px }
