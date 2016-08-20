@@ -1734,6 +1734,8 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__order { overflow: hidden; padding: 20px; border-top: 1px solid #d7dce1; background-color: #fff; }
 .prof-present__message { width: 677px; height: 70px; display: block; margin-top: 12px; }
 .prof-present__orders { padding: 5px 0 15px 20px; }
+.prof-present__remove-item { float: left; margin: 2px 0 0 -18px; opacity: 0.3; }
+.prof-present__remove-item:hover { opacity: 1; }
 .prof-present__total-table { width: 680px; display: table; margin-left: 15px; border-top: 1px solid #d7dce1; border-bottom: 1px solid #d7dce1; font-size: 18px; font-weight: bold; }
 .prof-present__total-cell { display: table-cell; white-space: nowrap; padding: 3px 0; }
 .prof-present__total-cell:last-child { width: 1px; }
