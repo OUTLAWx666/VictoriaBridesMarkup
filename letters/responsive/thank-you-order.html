@@ -83,87 +83,73 @@ p {
 .head__color {
   color: #e74c3c;
 }
-/* wishes */
-.wishes {
-  padding-bottom: 30px;
-  font-size: 0;
-  text-align: center;
-}
-.wishes__column {
-  width: 100%;
-  display: inline-block;
-  vertical-align: middle;
-}
-.wishes__column1 {
-  max-width: 175px;
-}
-.wishes__column2 {
-  max-width: 230px;
-}
-.wishes__column3 {
-  max-width: 175px;
-}
-.wishes__img1 {
-  width: 100%;
-  max-width: 210px;
-}
-.wishes__img2 {
-  width: 100%;
-  max-width: 215px;
-}
-.wishes__block {
-  width: 172px;
-  margin: 0 auto;
-  padding: 18px 18px 20px;
-  background-color: #f0f8ff;
-  border: 1px solid #d2d9df;
-  text-align: center;
-}
-.wishes__block-pic {
-  width: 173px;
-  height: 173px;
-  margin-bottom: 20px;
-  font-size: 0;
-}
 /* presents */
+.presents {
+  border: 1px solid #d2d9df;
+  background-color: #f0f8ff;
+  font-size: 0;
+  text-align: center;
+}
 .presents__item {
   width: 100%;
   max-width: 218px;
+  margin-bottom: 10px;
+  padding: 0 10px;
   display: inline-block;
   vertical-align: middle;
+}
+.presents__item-in {
   background-color: #fff;
-  border:1px solid #d7dce1;
+  border: 1px solid #d7dce1;
 }
 .presents__title {
+  height: 34px;
   font-size: 15px;
+  line-height: 17px;
+}
+.presents__pic-wrap {
+  padding: 10px;
+}
+.presents__pic {
+  height: 150px;
 }
 .presents__num {
   width: 44px;
   height: 26px;
+  margin: 0 0 0 auto;
+  border: 1px solid #d7dce0;
   font-size: 16px;
-  line-height:26px;
+  line-height: 26px;
 }
-
+.presents__info {
+  font-size: 16px;
+}
 /* info */
 .info {
-  padding-bottom: 30px;
   font-size: 18px;
   line-height: 24px;
 }
+/* info2 */
+.info2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 16px;
+  text-align: center;
+}
 /* btn */
 .btn {
-  background: #31ae27;
+  background: #f77706;
   color: #ffffff;
   font-family: Arial;
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
-  padding: 14px 0 12px;
+  padding: 14px 20px 12px;
   text-decoration: none;
   border-radius: 5px;
-  border-bottom: 3px solid #1b8a12;
+  border-bottom: 3px solid #d35400;
   text-align: center;
-  display: block;
+  display: inline-block;
 }
 /* footer1 */
 .footer1 {
@@ -228,83 +214,124 @@ p {
 <tr>
   <td class="inner info">
     <strong>Hi, %username%!</strong><br><br>
-    <strong>Today MM-MD is the birthday of your lady — %Femalename.</strong><br><br>
-    Show her you care and send a couple of kind sincere words that will warm her heart and make you closer to each other.
+    <strong>Thank you for attention! Your order list include:</strong>
   </td>
 </tr>
 
 <tr>
-  <td class="wishes presents">
-
-    <div class="presents__item">
-      <table width="100%">
-        <tr>
-          <td class="inner">
-            <div class="presents__title">Dolce Floral Drops,Dolce&Gabanna</div>
-            <img class="presents__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/balloon1.jpg" alt="">
-            <div class="presents__num">34</div>
-          </td>
-        </tr>
-      </table>
-    </div>
-
-    <!--[if (gte mso 9)|(IE)]>
+  <td class="inner">
     <table width="100%">
       <tr>
-        <td width="175" valign="middle">
-    <![endif]-->
+        <td class="presents inner">
 
-    <div class="wishes__column wishes__column1">
-      <table width="100%">
-        <tr>
-          <td class="inner">
-            <img class="wishes__img1" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/balloon1.jpg" alt="">
+          <!---------------------------- two column row ---------------------------->
+
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="100%">
+            <tr>
+              <td width="41" valign="top">
+              </td>
+              <td width="238" valign="top">
+          <![endif]-->
+          <div class="presents__item">
+            <table width="100%">
+              <tr>
+                <td class="presents__item-in inner">
+                  <div class="presents__title">Dolce Floral Drops, <br>Dolce&Gabanna</div>
+                  <div class="presents__pic-wrap">
+                    <img class="presents__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/flowers.png" alt="">
+                  </div>
+                  <table width="100%">
+                    <tr>
+                      <td width="130"></td>
+                      <td class="presents__num">34</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
           </td>
-        </tr>
-      </table>
-    </div>
-
-    <!--[if (gte mso 9)|(IE)]>
-    </td>
-    <td width="230" valign="top">
-    <![endif]-->
-
-    <div class="wishes__column wishes__column2">
-      <table width="100%">
-        <tr>
-          <td class="inner">
-            <div class="wishes__block">
-              <div class="wishes__block-pic">
-                <img width="173" height="173" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/pic7.jpg" alt="">
-              </div>
-              <a class="btn" href="#">Send Your Wishes</a>
-            </div>
+          <td width="238" valign="top">
+          <![endif]-->
+          <div class="presents__item">
+            <table width="100%">
+              <tr>
+                <td class="presents__item-in inner">
+                  <div class="presents__title">Dolce Floral Drops, <br>Dolce&Gabanna</div>
+                  <div class="presents__pic-wrap">
+                    <img class="presents__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/flowers.png" alt="">
+                  </div>
+                  <table width="100%">
+                    <tr>
+                      <td width="130"></td>
+                      <td class="presents__num">34</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
           </td>
-        </tr>
-      </table>
-    </div>
-
-    <!--[if (gte mso 9)|(IE)]>
-    </td>
-    <td width="175" valign="top">
-    <![endif]-->
-
-    <div class="wishes__column wishes__column3">
-      <table width="100%">
-        <tr>
-          <td class="inner">
-            <img class="wishes__img2" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/main/balloon2.jpg" alt="">
+          <td width="41" valign="top">
           </td>
-        </tr>
-      </table>
-    </div>
+          </tr>
+          </table>
+          <![endif]-->
+          <!---------------------------- one column row ---------------------------->
+          <!--[if (gte mso 9)|(IE)]>
+          <table width="100%">
+            <tr>
+              <td width="160" valign="top">
+              </td>
 
-    <!--[if (gte mso 9)|(IE)]>
-    </td>
-    </tr>
+              <td width="238" valign="top">
+          <![endif]-->
+          <div class="presents__item">
+            <table width="100%">
+              <tr>
+                <td class="presents__item-in inner">
+                  <div class="presents__title">Dolce Floral Drops, <br>Dolce&Gabanna</div>
+                  <div class="presents__pic-wrap">
+                    <img class="presents__pic" src="http://dl.dropboxusercontent.com/u/52521635/VictoriaBrides/letters/i/content/flowers.png" alt="">
+                  </div>
+                  <table width="100%">
+                    <tr>
+                      <td width="130"></td>
+                      <td class="presents__num">34</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </div>
+          <!--[if (gte mso 9)|(IE)]>
+          </td>
+          <td width="160" valign="top">
+          </td>
+          </tr>
+          </table>
+          <![endif]-->
+          <!---------------------------- end rows ---------------------------->
+          <div class="presents__info"><strong>Price:</strong> $1000 + $1000 shipping</div>
+        </td>
+      </tr>
     </table>
-    <![endif]-->
 
+  </td>
+</tr>
+
+<tr>
+  <td class="info2 inner">
+    You can track the status of your gift on the link below:
+    <br>
+    <br>
+    <a class="btn" href title="Delivery tracking">Delivery tracking</a>
+    <br>
+    <br>
+    If you have any questions, just ask us or contact with your personal manager.
   </td>
 </tr>
 
