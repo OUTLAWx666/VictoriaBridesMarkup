@@ -1702,14 +1702,20 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__prof-cell .b-btn_act { margin: 0 0 10px !important; }
 .prof-present__title { margin-bottom: 20px; font-size: 24px; text-transform: uppercase; }
 .prof-present__subtitle { font-size: 24px; }
+.prof-present__time { margin-top: 8px; float: right; color: #c0392b; }
 .prof-present__presents { position: relative; padding: 8px 20px 0; background-color: #f0f2f4; }
+.prof-present__presents_stock { background-color: #fbdabd; }
+.prof-present__presents_stock .prof-present__presents__subtitle { border-bottom-color: #edc9aa; color: #c0392b; }
+.prof-present__presents_stock .prof-present__present { border-color: #edc9aa; }
 .prof-present__link-checkout { background-color: #31ae27; font-size: 14px; line-height: 32px; font-weight: bold; color: #fff; text-decoration: none; text-transform: uppercase; position: absolute; padding: 0 15px; border-radius: 2px 2px 0 0; transform: rotateZ(-90deg); transform-origin: 50% 52%; left: -104px; top: 220px; }
 .prof-present__presents__subtitle { margin: 0 -20px; padding: 0 20px 5px; border-bottom: 1px solid #d7dce1; font-size: 14px; text-transform: uppercase; }
 .prof-present__presents-list { padding: 20px 0; margin-right: -20px; }
-.prof-present__presents-list:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; } .prof-present__present { height: 315px; width: 220px; float: left; box-sizing: border-box; background-color: #fff; border: 1px solid #d7dce1; margin: 0 18px 18px 0; padding-top: 6px; } .prof-present__present-selected { position: relative; padding-top: 4px; border-width: 3px; border-color: #31ae27; box-shadow: 0 0 18px rgba(0, 0, 0, 0.5); }
-.prof-present__present-disabled * { opacity:0.7; }
+.prof-present__presents-list:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
+.prof-present__present { height: 315px; width: 220px; float: left; box-sizing: border-box; background-color: #fff; border: 1px solid #d7dce1; margin: 0 18px 18px 0; padding-top: 6px; }
+.prof-present__present-selected { position: relative; padding-top: 4px; border-width: 3px; border-color: #31ae27 !important; box-shadow: 0 0 18px rgba(0, 0, 0, 0.5); }
+.prof-present__present-disabled * { opacity: 0.7; }
 .prof-present__present-selected:after { width: 28px; height: 28px; position: absolute; content: '✓'; background-color: #31ae27; color: #fff; text-align: center; line-height: 28px; font-size: 20px; font-weight: bold; border-radius: 50%; top: -14px; right: -14px; }
-.prof-present__present-title { width: 95%; height:48px; margin:0 auto; display: table; font-size: 20px; line-height:24px; font-weight: normal; text-align: center; }
+.prof-present__present-title { width: 95%; height: 48px; margin: 0 auto; display: table; font-size: 20px; line-height: 18px; font-weight: normal; text-align: center; }
 .prof-present__present-title-in { display: table-cell; vertical-align: middle; }
 .prof-present__quantity { position: absolute; right: 8px; bottom: 10px; width: 50px; height: 25px; box-sizing: border-box; border: 1px solid #d7dce1; }
 .prof-present__present-table { width: 100%; height: 205px; display: table; position: relative; }
@@ -1721,9 +1727,14 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__action-cell:last-child { padding-right: 8px; width: 1px; }
 .prof-present__price-ttl { font-size: 16px; text-transform: uppercase; line-height: 16px; }
 .prof-present__price { font-size: 30px; color: #2680c6; line-height: 30px; }
+.prof-present__price-stock-wrap { text-align: center; }
+.prof-present__price-stock-wrap_credits .prof-present__price-stock-off { margin-top: -23px; }
+.prof-present__price-stock-off { margin: -5px 0 5px; padding: 0 12px; display: inline-block; border-radius: 2px; background-color: #c0392b; font-size: 11px; font-weight: bold; line-height: 18px; text-transform: uppercase; color: #fff; }
+.prof-present__price-stock { font-size: 30px; line-height: 28px; text-align: center; color: #c0392b; }
+.prof-present__price-stock-credits { font-size: 20px; line-height: 18px; color: #363636; }
 .prof-present__btn-add { width: 122px; padding: 0 0 0 20px; font-size: 14px; line-height: 42px; white-space: nowrap; background: no-repeat 4px 50% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAMAAABIkLa5AAABO1BMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+g1MVRAAAAaHRSTlMAxPqc+PJGb9XUGTVhctagwO+h+3NC9+fGOk3zbSWGB4/N6qqxjYzpuEFDJN5UpHQJtoEy+RIuM9yORHVZfkUfwkcvMThMm8hmOZBOA1tIUEswzNPS6InQfSDDkfQI7RHatT0dIVjbZLkKvE0AAADgSURBVHhebcxFjsNAEEbhatuxw8wwzMzMzMzM8+5/grGcpDeeTyr90luUdNNWE59IGnrEr7WFMflHpbimVJ+ZVMocVyq5M+zVTtqDoRRDoSCVUDBOl1f7cWcWEWFAZBBbPL0deSuDYU2RsZ5ScalLUM2aTMRijGRHOWjUEkcy6X3IyTQz0lAwaDLmpGmehUWWbJvlFRK6rlKKsr6xSTXClq7bQKB+u6IF9sRvn2j50HGc45Py6Zmu50Xg4vLqGrgR7fbuPu/Ow2PYeBbtJZ3jVeTt/YNP0b4KfLsT/uFXXH+C7S5F4gmkcgAAAABJRU5ErkJggg==); box-sizing: border-box; }
 .prof-present__btn-remove { width: 122px; padding: 0; font-size: 14px; line-height: 42px; white-space: nowrap; }
-.prof-present__desc { display: none;margin-bottom: 12px;}
+.prof-present__desc { display: none; margin-bottom: 12px; }
 .prof-present__present-open { position: relative; z-index: 1; }
 .prof-present__present-open:after { position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #363636; opacity: 0.4; content: ''; }
 .prof-present__present-close { width: 28px; height: 28px; display: none; position: absolute; background-color: #31ae27; color: #fff; text-align: center; line-height: 24px; font-size: 20px; border-radius: 50%; top: -14px; right: -14px; cursor: pointer; }
@@ -1740,7 +1751,15 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__total-cell { display: table-cell; white-space: nowrap; padding: 3px 0; }
 .prof-present__total-cell:last-child { width: 1px; }
 .prof-present__order-price { font-size: 16px; color: #2680c6; }
-.prof-present__btn-order { width: 150px; float: right; margin: 28px 0 10px; padding: 0; line-height:38px; font-size: 14px; }
+.prof-present__btn-order { width: 150px; float: right; margin: 28px 0 10px; padding: 0; line-height: 38px; font-size: 14px; }
+.prof-present__present_group { width: 458px; }
+.prof-present__present_group .prof-present__present-table { width: 218px; }
+.prof-present__present_group .prof-present__present-1 { float: left; margin-left: 5px; }
+.prof-present__present_group .prof-present__present-2 { float: right; margin-right: 5px; }
+.prof-present__present_group .prof-present__price-stock-wrap { display: inline-block; }
+.prof-present__present_group .prof-present__price-stock-credits { display: block; }
+.prof-present__present_group .prof-present__price-stock-off { display: inline-block; margin: 0; position: relative; top: -17px; }
+.prof-present__arithmetical { font-size: 30px; line-height: 28px; color: #c0392b; vertical-align: inherit; }
 /* msr */
 .b-msr { margin: -8px 0 35px; position: relative; clear: both; }
 .b-msr:after, .b-msr .users_wrap:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
