@@ -1729,9 +1729,9 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__price { font-size: 30px; color: #2680c6; line-height: 30px; }
 .prof-present__price-stock-wrap { text-align: center; }
 .prof-present__price-stock-wrap_credits .prof-present__price-stock-off { margin-top: -23px; }
-.prof-present__price-stock-off { margin: -5px 0 5px; padding: 0 12px; display: inline-block; border-radius: 2px; background-color: #c0392b; font-size: 11px; font-weight: bold; line-height: 18px; text-transform: uppercase; color: #fff; }
-.prof-present__price-stock { font-size: 30px; line-height: 28px; text-align: center; color: #c0392b; }
-.prof-present__price-stock-credits { font-size: 20px; line-height: 18px; color: #363636; }
+.prof-present__price-stock-off { margin: -5px 0 5px; padding: 0 10px; display: inline-block; border-radius: 2px; background-color: #c0392b; font-size: 11px; font-weight: bold; line-height: 18px; text-transform: uppercase; color: #fff; }
+.prof-present__price-stock { font-size: 30px; line-height: 28px; font-weight: bold; text-align: center; color: #c0392b; }
+.prof-present__price-stock-credits { font-size: 20px; line-height: 18px; font-weight: normal; color: #363636; }
 .prof-present__btn-add { width: 122px; padding: 0 0 0 20px; font-size: 14px; line-height: 42px; white-space: nowrap; background: no-repeat 4px 50% url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAMAAABIkLa5AAABO1BMVEX///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////+g1MVRAAAAaHRSTlMAxPqc+PJGb9XUGTVhctagwO+h+3NC9+fGOk3zbSWGB4/N6qqxjYzpuEFDJN5UpHQJtoEy+RIuM9yORHVZfkUfwkcvMThMm8hmOZBOA1tIUEswzNPS6InQfSDDkfQI7RHatT0dIVjbZLkKvE0AAADgSURBVHhebcxFjsNAEEbhatuxw8wwzMzMzMzM8+5/grGcpDeeTyr90luUdNNWE59IGnrEr7WFMflHpbimVJ+ZVMocVyq5M+zVTtqDoRRDoSCVUDBOl1f7cWcWEWFAZBBbPL0deSuDYU2RsZ5ScalLUM2aTMRijGRHOWjUEkcy6X3IyTQz0lAwaDLmpGmehUWWbJvlFRK6rlKKsr6xSTXClq7bQKB+u6IF9sRvn2j50HGc45Py6Zmu50Xg4vLqGrgR7fbuPu/Ow2PYeBbtJZ3jVeTt/YNP0b4KfLsT/uFXXH+C7S5F4gmkcgAAAABJRU5ErkJggg==); box-sizing: border-box; }
 .prof-present__btn-remove { width: 122px; padding: 0; font-size: 14px; line-height: 42px; white-space: nowrap; }
 .prof-present__desc { display: none; margin-bottom: 12px; }
@@ -1760,6 +1760,7 @@ body[data-project="nd"] .b-head.valentine .logo { float: left; margin-top: 20px;
 .prof-present__present_group .prof-present__price-stock-credits { display: block; }
 .prof-present__present_group .prof-present__price-stock-off { display: inline-block; margin: 0; position: relative; top: -17px; }
 .prof-present__arithmetical { font-size: 30px; line-height: 28px; color: #c0392b; vertical-align: inherit; }
+.prof-present__summand .prof-present__price-stock { font-weight: normal; }
 /* msr */
 .b-msr { margin: -8px 0 35px; position: relative; clear: both; }
 .b-msr:after, .b-msr .users_wrap:after { display: block; visibility: hidden; clear: both; height: 0; content: "."; }
